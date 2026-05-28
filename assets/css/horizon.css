@@ -221,12 +221,16 @@ h1, h2, h3, h4, h5, h6 {
 .cat-tech        { background: #fff8e8; }   /* warm cream */
 .cat-geopolitics { background: #fff1e0; }   /* warm peach */
 .cat-disaster    { background: #ffe6dc; }   /* soft coral */
+.cat-finance     { background: #fdf3e0; }   /* warm honey */
+.cat-science     { background: #fbeed4; }   /* pale amber */
 .cat-other       { background: #fdf6ec; }   /* pale parchment */
 
 @media (prefers-color-scheme: dark) {
   .cat-tech        { background: #2a2535; }
   .cat-geopolitics { background: #2f2532; }
   .cat-disaster    { background: #33252b; }
+  .cat-finance     { background: #2e2630; }
+  .cat-science     { background: #2c2733; }
   .cat-other       { background: #262131; }
   .main-content section.cat > h2 { border-bottom-color: rgba(255,255,255,0.08); }
 }
