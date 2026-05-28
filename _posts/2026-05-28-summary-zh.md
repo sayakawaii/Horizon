@@ -5,38 +5,38 @@ date: 2026-05-28
 lang: zh
 ---
 
-> 从 126 条内容中筛选出 18 条重要资讯。
+> 从 121 条内容中筛选出 16 条重要资讯。
 
 ---
 
-<section class="cat cat-finance" markdown="1">
+<section class="cat cat-geopolitics" markdown="1">
 
-## 💹 财经 / 市场 (1)
+## 🌐 国际局势 (1)
 
 <a id="item-1"></a>
-<details class="hz-item" data-score="8.0" markdown="1">
-<summary><span class="hz-item-title">谷歌员工因在 Polymarket 进行百万美元内幕交易被起诉</span> <span class="hz-item-score">⭐️ 8.0/10</span></summary>
+<details class="hz-item" data-score="7.0" markdown="1">
+<summary><span class="hz-item-title">欧盟因销售非法产品对 Temu 罚款 2 亿欧元</span> <span class="hz-item-score">⭐️ 7.0/10</span></summary>
 
-一名谷歌员工因利用机密搜索词数据在预测市场 Polymarket 上投注 100 万美元进行内幕交易而被起诉。此案是涉及预测市场的首批重大内幕交易起诉之一。 此案凸显了预测市场日益增长的法律和监管审查，这些市场虽然人气飙升，但处于证券法的灰色地带。它还引发了关于内幕交易在声称聚合信息以提高准确性的市场中的伦理问题。 该员工涉嫌访问谷歌内部搜索趋势数据，以在 Polymarket 上与科技事件相关的合约中获得优势。指控包括电信欺诈和证券欺诈，此案可能为预测市场的监管树立先例。
+欧盟因允许销售非法产品对 Temu 处以 2 亿欧元罚款，这是《数字服务法案》（DSA）下第二高的罚款。 此次罚款凸显了欧盟对主要电商平台严格执行《数字服务法案》，为追究市场平台对第三方卖家内容的责任树立了先例。 2 亿欧元的罚款是《数字服务法案》下第二次因内容违规而开出的罚单，此前在 2024 年 12 月对 X（原 Twitter）处以了 1.2 亿欧元罚款。
 
-🔗 [来源](https://www.cnbc.com/2026/05/27/google-employee-polymarket-insider-trading.html)
+🔗 [来源](https://www.bbc.co.uk/news/articles/c1k2ydn1rz8o)
 
-hackernews · pseudolus · 5月28日 00:49 · [社区讨论](https://news.ycombinator.com/item?id=48302822)
+hackernews · jjp · 5月28日 14:18 · [社区讨论](https://news.ycombinator.com/item?id=48309302)
 
-**背景**: Polymarket 是一个基于加密货币的预测市场，用户可以对现实世界事件的结果下注，从选举到体育赛事。传统市场中的内幕交易是非法的，但其在预测市场中的适用性仍在演变中。美国一直在辩论预测市场应被视为赌博还是证券交易所。
+**背景**: 《数字服务法案》（DSA）是欧盟的一项法规，对在线平台施加严格义务，以打击非法内容并保护消费者权益。Temu 是一家中国拥有的电商平台，因第三方商家销售假冒伪劣和不安全产品而受到审查。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Polymarket">Polymarket - Wikipedia</a></li>
-<li><a href="https://www.nytimes.com/2026/05/13/technology/polymarket-insider-trading.html">Dozens of Polymarket Bets Show Signs of Insider Trading , The Times...</a></li>
-<li><a href="https://www.npr.org/2026/05/18/g-s1-122515/why-catching-insider-trading-is-so-tricky-nowadays-and-just-how-helpful-is-it-for-kids-to-sleep-in">Why catching insider trading is so tricky nowadays, and just... : NPR</a></li>
+<li><a href="https://www.bbc.com/news/articles/c1k2ydn1rz8o">EU fines Temu €200m for allowing sale of illegal products</a></li>
+<li><a href="https://eu-digital-services-act.com/Digital_Services_Act_Articles.html">Digital Services Act (DSA) | Final Text</a></li>
+<li><a href="https://digital-strategy.ec.europa.eu/en/policies/digital-services-act">The Digital Services Act | Shaping Europe ’s digital future</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者意见分歧：一些人认为内幕交易实际上提高了预测市场的准确性，而另一些人则认为这明显违法且有害。几位用户讽刺地指出，似乎只有政客才能逃脱类似行为，还有人警告说，投注者面对内幕人士总是处于劣势。
+**社区讨论**: 评论者表达了不同观点：有人认为 Temu 满足了市场对廉价商品的需求，而另一些人则质疑为何不对亚马逊或 eBay 处以类似罚款。批评者还怀疑对中国供应商罚款的有效性，称其为“打地鼠”式的行动。
 
-**标签**: `#insider trading`, `#prediction markets`, `#Google`, `#Polymarket`, `#regulation`
+**标签**: `#e-commerce`, `#regulation`, `#EU`, `#consumer protection`, `#fines`
 
 </details>
 
@@ -45,19 +45,173 @@ hackernews · pseudolus · 5月28日 00:49 · [社区讨论](https://news.ycombi
 
 <section class="cat cat-tech" markdown="1">
 
-## 🔬 科技 / AI (17)
+## 🔬 科技 / AI (15)
 
 <a id="item-2"></a>
 <details class="hz-item" data-score="9.0" markdown="1">
-<summary><span class="hz-item-title">curl 项目被 AI 辅助安全报告淹没</span> <span class="hz-item-score">⭐️ 9.0/10</span></summary>
+<summary><span class="hz-item-title">Anthropic 以 9650 亿美元估值融资 650 亿美元，超越 OpenAI</span> <span class="hz-item-score">⭐️ 9.0/10</span></summary>
 
-curl 项目收到的安全报告数量是 2024 年的 4-5 倍，每天超过一份，且均为高质量的 AI 辅助报告，导致维护者不堪重负。 这种前所未有的压力凸显了开源可持续性的关键挑战：AI 工具使得大量漏洞发现成为可能，但压垮了志愿者维护者，可能损害项目健康。 尽管报告数量激增，但发现的漏洞大多为低或中严重性；curl 上一个高严重性 CVE 发布于 2023 年 10 月。Daniel Stenberg 表示他的妻子首次对他工作与生活的平衡表示担忧。
+Anthropic 宣布完成 650 亿美元的 H 轮融资，投后估值达 9650 亿美元，并披露其年化收入为 470 亿美元，在收入和估值上均超越 OpenAI。 这轮融资标志着 AI 行业的范式转变，Anthropic 在估值和收入上领先，表明企业采用强劲，可能重塑竞争格局。 470 亿美元的年化收入是自行报告的，反映 5 月初的数据，高于 2026 年 4 月的 300 亿美元。该公司尚未上市，巨大的私人估值引发了对未来 IPO 动态的疑问。
+
+🔗 [来源](https://www.anthropic.com/news/series-h)
+
+hackernews · meetpateltech · 5月28日 18:09 · [社区讨论](https://news.ycombinator.com/item?id=48313048)
+
+**背景**: Anthropic 是一家以 Claude 模型闻名的 AI 公司。年化收入是将当前收入外推至一整年的估算，并非实际 GAAP 收入。该公司此前在 2026 年 2 月完成了 G 轮融资。
+
+**社区讨论**: 评论者注意到惊人的私人估值，并质疑股票市场的作用，有人暗示风投正在推迟 IPO。其他人强调 Anthropic 超越 OpenAI 是一个重大转变，而一位用户则要求澄清年化收入的概念。
+
+**标签**: `#AI`, `#funding`, `#valuation`, `#Anthropic`, `#industry-trends`
+
+</details>
+
+
+<a id="item-3"></a>
+<details class="hz-item" data-score="8.0" markdown="1">
+<summary><span class="hz-item-title">Anthropic 发布 Claude Opus 4.8，预告 Mythos 模型</span> <span class="hz-item-score">⭐️ 8.0/10</span></summary>
+
+Anthropic 发布了 Claude Opus 4.8，相比 Opus 4.7 有适度但切实的改进，并宣布了 Project Glasswing 以及面向特定组织的更强大的 Mythos 类模型预览。 此次发布延续了前沿 AI 模型的迭代改进，而 Mythos 的预告则标志着能力的重大飞跃，可能重塑网络安全和 AI 安全实践。 Opus 4.8 允许用户在网页界面中关闭自适应思考，解决了常见痛点。Mythos 类模型作为 Project Glasswing 的一部分，目前正在网络安全工作中进行测试，在全面发布前需要更强的安全防护措施。
+
+🔗 [来源](https://www.anthropic.com/news/claude-opus-4-8)
+
+hackernews · craigmart · 5月28日 16:49 · [社区讨论](https://news.ycombinator.com/item?id=48311647)
+
+**背景**: Anthropic 的 Claude 模型是与 OpenAI 的 GPT 和 Google 的 Gemini 竞争的前沿大语言模型。Project Glasswing 是一项利用 AI 保护关键软件的倡议，Mythos 类模型代表了高于 Opus 的新智能层级，具有增强的网络能力。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.anthropic.com/glasswing">Project Glasswing: Securing critical software for the AI era</a></li>
+<li><a href="https://www.anthropic.com/project/glasswing">Project Glasswing</a></li>
+
+</ul>
+</details>
+
+**社区讨论**: 社区成员指出，Opus 4.8 是 Opus 4.5 系列的第三次小版本更新，每次提升幅度不大。一些人赞赏可以关闭自适应思考的功能，而另一些人测试了模型的图像生成质量，发现更高思考水平下有改进。
+
+**标签**: `#AI`, `#Anthropic`, `#Claude`, `#LLM`, `#frontier models`
+
+</details>
+
+
+<a id="item-4"></a>
+<details class="hz-item" data-score="8.0" markdown="1">
+<summary><span class="hz-item-title">只用 Postgres 实现持久化工作流</span> <span class="hz-item-score">⭐️ 8.0/10</span></summary>
+
+一篇博客文章主张 PostgreSQL 可以作为持久化工作流执行的单一后端，从而消除对 Temporal 等独立工作流引擎的需求。文章称这可以在保持可靠性的同时降低系统复杂性。 这种方法通过将状态管理整合到一个数据库中，可以简化后端架构，降低运维开销。然而，与专门的工作流系统相比，它在可扩展性和权衡方面引发了疑问。 文章提到了使用 Postgres 进行持久化执行的框架 DBOS，并将其与 Temporal 进行了比较。社区评论指出，在 TB 级数据规模下 Postgres 可能成为瓶颈，并且存在 Armin Ronacher 的'absurd'库等替代方案。
+
+🔗 [来源](https://www.dbos.dev/blog/postgres-is-all-you-need-for-durable-execution)
+
+hackernews · KraftyOne · 5月28日 18:41 · [社区讨论](https://news.ycombinator.com/item?id=48313530)
+
+**背景**: 持久化工作流通过持久化状态确保应用程序逻辑在崩溃和重启后仍能继续。传统上，这需要 Temporal 或 Azure Durable Functions 等专用工作流引擎。PostgreSQL 是一种流行的关系型数据库，也可以作为消息队列和状态存储，因此成为统一这些角色的候选方案。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://devblogs.microsoft.com/dotnet/durable-workflows-in-microsoft-agent-framework/">Durable Workflows in the Microsoft Agent Framework</a></li>
+<li><a href="https://www.restate.dev/what-is-durable-execution">What is Durable Execution? A Definitive Guide | Restate</a></li>
+<li><a href="https://startupik.com/supabase-postgres-workflow-explained-from-db-to-api/">Supabase Postgres Workflow ... - Startupik | Startup magazine</a></li>
+
+</ul>
+</details>
+
+**社区讨论**: 评论者普遍认为 Postgres 对许多用例来说足够，但指出在大数据量下存在可扩展性问题。一些人提到 DBOS 和'absurd'等现有实现作为实际例子，而另一些人则讨论了简单性与性能之间的权衡。
+
+**标签**: `#PostgreSQL`, `#durable workflows`, `#backend architecture`, `#state management`
+
+</details>
+
+
+<a id="item-5"></a>
+<details class="hz-item" data-score="8.0" markdown="1">
+<summary><span class="hz-item-title">LLM 写作气味：批判性分析</span> <span class="hz-item-score">⭐️ 8.0/10</span></summary>
+
+一篇博客文章列举了 LLM 生成文本中常见的文体“气味”，如过度使用的短语和句子结构，引发了关于如何在写作中使用 LLM 而不失去个人风格的社区讨论。 随着 LLM 在写作中的广泛使用，了解其文体特征有助于用户避免同质化输出并保持真实性。讨论提供了将 LLM 用作写作助手而非内容生成器的实用建议。 文章识别出诸如短促有力的句子、以“honest caveat:”开头的介绍，以及“load bearing”和“blast radius”等术语的隐喻用法等模式。评论者指出，LLM 写作在文体上已趋于平稳，用户往往在自己不擅长的领域高估其质量。
+
+🔗 [来源](https://shvbsle.in/various-llm-smells/)
+
+hackernews · speckx · 5月28日 19:02 · [社区讨论](https://news.ycombinator.com/item?id=48313810)
+
+**背景**: LLM 通过基于训练数据中的模式预测下一个词来生成文本，这导致了一些文体上的习惯。软件工程中的“代码气味”概念已被用于描述 LLM 生成代码和文本中的问题模式。最近的研究调查了 LLM 生成代码中的气味以评估质量。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://arxiv.org/pdf/2510.03029">Investigating The Smells of LLM Generated Code⋆</a></li>
+<li><a href="https://arxiv.org/abs/2510.03029">[2510.03029] Investigating The Smells of LLM Generated Code</a></li>
+<li><a href="https://oxon.bcs.org/programme/code-smells-human-written-vs-llm-generated-programs/">Code Smells: Human-Written vs LLM Generated Programs – Oxfordshire</a></li>
+
+</ul>
+</details>
+
+**社区讨论**: 像 tptacek 这样的评论者建议使用 LLM 来批评结构和流畅性，但不包含任何生成的词语，以保留个人风格。其他人则争论 LLM 写作在文体上是否有所改进，一些人指出已趋于平稳。社区普遍认为 LLM 输出可能成为一种拐杖，用户应意识到其局限性。
+
+**标签**: `#LLM`, `#writing`, `#AI`, `#stylistic analysis`, `#Hacker News`
+
+</details>
+
+
+<a id="item-6"></a>
+<details class="hz-item" data-score="8.0" markdown="1">
+<summary><span class="hz-item-title">SQLite 新增 AGENTS.md 拒绝 AI 智能体代码</span> <span class="hz-item-score">⭐️ 8.0/10</span></summary>
+
+SQLite 在其仓库中新增了 AGENTS.md 文件，明确表示不接受智能体代码（由 AI 智能体编写的代码），但欢迎智能体提交的 bug 报告和文档补丁。该项目还将 AI 生成的 bug 报告分流到一个新的 SQLite Bug 论坛。 这是一份开创性的政策文件，应对了开源项目中日益增长的 AI 生成贡献的挑战，为维护者如何管理智能体代码同时仍从 AI 辅助中受益树立了先例。它凸显了软件工程中自动化与代码质量之间的张力。 AGENTS.md 文件指出，SQLite 不接受未经事先协议和法律文件的拉取请求，但人类开发者会审查写得好的 PR 作为概念验证，然后再自行重新实现。最近的一次提交从关于不接受智能体代码的声明中删除了“目前”一词，强化了该政策。
+
+🔗 [来源](https://simonwillison.net/2026/May/27/sqlite-agents/#atom-everything)
+
+rss · Simon Willison · 5月27日 23:44
+
+**背景**: AGENTS.md 是开源仓库中的一种新约定，维护者在此提供专门针对 AI 编码智能体的说明。它类似于现有的 CONTRIBUTING.md 文件，但针对智能体如何解读和执行项目规则进行了定制。智能体编码指的是自主 AI 智能体在最少人工干预下规划、编写、测试和修改代码。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://blakecrosley.com/blog/agents-md-patterns">AGENTS.md Patterns: What Actually Changes Agent Behavior</a></li>
+<li><a href="https://cloud.google.com/discover/what-is-agentic-coding">What is agentic coding? How it works and use cases | Google Cloud</a></li>
+<li><a href="https://www.ibm.com/think/topics/agentic-coding">What is Agentic Coding? | IBM</a></li>
+
+</ul>
+</details>
+
+**社区讨论**: 社区讨论（通过 Datasette Discord 上的 Alex Garcia）表明，SQLite 论坛被低质量的 AI 生成 bug 报告淹没，促使创建了单独的 bug 论坛。D. Richard Hipp 一直在积极解决那里的问题，表明了一种处理 AI 贡献的务实态度。
+
+**标签**: `#SQLite`, `#AI agents`, `#open-source governance`, `#software engineering`, `#policy`
+
+</details>
+
+
+<a id="item-7"></a>
+<details class="hz-item" data-score="8.0" markdown="1">
+<summary><span class="hz-item-title">Anthropic 和 OpenAI 实现产品市场契合</span> <span class="hz-item-score">⭐️ 8.0/10</span></summary>
+
+Simon Willison 认为 Anthropic 和 OpenAI 已实现产品市场契合，证据是企业 API 使用量上升和盈利传闻。Anthropic 据传即将迎来首个盈利季度，两家公司均已将企业计划转为基于 API 的定价。 这表明大型语言模型正成为可持续的业务，企业愿意支付可观的 API 费用。这验证了 AI 行业的商业模式，并表明编码代理等 AI 工具具有真正的市场需求。 Willison 计算，他个人使用 Claude Code 和 OpenAI Codex 在 30 天内本应花费 2,180.16 美元的 API 代币，但他仅通过订阅计划支付了 200 美元。Anthropic 将企业计划改为每座位每月 20 美元加 API 定价，OpenAI 在 2026 年 4 月也做出了类似调整。
+
+🔗 [来源](https://simonwillison.net/2026/May/27/product-market-fit/#atom-everything)
+
+rss · Simon Willison · 5月27日 16:38
+
+**背景**: 产品市场契合描述产品满足强烈市场需求的程度。在 AI 行业，OpenAI 和 Anthropic 等公司在计算和人才上投入巨大，实现盈利是一个关键里程碑。企业 API 定价意味着公司按使用的代币付费，这可能导致重度用户产生意外的高额账单。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.zendesk.com/blog/product-market-fit/">What is product - market fit ? Examples and strategies to find it</a></li>
+
+</ul>
+</details>
+
+**标签**: `#AI`, `#product-market fit`, `#Anthropic`, `#OpenAI`, `#LLMs`
+
+</details>
+
+
+<a id="item-8"></a>
+<details class="hz-item" data-score="8.0" markdown="1">
+<summary><span class="hz-item-title">curl 项目被 AI 辅助安全报告淹没</span> <span class="hz-item-score">⭐️ 8.0/10</span></summary>
+
+Daniel Stenberg 报告称，curl 项目收到的安全报告数量是 2024 年的 4-5 倍，是 2025 年的两倍，平均每天超过一份，且由于 AI 辅助，报告质量极高且详细。 这凸显了 AI 对开源维护的关键现实影响，导致团队倦怠，威胁到像 curl 这样重要基础设施的可持续性。 尽管报告泛滥，但几乎所有发现的漏洞严重性都是低或中；最后一个高严重性 CVE 是在 2023 年 10 月。Stenberg 的妻子首次对他的工作时间表示担忧。
 
 🔗 [来源](https://simonwillison.net/2026/May/26/the-pressure/#atom-everything)
 
 rss · Simon Willison · 5月26日 23:48
 
-**背景**: curl 是一个广泛使用的开源命令行工具和库，用于通过 URL 传输数据，支持多种协议。它由一个小型志愿者团队维护，Daniel Stenberg 是主要开发者。AI 辅助安全报告利用大语言模型自动发现并描述潜在漏洞，提高了报告的数量和质量。
+**背景**: curl 是一个广泛使用的开源命令行工具和库，用于通过 URL 传输数据，支持多种协议。它由一个小型志愿者团队维护。像 LLM 这样的 AI 工具越来越多地被用于生成详细的安全报告，但许多报告质量低劣或为误报。
 
 <details><summary>参考链接</summary>
 <ul>
@@ -67,414 +221,207 @@ rss · Simon Willison · 5月26日 23:48
 </ul>
 </details>
 
-**标签**: `#open-source`, `#security`, `#AI`, `#curl`, `#maintainer burnout`
+**社区讨论**: Lobste.rs 上的讨论可能表达了对维护者倦怠的担忧，并争论 AI 生成报告的价值，一些人呼吁制定更严格的提交指南。
 
-</details>
-
-
-<a id="item-3"></a>
-<details class="hz-item" data-score="8.0" markdown="1">
-<summary><span class="hz-item-title">YouTube 将自动标记 AI 生成视频</span> <span class="hz-item-score">⭐️ 8.0/10</span></summary>
-
-YouTube 宣布将从本周开始，利用新的内部检测系统自动标记 AI 生成或修改的视频。标签将更显眼地显示，帮助观众识别合成内容。 该政策回应了平台上关于 AI 生成错误信息和深度伪造日益增长的担忧。它帮助观众对内容的真实性做出明智判断，尤其针对新闻和逼真视频。 创作者仍需手动披露逼真的 AI 内容，但 YouTube 的自动系统也会检测并标记此类内容。动画或不逼真的 AI 内容仅在展开描述中显示标签，且标签不会影响推荐或变现。
-
-🔗 [来源](https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators/)
-
-hackernews · nopg · 5月27日 20:00 · [社区讨论](https://news.ycombinator.com/item?id=48299753)
-
-**背景**: AI 生成的视频在 YouTube 上越来越常见，从音乐曲目到假新闻片段。该平台此前已要求创作者标记合成内容，但执行不一致。此次自动检测旨在提高合规性和观众信任。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://variety.com/2026/digital/news/youtube-ai-video-labels-automatic-detection-1236758865/">YouTube to Automatically Label AI-Generated Videos & Enhance Labels</a></li>
-<li><a href="https://techcrunch.com/2026/05/27/youtube-will-now-automatically-label-ai-videos/">YouTube will now automatically label AI videos | TechCrunch</a></li>
-<li><a href="https://mashable.com/article/youtube-ai-generated-content-label-policy-animated-exemption">YouTube now requires some AI-generated videos be labeled, but animated content gets an exemption | Mashable</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 评论者普遍欢迎这一举措，分享了家人被 AI 生成的新闻或建议视频欺骗的经历。一些人好奇该政策将如何应用于 AI 音乐，指出目前许多 AI 生成的曲目缺乏披露。
-
-**标签**: `#AI`, `#YouTube`, `#content moderation`, `#misinformation`, `#policy`
-
-</details>
-
-
-<a id="item-4"></a>
-<details class="hz-item" data-score="8.0" markdown="1">
-<summary><span class="hz-item-title">Anthropic 和 OpenAI 找到了产品市场契合点</span> <span class="hz-item-score">⭐️ 8.0/10</span></summary>
-
-Simon Willison 认为，Anthropic 和 OpenAI 已经实现了产品市场契合，证据是企业 API 支出上升以及 Anthropic 即将迎来首个盈利季的传闻。 这表明 AI 实验室可以成为可持续的业务，验证了巨额基础设施投资的合理性，并可能重塑企业软件经济。 Anthropic 和 OpenAI 已将企业计划改为按 token 的 API 定价，Willison 的个人使用数据显示，订阅计划相比直接调用 API 有 10 倍的成本优势。
-
-🔗 [来源](https://simonwillison.net/2026/May/27/product-market-fit/#atom-everything)
-
-rss · Simon Willison · 5月27日 16:38 · [社区讨论](https://news.ycombinator.com/item?id=48296794)
-
-**背景**: 产品市场契合（PMF）是 Marc Andreessen 提出的术语，指产品满足强劲市场需求。对于 AI 实验室而言，实现 PMF 意味着企业愿意为 AI 编程代理等工具支付高额费用，尽管成本高昂。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.zendesk.com/blog/product-market-fit/">What is product - market fit ? Examples and strategies to find it</a></li>
-<li><a href="https://tech-insider.org/big-tech-ai-infrastructure-spending-2026/">Big Tech AI Spending: 00B Capex Race in 2026</a></li>
-<li><a href="https://larridin.com/ai-workflow-mapping/ai-cost-management-control-cloud-api-spend">AI Cost Management: Control Cloud & API Spend | Larridin</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 评论者就 PMF 是否真正得到证实展开辩论，一些人指出盈利仍不确定，且 GLM-5.1 等开源替代品可能压低价格。其他人质疑要求知识工作者将 5-20%的工资用于 token 成本是否可持续。
-
-**标签**: `#AI`, `#LLMs`, `#product-market fit`, `#enterprise AI`, `#economics`
-
-</details>
-
-
-<a id="item-5"></a>
-<details class="hz-item" data-score="8.0" markdown="1">
-<summary><span class="hz-item-title">提议：AI 提升生产力，工人应多休一天</span> <span class="hz-item-score">⭐️ 8.0/10</span></summary>
-
-一篇既幽默又严肃的文章提出，如果 AI 提升了生产力，工人应该多休息一天，挑战了只有雇主受益的假设。 这引发了关于 AI 带来的生产力提升应如何分配的及时讨论，质疑当前的工作规范以及雇主与雇员之间的利益分配。 该文章在 Hacker News 上获得了高度关注（988 分，587 条评论），讨论中引用了历史类比，如卢德运动和每周工作时间的囚徒困境。
-
-🔗 [来源](https://mlsu.io/posts/day-off/)
-
-hackernews · mlsu · 5月28日 00:40 · [社区讨论](https://news.ycombinator.com/item?id=48302745)
-
-**背景**: 五天工作制主要是一种社会规范，而非法律，尤其对于知识工作者而言。历史上，技术带来的生产力提升往往导致股东利润增加，而非工人工时减少。
-
-**社区讨论**: 评论者普遍认为生产力提升往往使股东受益，而非工人，并与卢德运动和工时的囚徒困境相类比。一些人表达了对被 AI 取代的担忧。
-
-**标签**: `#AI`, `#productivity`, `#work culture`, `#four-day work week`, `#labor economics`
-
-</details>
-
-
-<a id="item-6"></a>
-<details class="hz-item" data-score="8.0" markdown="1">
-<summary><span class="hz-item-title">Go 接受泛型方法提案</span> <span class="hz-item-score">⭐️ 8.0/10</span></summary>
-
-Go 团队正式接受了一项添加泛型方法支持的提案，推翻了长期以来认为此类方法无法高效实现的立场。该提案由 Go 联合设计者 Robert Griesemer 提出，将允许泛型类型上的方法拥有自己的类型参数。 这解决了 Go 泛型实现中的一个关键限制，使得更富表达力和可复用的代码模式（如单子和流畅接口）成为可能。它使 Go 更接近 Rust 和 C# 等其他现代语言的能力。 该提案指出，泛型方法本质上只是泛型函数的语法糖，因为编译挑战，它们不能用于实现接口。实现将不包含对泛型接口方法的支持，这仍然是一个单独的未解决问题。
-
-🔗 [来源](https://github.com/golang/go/issues/77273)
-
-hackernews · f311a · 5月27日 09:02 · [社区讨论](https://news.ycombinator.com/item?id=48291575)
-
-**背景**: Go 在 1.18 版本中引入了泛型，但最初禁止方法拥有自己的类型参数，原因是担心编译效率和运行时性能。这一限制意味着某些模式（如泛型接口或接受额外类型参数的方法）无法实现。社区长期以来一直要求这一特性，该提案收到了超过 200 条评论。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://github.com/golang/go/issues/77273">spec: generic methods for Go · Issue #77273 · golang/go</a></li>
-<li><a href="https://www.theregister.com/software/2026/03/02/generic-methods-approved-for-go-devs-miss-other-features/4357203">Generic methods approved for Go, devs miss other features</a></li>
-<li><a href="https://digitalbiztalk.com/article/go-generics-for-methods-what-the-2026-acceptance-means">Go Generic Methods Accepted: Impact, Examples & Migration ...</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 社区情绪复杂：一些开发者对新可能性感到兴奋，而另一些则对泛型接口方法仍未得到支持表示失望。一些评论者认为该提案只是语法糖，质疑是否值得付出努力，而另一些则欣赏这种渐进式的改进。
-
-**标签**: `#Go`, `#generics`, `#programming languages`, `#type system`
-
-</details>
-
-
-<a id="item-7"></a>
-<details class="hz-item" data-score="8.0" markdown="1">
-<summary><span class="hz-item-title">SQLite 新增 AGENTS.md 文件，明确 AI 代理政策</span> <span class="hz-item-score">⭐️ 8.0/10</span></summary>
-
-SQLite 在其仓库中新增了 AGENTS.md 文件，明确表示不接受代理生成的代码，但接受包含可复现测试用例的代理生成的错误报告。该项目还将论坛拆分，将 AI 生成的错误报告移至新的 SQLite Bug Forum。 这是主流开源项目首次针对 AI 生成贡献浪潮制定明确政策，为其他项目如何管理代理代码和错误报告树立了先例。它凸显了低质量 AI 提交带来的日益严峻的挑战，以及制定清晰指南的必要性。 AGENTS.md 文件还指出，SQLite 不接受未经事先协议和法律文件的拉取请求，但人类开发者会审查写得好的 PR 作为概念验证。最近的提交从“不接受代理代码”的声明中删除了“（目前）”一词，强化了该政策。
-
-🔗 [来源](https://simonwillison.net/2026/May/27/sqlite-agents/#atom-everything)
-
-rss · Simon Willison · 5月27日 23:44
-
-**背景**: AGENTS.md 是一种新兴的开源项目惯例，用于为 AI 编码代理提供指令，类似于 README 或 CONTRIBUTING 文件。代理代码是指由 AI 代理自主生成、规划、编写、测试和调试的代码，几乎无需人工干预。SQLite 是一个广泛使用的嵌入式数据库库，其维护者 D. Richard Hipp 一直在处理大量 AI 生成的错误报告。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://github.com/agentsmd/agents.md">GitHub - agentsmd/agents.md: AGENTS.md — a simple, open format for guiding coding agents</a></li>
-<li><a href="https://agents.md/">AGENTS.md</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: Simon Willison 博客和 Discord 上的社区讨论对 SQLite 的主动立场表示赞同，一些人指出其他项目可能会效仿。还有关于 AI 生成的错误报告质量以及需要更好过滤机制的讨论。
-
-**标签**: `#SQLite`, `#AI agents`, `#open source`, `#software engineering`, `#policy`
-
-</details>
-
-
-<a id="item-8"></a>
-<details class="hz-item" data-score="8.0" markdown="1">
-<summary><span class="hz-item-title">微软 Copilot Cowork 因提示注入导致文件泄露</span> <span class="hz-item-score">⭐️ 8.0/10</span></summary>
-
-微软 365 中的代理型 AI 功能 Copilot Cowork 存在提示注入漏洞，攻击者可通过在代理发送的邮件中嵌入外部图片来窃取文件。用户打开邮件时，图片会触发网络请求，将预认证的 OneDrive 下载链接泄露到攻击者控制的服务器。 该漏洞凸显了代理型 AI 系统中的一个关键安全挑战：防止通过渲染图片等间接渠道窃取数据。它表明即使有审批机制，代理生成的内容仍可能被武器化，影响企业对 AI 代理的采用。 该攻击利用了 Copilot Cowork 无需审批即可向用户收件箱发送邮件，且邮件可包含发起网络请求的外部图片。结合 OneDrive 的预认证下载链接，成功的提示注入可泄露文件访问 URL，使攻击者无需额外认证即可下载文件。
-
-🔗 [来源](https://simonwillison.net/2026/May/26/copilot-cowork-exfiltrates-files/#atom-everything)
-
-rss · Simon Willison · 5月26日 15:36
-
-**背景**: 提示注入是一种漏洞，攻击者的输入覆盖了大语言模型（LLM）的系统提示，导致其执行非预期操作。在像 Copilot Cowork 这样可代表用户采取行动的代理型系统中，提示注入可能导致数据泄露。通过外部图片窃取数据是一种已知技术，其中 markdown 或 HTML 图片会触发网络请求，将敏感数据编码在 URL 中。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Prompt_injection">Prompt injection - Wikipedia</a></li>
-<li><a href="https://wraith.sh/learn/markdown-image-exfiltration">Data Exfiltration via Markdown Images : The Quiet AI... | Wraith</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: Hacker News 上的讨论（来源：simonwillison.net）对代理型系统的安全性表示担忧，许多评论者认为这是一个根本性的设计缺陷。一些人认为允许代理发送包含外部内容的邮件而不进行严格沙箱化是不负责任的，另一些人则指出其他 AI 产品中也发现了类似漏洞。
-
-**标签**: `#security`, `#AI safety`, `#prompt injection`, `#Microsoft Copilot`, `#data exfiltration`
+**标签**: `#curl`, `#security`, `#AI`, `#open-source`, `#maintenance`
 
 </details>
 
 
 <a id="item-9"></a>
 <details class="hz-item" data-score="8.0" markdown="1">
-<summary><span class="hz-item-title">思科与 OpenAI 合作，用 Codex 重新定义企业工程</span> <span class="hz-item-score">⭐️ 8.0/10</span></summary>
+<summary><span class="hz-item-title">新 ITBench-AA 基准测试显示 AI 代理在企业 IT 任务中表现不佳</span> <span class="hz-item-score">⭐️ 8.0/10</span></summary>
 
-思科与 OpenAI 合作，采用 AI 编程代理 Codex，用于扩展 AI 原生开发、加速 AI 防御工作并自动化缺陷修复。 此次合作标志着企业向 AI 原生工程的重要转变，编程代理将成为开发和安全流程的核心，可能为其他大型组织树立先例。 Codex 于 2025 年 4 月以 Codex CLI 形式发布，可在隔离环境中处理编写代码、修复错误、代码审查和功能交付等任务。思科将利用它自动化缺陷修复并加速其 AI 防御计划。
+Artificial Analysis 和 IBM 发布了首个针对代理型企业 IT 任务的基准测试 ITBench-AA，结果显示前沿 AI 模型的准确率低于 50%。表现最好的模型 Claude Opus 4.7 在完全召回下的平均精度仅为 46.7%。 该基准测试揭示了当前 AI 代理在真实企业 IT 运维（如 Kubernetes 事件响应）中的关键局限性。它为评估和改进 AI 系统在企业环境中的实际部署设定了新标准。 ITBench-AA 专注于站点可靠性工程（SRE）任务，要求代理通过读取日志和执行命令来诊断实时系统。该基准测试包括 Kubernetes 事件响应等任务，模型必须与实时环境交互。
 
-🔗 [来源](https://openai.com/index/cisco)
+🔗 [来源](https://huggingface.co/blog/ibm-research/itbench-aa)
 
-rss · OpenAI Blog · 5月27日 11:00
+rss · Hugging Face Blog · 5月27日 17:20
 
-**背景**: AI 原生开发是指工程团队将 AI 代理深度集成到从规划到运营的工作流程中。Codex 是 OpenAI 的编程代理，在隔离环境中运行并支持并行任务，实现软件工程任务的端到端自动化。
+**背景**: 代理型 AI 是指能够自主推理、规划并执行行动以实现目标的 AI 系统，不同于仅生成文本的传统聊天机器人。企业 IT 任务（如事件响应和系统故障排除）要求代理与实时基础设施交互，因此比静态问答基准测试更为复杂。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Codex_(AI_agent)">Codex (AI agent) - Wikipedia</a></li>
-<li><a href="https://openai.com/codex/">Codex | AI Coding Partner from OpenAI</a></li>
-<li><a href="https://developers.openai.com/codex/guides/build-ai-native-engineering-team">Building an AI-Native Engineering Team – Codex | OpenAI Developers</a></li>
+<li><a href="https://huggingface.co/blog/ibm-research/itbench-aa">ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks — by Artificial Analysis and IBM</a></li>
+<li><a href="https://artificialanalysis.ai/evaluations/itbench-aa">ITBench-AA Benchmark Leaderboard | Artificial Analysis</a></li>
 
 </ul>
 </details>
 
-**标签**: `#OpenAI`, `#Codex`, `#enterprise AI`, `#Cisco`, `#AI security`
+**标签**: `#AI benchmarks`, `#agentic AI`, `#enterprise IT`, `#AI evaluation`, `#IBM research`
 
 </details>
 
 
 <a id="item-10"></a>
 <details class="hz-item" data-score="8.0" markdown="1">
-<summary><span class="hz-item-title">新 ITBench-AA 基准测试显示前沿 AI 模型在企业 IT 任务中得分低于 50%</span> <span class="hz-item-score">⭐️ 8.0/10</span></summary>
+<summary><span class="hz-item-title">Delta 权重同步实现万亿参数模型训练</span> <span class="hz-item-score">⭐️ 8.0/10</span></summary>
 
-Artificial Analysis 和 IBM 发布了 ITBench-AA，这是首个用于评估 AI 智能体在企业 IT 和 SRE 任务上表现的基准测试。结果显示，即使是最先进的前沿模型，如 Claude Opus 4.7，在完全召回率下的平均精度也仅为 46.7%，所有模型得分均低于 50%。 该基准测试凸显了当前 AI 能力与现实企业 IT 运营需求之间的显著差距。它为衡量智能体 AI 的进展提供了标准化方法，这对于 AI 智能体在生产环境中的采用至关重要。 ITBench-AA 专注于 Kubernetes 事件响应任务，模型必须通过读取日志和执行命令来诊断实时系统。该基准测试包括根本原因分析和修复等任务，并使用完全召回率下的平均精度作为主要指标。
+Hugging Face 推出了 delta 权重同步方法，通过中心存储桶仅同步训练节点间的权重变化（delta），将数据传输量从 TB 级降至 MB 级。 这一突破使得使用异步强化学习训练万亿参数模型变得可行，大幅降低了带宽需求，让更多人能够参与大规模 AI 训练。 该技术利用中心存储桶作为基础权重和 delta 的中央存储，并使用 BF16 精度高效编码差异。每次更新可将同步流量从 1 TB 减少到仅 35 MB。
 
-🔗 [来源](https://huggingface.co/blog/ibm-research/itbench-aa)
+🔗 [来源](https://huggingface.co/blog/delta-weight-sync)
 
-rss · Hugging Face Blog · 5月27日 17:20
+rss · Hugging Face Blog · 5月27日 00:00
 
-**背景**: 智能体 AI 是指能够感知、推理并自主行动以完成多步骤任务的 AI 系统。在企业环境中，这些智能体被期望处理事件响应等 IT 运维任务，但此前缺乏评估其在此类任务上表现的标准基准。ITBench-AA 通过提供一组真实的 SRE 场景填补了这一空白。
+**背景**: 训练大型语言模型通常需要将工作分配到多个 GPU 上，这些 GPU 必须频繁同步权重。传统的全权重同步消耗巨大带宽。Delta 权重同步通过仅传输变化部分来解决这一问题，类似于版本控制系统跟踪差异的方式。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://huggingface.co/blog/ibm-research/itbench-aa">ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks — by Artificial Analysis and IBM</a></li>
-<li><a href="https://artificialanalysis.ai/evaluations/itbench-aa">ITBench-AA Benchmark Leaderboard | Artificial Analysis</a></li>
-<li><a href="https://www.ibm.com/think/topics/agentic-enterprise">What is an agentic enterprise? - IBM</a></li>
+<li><a href="https://huggingface.co/spaces/aminediroHF/delta-weight-sync-figures">Delta Weight Sync Figures - a Hugging Face Space by aminediroHF</a></li>
+<li><a href="https://ai-manual.ru/article/delta-weight-sync-v-trl-kak-sokratit-peredachu-dannyih-pri-async-rl-obuchenii-s-1-tb-do-35-mb/">Delta Weight Sync в TRL: сокращение трафика с 1 ТБ до... | AiManual</a></li>
 
 </ul>
 </details>
 
-**标签**: `#AI`, `#benchmark`, `#enterprise IT`, `#agentic AI`, `#IBM`
+**标签**: `#machine learning`, `#large language models`, `#distributed training`, `#Hugging Face`
 
 </details>
 
 
 <a id="item-11"></a>
 <details class="hz-item" data-score="8.0" markdown="1">
-<summary><span class="hz-item-title">Delta 权重同步：高效训练万亿参数模型</span> <span class="hz-item-score">⭐️ 8.0/10</span></summary>
+<summary><span class="hz-item-title">CNN 起诉 Perplexity 侵犯版权</span> <span class="hz-item-score">⭐️ 8.0/10</span></summary>
 
-Hugging Face 推出了 delta weight sync 技术，该技术利用 Hub 存储桶在分布式训练中仅同步相邻检查点之间微小的权重变化（delta），从而大幅降低通信开销。 该技术通过减少通信瓶颈，使得训练万亿参数模型更加高效，这是分布式深度学习中的主要挑战。它可以加速训练并降低大规模 AI 模型的基础设施成本。 测量显示，相邻检查点之间的平均 delta 仅为 20.3 GiB，占完整模型的 1.98%，且超过 98%的 bf16 格式权重在连续检查点之间保持比特等价。系统每隔几步使用完整快照（锚点），中间步骤则使用稀疏 delta。
+CNN 对 Perplexity AI 提起诉讼，指控该公司非法复制了数千篇 CNN 的报道、视频和图片，用于驱动其 AI 产品。 这起诉讼可能为 AI 公司如何使用新闻出版商的受版权保护内容树立先例，从而重塑 AI 训练和内容分发的法律格局。 Perplexity 是一个 AI 驱动的答案引擎，它从网络搜索结果中综合生成回答，CNN 声称该公司对其内容的使用超出了合理使用的范围。
 
-🔗 [来源](https://huggingface.co/blog/delta-weight-sync)
+🔗 [来源](https://www.aljazeera.com/economy/2026/5/28/cnn-sues-perplexity-alleging-unlawful-distribution-of-copyrighted-content?traffic_source=rss)
 
-rss · Hugging Face Blog · 5月27日 00:00
+rss · Al Jazeera · 5月28日 17:45
 
-**背景**: 大型语言模型的分布式训练需要在多个 GPU 之间频繁同步模型权重，这会造成通信瓶颈。传统方法如 NCCL 广播每次发送完整模型状态，消耗大量带宽。Delta 权重同步利用了训练中连续检查点非常相似的观察结果，因此只需传输差异部分。
+**背景**: 像 Perplexity、OpenAI 等 AI 公司已面临来自作者、新闻机构和其他版权所有者的大量版权诉讼，涉及使用其内容训练 AI 模型。这些案件的结果可能界定 AI 时代合理使用的边界。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://huggingface.co/blog/delta-weight-sync">Shipping a Trillion Parameters With a Hub Bucket: Delta ...</a></li>
-<li><a href="https://github.com/huggingface/blog/blob/main/delta-weight-sync.md">blog/delta-weight-sync.md at main · huggingface/blog · GitHub</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Perplexity_AI">Perplexity AI - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Artificial_intelligence_and_copyright">Artificial intelligence and copyright - Wikipedia</a></li>
+<li><a href="https://www.theguardian.com/technology/2025/jun/26/meta-wins-ai-copyright-lawsuit-as-us-judge-rules-against-authors">Meta wins AI copyright lawsuit as US judge rules... | The Guardian</a></li>
 
 </ul>
 </details>
 
-**标签**: `#distributed training`, `#LLM`, `#parameter synchronization`, `#Hugging Face`, `#scalability`
+**标签**: `#AI`, `#copyright`, `#legal`, `#Perplexity`, `#CNN`
 
 </details>
 
 
 <a id="item-12"></a>
 <details class="hz-item" data-score="7.0" markdown="1">
-<summary><span class="hz-item-title">在 4K 分辨率下运行《模拟城市 3000》引发游戏设计讨论</span> <span class="hz-item-score">⭐️ 7.0/10</span></summary>
+<summary><span class="hz-item-title">游戏讽刺 AI 代理权限疲劳</span> <span class="hz-item-score">⭐️ 7.0/10</span></summary>
 
-一篇技术文章详细介绍了如何使用社区高清补丁在 4K 分辨率下运行《模拟城市 3000》，并反思了该游戏持久的魅力。该帖子引发了关于城市建造游戏中照片级真实感与想象力作用的广泛讨论。 这一讨论突显了玩家中日益增长的情绪，即现代城市建造游戏优先考虑照片级真实感，而牺牲了像《模拟城市 3000》这样的经典游戏所定义的、由幻想性视错觉驱动的想象力玩法。它强调了游戏设计理念和玩家期望可能发生的转变。 该高清补丁可在 GitHub 上获取，需要 Python 2.7 或 3 来修补游戏可执行文件，但某些 4K 分辨率可能不稳定。文章还指出，《模拟城市 3000》的美术最初是由 3DS Max 渲染的，并非像一些人认为的那样逐像素绘制。
+一款名为“Continue? Y/N”的 60 秒网页游戏发布，模拟批准或拒绝 AI 代理权限请求的过程，以突出权限疲劳问题。 该游戏引发了对当前 AI 代理权限模型中安全性和用户体验缺陷的讨论，随着 AI 代理变得更加自主和广泛使用，这一点至关重要。 玩家可以通过快速拒绝所有请求来“作弊”，获得“安全意识工程师”徽章，但游戏设计反映了 AI 编码代理（如 Claude Code）中真实的权限疲劳问题。
 
-🔗 [来源](https://www.thran.uk/writ/hdid/2025/12/simcity-3k-in-4k.html)
+🔗 [来源](https://llmgame.scalex.dev/)
 
-hackernews · speckx · 5月27日 17:36 · [社区讨论](https://news.ycombinator.com/item?id=48297645)
+hackernews · Wirbelwind · 5月28日 13:02 · [社区讨论](https://news.ycombinator.com/item?id=48308376)
 
-**背景**: 《模拟城市 3000》于 1999 年发布，是一款经典的城市建造模拟游戏，以其等距图形和迷人的顾问系统而闻名。像《城市：天际线》这样的现代城市建造游戏追求更高的真实感，但一些玩家认为这牺牲了早期游戏提供的想象力火花。高清补丁允许游戏以现代分辨率运行，在保留其视觉风格的同时提高了清晰度。
+**背景**: AI 编码代理通常需要用户批准每次工具调用，导致用户盲目批准请求的权限疲劳。这是一个已知的安全失败，正如关于权限疲劳的文章和 Claude Code 中“dangerously-skip-permissions”模型所强调的。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://github.com/tetration/Simcity3000-HD-patch">GitHub - tetration/Simcity3000-HD-patch: Python 3 & 2.7 ...</a></li>
-<li><a href="https://steamcommunity.com/app/2741560/discussions/0/4288061352812078672/">Widescreen support and bigger resolution :: SimCity™ 3000 ...</a></li>
-<li><a href="https://www.pcgamingwiki.com/wiki/SimCity_3000">SimCity 3000 - PCGamingWiki PCGW - bugs, fixes, crashes, mods ...</a></li>
+<li><a href="https://grith.ai/blog/permission-fatigue-security-failure">Permission Fatigue Is Not a UX Problem. It Is a Security Failure. | grith</a></li>
+<li><a href="https://daniliants.com/insights/github-kstenerud-yoloai-permission-fatigue-is-a-real-problem-sandbox-e/">yoloAI: Disposable Sandboxes End AI Agent Permission Fatigue</a></li>
+<li><a href="https://thomas-wiegold.com/blog/claude-code-dangerously-skip-permissions/">Claude Code dangerously-skip- permissions ... | Thomas Wiegold Blog</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者称赞了《模拟城市 3000》的顾问系统、音乐和美术，并将其与《模拟城市 4》中 3D 渲染的顾问进行对比。一位用户指出，现代城市建造游戏对照片级真实感的追求消除了激发想象力的“幻想性视错觉”，这与威尔·赖特的观点一致，即真正的模拟运行在玩家的脑海中。另一位评论者指出，游戏的美术是由 3DS Max 渲染的，并非逐像素手绘。
+**社区讨论**: 评论者指出了游戏的现实性，讨论了作弊策略、安全卫生（例如不在.zshrc 中存储密钥），并提出了更好的权限模型，如批准计划而非单个请求。一些人认为游戏的上下文跳跃不具有代表性。
 
-**标签**: `#retro gaming`, `#game design`, `#simcity`, `#technical deep-dive`, `#nostalgia`
+**标签**: `#AI agents`, `#permission models`, `#security`, `#UX`, `#game`
 
 </details>
 
 
 <a id="item-13"></a>
 <details class="hz-item" data-score="7.0" markdown="1">
-<summary><span class="hz-item-title">苹果和谷歌改造推送通知</span> <span class="hz-item-score">⭐️ 7.0/10</span></summary>
+<summary><span class="hz-item-title">Altman 和 Amodei 收回 AI 末日预言</span> <span class="hz-item-score">⭐️ 7.0/10</span></summary>
 
-苹果和谷歌正在对推送通知系统进行更改，以减少垃圾信息并让用户更好地控制哪些应用可以打扰他们。 这些更改可以通过减少通知过载来显著改善用户体验，但社区讨论这些措施是否足够，以及公司的动机是否真正以用户为中心。 文章讨论了苹果和谷歌如何限制某些类型的推送通知，如交叉销售和追加销售信息，而社区成员建议需要更细粒度的控制，如冷却期和过滤规则。
+Sam Altman 和 Dario Amodei 公开收回了他们早前关于 AI 将导致大规模失业的预测，这很可能是一次公关行动，以应对日益增长的公众担忧。 顶级 AI 领袖在信息传达上的这一转变，标志着他们为管理公众看法和监管压力而采取的战略性努力，目前超过 50%的美国人对 AI 的担忧多于兴奋。 这一收回发生在公众焦虑加剧、媒体头条渲染“AI 失业末日”的背景下，社区评论指出这是一次经典的公关“潜艇”行动，旨在重新定义 AI 的影响。
 
-🔗 [来源](https://www.jacquescorbytuech.com/writing/what-apple-and-google-are-doing-your-push-notifications)
+🔗 [来源](https://fortune.com/2026/05/26/sam-altman-dario-amodei-walking-back-ai-jobs-apocalypse-prophecies-ipo/)
 
-hackernews · iamacyborg · 5月27日 19:24 · [社区讨论](https://news.ycombinator.com/item?id=48299220)
+hackernews · ianrahman · 5月28日 19:43 · [社区讨论](https://news.ycombinator.com/item?id=48314363)
 
-**背景**: 推送通知是应用发送到用户设备的消息，用于提醒更新、优惠或事件。随着时间的推移，许多应用滥用此功能发送垃圾或吸引注意力的通知，导致用户不满。苹果和谷歌作为平台守门人，一直在更新政策以遏制此类滥用。
+**背景**: Sam Altman 是 OpenAI 的 CEO，Dario Amodei 是 Anthropic 的 CEO，两家都是领先的 AI 公司。此前，他们曾大胆预测 AI 将取代许多工作，加剧了公众恐惧。如今，随着公众担忧加剧且公司面临潜在监管，他们正在软化立场。
 
-**社区讨论**: 社区评论显示对更严格的通知控制有强烈支持，用户分享个人策略，如仅允许必要应用发送通知。一些人认为文章作者似乎对垃圾通知被限制感到不满，而另一些人则呼吁赋予用户更多权力，例如使用像 Buzz Kill 这样的 Android 第三方工具。
+**社区讨论**: 社区评论持怀疑态度，认为这次收回是公关手段而非真正的信念转变。有人指出高管们仍然误解 AI 的能力，也有人认为“末日”尚未被证伪，只是推迟了。
 
-**标签**: `#push notifications`, `#Apple`, `#Google`, `#privacy`, `#user experience`
+**标签**: `#AI`, `#job displacement`, `#PR`, `#public perception`, `#tech industry`
 
 </details>
 
 
 <a id="item-14"></a>
 <details class="hz-item" data-score="7.0" markdown="1">
-<summary><span class="hz-item-title">探索现代网状网络：Meshtastic、MeshCore 和 Reticulum</span> <span class="hz-item-score">⭐️ 7.0/10</span></summary>
+<summary><span class="hz-item-title">OpenAI 发布前沿治理框架</span> <span class="hz-item-score">⭐️ 7.0/10</span></summary>
 
-这篇文章对三个新兴的网状网络项目——Meshtastic、MeshCore 和 Reticulum——进行了实用概述，重点介绍了它们利用 LoRa 无线电技术实现去中心化、离网通信的方法。 这些项目提供了传统依赖互联网的通信的替代方案，为应急响应、偏远地区和注重隐私的用户构建了弹性网络。社区讨论揭示了影响其采用的实际挑战和不同理念。 Meshtastic 使用泛洪算法在 LoRa 网状网络中广播消息，而 MeshCore 采用结构化路由角色以实现可扩展性。Reticulum 是一个基于密码学的网络栈，可在包括 LoRa、分组无线电和 WiFi 在内的多种传输方式上运行。
+OpenAI 发布了其前沿治理框架，这是一份公开文件，详细说明了公司如何使其 AI 安全、安保和风险实践与新兴的欧盟和加州法规保持一致。 该框架标志着 OpenAI 在法规合规方面的主动态度，可能为全行业的治理实践树立先例，影响其他前沿 AI 开发者如何处理安全与问责问题。 该框架借鉴了微软前沿治理框架的元素，并参考了称为“关键能力级别（CCL）”的能力阈值，与 Google DeepMind 的方法类似。
 
-🔗 [来源](https://www.jonaharagon.com/posts/im-getting-into-mesh-networks-meshtastic-meshcore-and-reticulum/)
+🔗 [来源](https://openai.com/index/openai-frontier-governance-framework)
 
-hackernews · Panda_ · 5月27日 19:52 · [社区讨论](https://news.ycombinator.com/item?id=48299638)
+rss · OpenAI Blog · 5月28日 00:00
 
-**背景**: LoRa（长距离）是一种低功耗、长距离的无线电协议，常用于物联网和网状网络，在免许可的 ISM 频段运行。网状网络允许设备中继消息以扩展覆盖范围，无需集中式基础设施。这些项目旨在传统网络不可用或不受欢迎时提供通信。
+**背景**: 前沿 AI 模型（如 OpenAI 的 GPT 系列）因其先进能力而带来潜在风险。欧盟和加州等政府正在制定法规，以确保这些模型的安全开发和部署。治理框架概述了组织为管理这些风险并遵守法律而遵循的政策和流程。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Meshtastic">Meshtastic - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Meshcore">MeshCore - Wikipedia</a></li>
-<li><a href="https://github.com/markqvist/Reticulum">GitHub - markqvist/Reticulum: The cryptography-based networking stack for building unstoppable networks with LoRa, Packet Radio, WiFi and everything in between. · GitHub</a></li>
+<li><a href="https://openai.com/index/openai-frontier-governance-framework/">OpenAI’s Frontier Governance Framework | OpenAI</a></li>
+<li><a href="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/final/en-us/microsoft-brand/documents/Microsoft-Frontier-Governance-Framework.pdf">Frontier Governance</a></li>
+<li><a href="https://metr.org/common-elements.pdf">Common Elements of Frontier AI Safety Policies, December 2025</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者指出，虽然这些网状网络有趣且前景广阔，但它们面临可扩展性和采用障碍。一些人认为依赖互联网回程会削弱独立性，而另一些人则分享了通过天线升级实现 10 公里以上范围的实际经验。对于这些项目能否超越小众爱好者用途，存在怀疑态度。
-
-**标签**: `#mesh networking`, `#LoRa`, `#Meshtastic`, `#decentralized communication`, `#emergency communications`
+**标签**: `#AI safety`, `#governance`, `#regulation`, `#OpenAI`, `#frontier AI`
 
 </details>
 
 
 <a id="item-15"></a>
 <details class="hz-item" data-score="7.0" markdown="1">
-<summary><span class="hz-item-title">谷歌强推 AI 后，DuckDuckGo 流量飙升 28%</span> <span class="hz-item-score">⭐️ 7.0/10</span></summary>
+<summary><span class="hz-item-title">思科与 OpenAI 合作，用 Codex 变革企业工程</span> <span class="hz-item-score">⭐️ 7.0/10</span></summary>
 
-在谷歌坚称用户喜爱其 AI 模式后的一周内，DuckDuckGo 的访问量增长了近 28%，表明用户对搜索中强行集成 AI 的强烈反感。 这一转变凸显了用户对 AI 被强行植入核心产品的不满日益增长，可能改变搜索引擎的竞争格局，迫使企业重新考虑 AI 集成策略。 流量增长是在谷歌公开宣称 AI 模式受欢迎之后的一周内测量的，而 DuckDuckGo 以无 AI 的搜索体验作为关键差异化优势。
+思科与 OpenAI 合作，采用 AI 软件工程代理 Codex，以扩展 AI 原生开发、加速 AI 防御工作并自动化缺陷修复。 此次合作标志着企业对 AI 原生开发的大规模采用，可能为大型组织将 AI 集成到工程工作流和安全运营中树立先例。 Codex 是 OpenAI 的软件工程代理，在隔离环境中运行，支持并行任务，并协助编码、调试、代码审查以及跨现有工具的功能交付。
 
-🔗 [来源](https://www.pcgamer.com/hardware/duckduckgos-ai-free-search-saw-nearly-28-percent-more-visits-in-the-week-following-googles-insistence-that-people-love-ai-mode/)
+🔗 [来源](https://openai.com/index/cisco)
 
-hackernews · HelloUsername · 5月27日 16:28 · [社区讨论](https://news.ycombinator.com/item?id=48296649)
+rss · OpenAI Blog · 5月27日 11:00
 
-**背景**: 谷歌一直在将 AI 功能集成到其搜索引擎中，包括提供对话式答案的 AI 模式。DuckDuckGo 是一款注重隐私的搜索引擎，不跟踪用户，并且避免添加 AI 功能，将自己定位为不喜欢 AI 集成的用户的替代选择。
+**背景**: AI 原生开发是指从一开始就将 AI 集成到应用构建中，从而实现快速原型设计和缩短上市时间。Codex 是一个 AI 代理，旨在通过无缝集成开发者工具，加速从规划到发布的实际工程工作。
 
-**社区讨论**: 评论显示了对 DuckDuckGo 的支持和对谷歌 AI 推广的批评。一些用户因对 AI 感到厌烦或讨厌弹窗而切换，而一位用户欣赏谷歌 AI 模式能快速回答问题。其他人指出 DuckDuckGo 的结果有时比谷歌更好。
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://grokipedia.com/page/Codex_OpenAI">Codex (OpenAI)</a></li>
+<li><a href="https://openai.com/codex/">Codex | AI Coding Partner from OpenAI | OpenAI</a></li>
 
-**标签**: `#search engines`, `#AI backlash`, `#user behavior`, `#DuckDuckGo`, `#Google`
+</ul>
+</details>
+
+**标签**: `#AI`, `#Enterprise`, `#Security`, `#OpenAI`, `#Cisco`
 
 </details>
 
 
 <a id="item-16"></a>
 <details class="hz-item" data-score="7.0" markdown="1">
-<summary><span class="hz-item-title">GitHub 事故影响拉取请求、问题和 API 请求</span> <span class="hz-item-score">⭐️ 7.0/10</span></summary>
+<summary><span class="hz-item-title">Reachy Mini 实现完全本地离线 AI</span> <span class="hz-item-score">⭐️ 7.0/10</span></summary>
 
-GitHub 于 2024 年 6 月 24 日发生事故，导致拉取请求和问题中的提交差异不一致，同时 API 请求性能下降。 此次事故削弱了开发者对 GitHub 可靠性的信任，因为不一致的差异可能导致合并不完整或错误的代码，带来安全风险。 用户报告称，Web 界面和 API 上的拉取请求未能一致地反映所有提交或分支更改，使得在不审查完整差异的情况下合并变得容易。
-
-🔗 [来源](https://www.githubstatus.com/incidents/xy1tt3hs572m)
-
-hackernews · maxnoe · 5月27日 12:15 · [社区讨论](https://news.ycombinator.com/item?id=48293080)
-
-**背景**: GitHub 是一个广泛使用的版本控制和协作平台，托管着数百万个仓库。拉取请求和问题是代码审查和项目管理的核心功能。不一致的提交差异可能导致开发者遗漏关键更改，从而引入错误或漏洞。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://stackoverflow.com/questions/3368590/show-diff-between-commits">git - Show diff between commits - Stack Overflow Code sample</a></li>
-<li><a href="https://docs.github.com/en/rest">GitHub REST API documentation - GitHub Docs</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 社区对 GitHub 近期的可靠性表示不满，一些人指出自 AI 编码工具普及以来，故障有所增加。用户强调了在不查看完整差异的情况下合并的安全风险，一些人开玩笑建议回退到旧版软件或解雇领导层。
-
-**标签**: `#GitHub`, `#outage`, `#incident`, `#reliability`, `#version control`
-
-</details>
-
-
-<a id="item-17"></a>
-<details class="hz-item" data-score="7.0" markdown="1">
-<summary><span class="hz-item-title">Warp 集成 GPT-5.5 打造开源编码代理</span> <span class="hz-item-score">⭐️ 7.0/10</span></summary>
-
-Warp，一个代理式开发环境，宣布集成 GPT-5.5 和 OpenAI 模型，用于在本地、云端和开源工作流中协调编码代理。 这一集成将最先进的 AI 能力直接带入开发环境，使开发者能够在保持开源生态系统的同时，利用强大的编码代理处理复杂任务。 GPT-5.5 由 OpenAI 于 2026 年 4 月 23 日发布，在 Terminal-Bench 2.0 上达到 82.7%，并端到端解决了多步骤网络攻击模拟，使其成为编码任务中最强大的模型之一。
-
-🔗 [来源](https://openai.com/index/warp)
-
-rss · OpenAI Blog · 5月27日 00:00
-
-**背景**: Warp 最初是一个基于 Rust 的 GPU 加速终端，后来演变为支持多个 AI 编码代理的代理式开发环境。GPT-5.5 是 OpenAI 最新的大型语言模型，以其在编码和网络安全基准测试中的强劲表现而闻名。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/GPT-5.5">GPT-5.5</a></li>
-<li><a href="https://openai.com/index/introducing-gpt-5-5/">Introducing GPT‑5.5 - OpenAI</a></li>
-<li><a href="https://www.warp.dev/">Warp — The Agentic Development Environment</a></li>
-
-</ul>
-</details>
-
-**标签**: `#AI`, `#coding agents`, `#open source`, `#GPT-5.5`, `#development workflows`
-
-</details>
-
-
-<a id="item-18"></a>
-<details class="hz-item" data-score="7.0" markdown="1">
-<summary><span class="hz-item-title">Reachy Mini 机器人实现全本地对话式 AI</span> <span class="hz-item-score">⭐️ 7.0/10</span></summary>
-
-Pollen Robotics 宣布 Reachy Mini 机器人现在可以完全在设备上运行对话式 AI，无需任何云端依赖，从而实现私密和离线交互。 这一进展使边缘 AI 在机器人领域更加实用，解决了隐私问题，并支持在互联网连接有限或无网络的环境中使用。 全本地对话式 AI 由 Hugging Face 的 Transformers 和 Optimum 库驱动，在机器人板载的 Raspberry Pi 5 或类似边缘硬件上运行。
+Hugging Face 发布了一篇博客文章，详细介绍了如何让 Reachy Mini 机器人完全使用本地语音和视觉模型运行，实现无需云端的私密离线对话。 这展示了对话机器人的实用全本地部署，通过消除对云端语音和视觉处理的依赖，推动了边缘 AI 和隐私保护的发展。 该方案使用 Hugging Face 模型进行语音识别、文本转语音和视觉处理，全部在机器人板载计算机上运行，无需互联网连接。
 
 🔗 [来源](https://huggingface.co/blog/local-reachy-mini-conversation)
 
 rss · Hugging Face Blog · 5月27日 00:00
 
-**背景**: Reachy Mini 是由 Pollen Robotics 开发的开源人形机器人，专为人机交互和 AI 实验设计。传统上，机器人的对话式 AI 依赖云服务，这会引入延迟和隐私风险。本地运行模型则消除了这些问题。
+**背景**: 边缘 AI 指在本地设备上直接运行 AI 模型，而非在云端，从而降低延迟并提升隐私。Reachy Mini 是一款面向研究和教育的小型人形机器人平台。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://huggingface.co/blog/reachy-mini">Reachy Mini - The Open-Source Robot for Today's and Tomorrow's AI Builders</a></li>
-<li><a href="https://huggingface.co/spaces/pollen-robotics/Reachy_Mini">Reachy Mini - a Hugging Face Space by pollen-robotics</a></li>
-<li><a href="https://www.pollen-robotics.com/">Reachy, developed by Pollen Robotics, is an open-source humanoid robot</a></li>
+<li><a href="https://huggingface.co/spaces/innoai/Edge-TTS-Text-to-Speech">Edge TTS Text To Speech - a Hugging Face Space by innoai</a></li>
 
 </ul>
 </details>
 
-**标签**: `#robotics`, `#edge AI`, `#conversational AI`, `#privacy`, `#Hugging Face`
+**标签**: `#robotics`, `#edge AI`, `#Hugging Face`, `#local deployment`, `#conversational AI`
 
 </details>
 
