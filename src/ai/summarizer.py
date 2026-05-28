@@ -27,6 +27,12 @@ LABELS = {
         "tags": "Tags",
         "selected_items": "From {total} items, {selected} important content pieces were selected",
         "empty_analyzed": "Analyzed {total} items, but none met the importance threshold.",
+        "categories": {
+            "tech": "🔬 Tech & AI",
+            "geopolitics": "🌐 Geopolitics",
+            "disaster": "🌍 Breaking & Disasters",
+            "other": "📌 Other",
+        },
         "empty_body": (
             "No significant developments today. This might indicate:\n"
             "- A quiet day in your tracked sources\n"
@@ -47,6 +53,12 @@ LABELS = {
         "tags": "标签",
         "selected_items": "从 {total} 条内容中筛选出 {selected} 条重要资讯。",
         "empty_analyzed": "已分析 {total} 条内容，但没有达到重要性阈值的条目。",
+        "categories": {
+            "tech": "🔬 科技 / AI",
+            "geopolitics": "🌐 国际局势",
+            "disaster": "🌍 突发事件",
+            "other": "📌 其他",
+        },
         "empty_body": (
             "今日暂无重要动态，可能原因：\n"
             "- 今天关注的信息源较平静\n"
@@ -59,6 +71,70 @@ LABELS = {
         ),
     },
 }
+
+
+# Category buckets. Order matters: first match wins (disaster > geopolitics > tech).
+CATEGORY_ORDER = ["disaster", "geopolitics", "tech", "other"]
+
+_CATEGORY_KEYWORDS = {
+    "disaster": [
+        "earthquake", "quake", "tsunami", "flood", "hurricane", "typhoon", "cyclone",
+        "wildfire", "volcano", "eruption", "landslide", "outbreak", "pandemic",
+        "epidemic", "disaster", "famine", "drought", "storm",
+        "地震", "海啸", "洪水", "台风", "飓风", "山火", "野火", "火山", "喷发",
+        "山体", "塌方", "疫情", "瘟疫", "灾害", "暴雨", "旱灾", "饥荒",
+    ],
+    "geopolitics": [
+        "war", "conflict", "election", "sanction", "treaty", "diplomacy", "summit",
+        "military", "nato", "united nations", "putin", "trump", "biden", "gaza",
+        "ukraine", "russia", "iran", "israel", "palestine", "taiwan", "korea",
+        "geopolitic", "tariff", "trade war",
+        "战争", "冲突", "选举", "制裁", "外交", "地缘", "联合国", "北约",
+        "中美", "俄乌", "以色列", "巴勒斯坦", "伊朗", "朝鲜", "台海", "关税",
+        "军事", "政治",
+    ],
+    "tech": [
+        "ai", "ml", "llm", "gpt", "model", "release", "open source", "framework",
+        "library", "compiler", "kernel", "rust", "python", "javascript", "typescript",
+        "kubernetes", "docker", "cloud", "gpu", "cuda", "transformer", "research",
+        "paper", "benchmark", "vector", "database", "api", "sdk", "developer",
+        "programming", "software", "github", "huggingface", "anthropic", "openai",
+        "google", "meta", "deepseek", "nvidia", "apple", "microsoft",
+        "科技", "技术", "模型", "开源", "框架", "算法", "芯片", "云计算",
+        "人工智能", "机器学习", "大模型", "深度学习", "编程", "开发者",
+    ],
+}
+
+
+def _categorize(item: "ContentItem") -> str:
+    """Bucket an item into one of CATEGORY_ORDER using tags + title + source feed category."""
+    haystack_parts: List[str] = []
+    if item.ai_tags:
+        haystack_parts.extend(item.ai_tags)
+    if item.title:
+        haystack_parts.append(item.title)
+    meta = item.metadata or {}
+    for key in ("title_en", "title_zh", "feed_category", "category"):
+        v = meta.get(key)
+        if v:
+            haystack_parts.append(str(v))
+    haystack = " ".join(haystack_parts).lower()
+
+    # Source-type heuristic: github/hackernews almost always tech
+    src = getattr(item.source_type, "value", "") if item.source_type else ""
+    if src in {"github", "hackernews"}:
+        # still let an explicit disaster/geopolitics keyword override
+        for cat in ("disaster", "geopolitics"):
+            if any(kw in haystack for kw in _CATEGORY_KEYWORDS[cat]):
+                return cat
+        return "tech"
+
+    for cat in CATEGORY_ORDER:
+        if cat == "other":
+            continue
+        if any(kw in haystack for kw in _CATEGORY_KEYWORDS[cat]):
+            return cat
+    return "other"
 
 
 class DailySummarizer:
@@ -98,20 +174,33 @@ class DailySummarizer:
             "---\n\n"
         )
 
-        # TOC
-        toc_entries = []
-        for i, item in enumerate(items):
-            _t = item.metadata.get(f"title_{language}") or item.title
-            t = str(_t).replace("[", "(").replace("]", ")")
-            if language == "zh":
-                t = _pangu(t)
-            score = item.ai_score or "?"
-            toc_entries.append(f"{i + 1}. [{t}](#item-{i + 1}) \u2b50\ufe0f {score}/10")
-        toc = "\n".join(toc_entries) + "\n\n---\n\n"
+        # Group items into category buckets, preserving score order inside each bucket
+        buckets: Dict[str, List[ContentItem]] = {cat: [] for cat in CATEGORY_ORDER}
+        for item in items:
+            buckets[_categorize(item)].append(item)
 
-        parts = [self._format_item(item, labels, language, i + 1) for i, item in enumerate(items)]
+        # Render each non-empty category as a <section> with category-specific class.
+        sections_md: List[str] = []
+        running_index = 0
+        for cat in CATEGORY_ORDER:
+            bucket = buckets[cat]
+            if not bucket:
+                continue
+            cat_label = labels["categories"][cat]
+            section_lines: List[str] = [
+                f'<section class="cat cat-{cat}" markdown="1">',
+                "",
+                f"## {cat_label} ({len(bucket)})",
+                "",
+            ]
+            for item in bucket:
+                running_index += 1
+                section_lines.append(self._format_item(item, labels, language, running_index))
+            section_lines.append("</section>")
+            section_lines.append("")
+            sections_md.append("\n".join(section_lines))
 
-        return header + toc + "".join(parts)
+        return header + "\n".join(sections_md)
 
     def generate_webhook_overview(
         self,
@@ -213,11 +302,18 @@ class DailySummarizer:
             if discussion_url != url:
                 source_line += f' · [{labels["discussion"]}]({discussion_url})'
 
+        # Each item is a collapsible card. Use kramdown's markdown="1" so the
+        # inner Markdown is still processed.
+        score_str = str(score)
         lines = [
             f'<a id="item-{index}"></a>',
-            f"## [{title}]({url}) \u2b50\ufe0f {score}/10",  # ⭐️
+            f'<details class="hz-item" data-score="{score_str}" markdown="1">',
+            f'<summary><span class="hz-item-title">{title}</span>'
+            f' <span class="hz-item-score">⭐️ {score_str}/10</span></summary>',
             "",
             summary,
+            "",
+            f'🔗 [{labels["source"]}]({url})',
             "",
             source_line,
         ]
@@ -244,9 +340,10 @@ class DailySummarizer:
             lines.append(f"**{labels['tags']}**: {tags_str}")
 
         lines.append("")
-        lines.append("---")
+        lines.append("</details>")
+        lines.append("")
 
-        return "\n".join(lines) + "\n\n"
+        return "\n".join(lines) + "\n"
 
     def _generate_empty_summary(self, date: str, total_fetched: int, labels: dict) -> str:
         """Generate summary when no high-scoring items were found."""

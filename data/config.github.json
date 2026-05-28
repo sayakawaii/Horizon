@@ -61,6 +61,30 @@
         "url": "https://huggingface.co/blog/feed.xml",
         "enabled": true,
         "category": "ai"
+      },
+      {
+        "name": "BBC World",
+        "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+        "enabled": true,
+        "category": "geopolitics"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/xml/rss/all.xml",
+        "enabled": true,
+        "category": "geopolitics"
+      },
+      {
+        "name": "USGS Earthquakes (M2.5+ past day)",
+        "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.atom",
+        "enabled": true,
+        "category": "disaster"
+      },
+      {
+        "name": "WHO Disease Outbreak News",
+        "url": "https://www.who.int/feeds/entity/csr/don/en/rss.xml",
+        "enabled": true,
+        "category": "disaster"
       }
     ],
     "reddit": {
@@ -94,7 +118,7 @@
     }
   },
   "filtering": {
-    "ai_score_threshold": 6.0,
+    "ai_score_threshold": 7.0,
     "time_window_hours": 48
   },
   "webhook": {
