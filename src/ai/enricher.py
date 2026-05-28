@@ -198,6 +198,12 @@ class ContentEnricher:
             return
 
         # Combine structured sub-fields into per-language detailed_summary
+        # Persist AI-chosen category if valid
+        valid_cats = {"tech", "geopolitics", "disaster", "finance", "science", "other"}
+        cat = result.get("category")
+        if isinstance(cat, str) and cat.strip().lower() in valid_cats:
+            item.metadata["category"] = cat.strip().lower()
+
         for lang in ("en", "zh"):
             if result.get(f"title_{lang}"):
                 val = result[f"title_{lang}"]

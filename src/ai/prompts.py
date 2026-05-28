@@ -111,6 +111,14 @@ Provide EACH text field in BOTH English and Chinese. Use the following key namin
 - background_en / background_zh
 - community_discussion_en / community_discussion_zh
 
+Also pick exactly ONE category for the news. Use the key `category` with one of these values:
+- "tech"         — software, AI/ML, research papers, open source, hardware, startups, developer tools
+- "geopolitics"  — international relations, wars, elections, sanctions, diplomacy, trade policy, military
+- "disaster"     — earthquakes, floods, hurricanes, wildfires, volcanic eruptions, disease outbreaks, pandemics, large-scale accidents
+- "finance"      — markets, macroeconomics, central banks, major company financials, crypto markets
+- "science"      — physics, biology, space, climate research (non-disaster), medicine research
+- "other"        — anything that does not clearly fit the above
+
 Field definitions:
 0. **title** (one short phrase, ≤15 words): A clear, accurate headline for the news item.
 
@@ -156,6 +164,7 @@ CONTENT_ENRICHMENT_USER = """Provide a structured bilingual analysis for the fol
 
 Respond with valid JSON only. Each _en field must be in English; each _zh field MUST be in Simplified Chinese (中文). Every field MUST be at least one complete sentence (except community_discussion fields when no comments exist):
 {{
+  "category": "<one of: tech | geopolitics | disaster | finance | science | other>",
   "title_en": "<short headline in English, ≤15 words>",
   "title_zh": "<用中文写一个简短标题，不超过15个词>",
   "whats_new_en": "<1-2 sentences in English>",

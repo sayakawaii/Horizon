@@ -31,6 +31,8 @@ LABELS = {
             "tech": "🔬 Tech & AI",
             "geopolitics": "🌐 Geopolitics",
             "disaster": "🌍 Breaking & Disasters",
+            "finance": "💹 Finance & Markets",
+            "science": "🧪 Science",
             "other": "📌 Other",
         },
         "empty_body": (
@@ -57,6 +59,8 @@ LABELS = {
             "tech": "🔬 科技 / AI",
             "geopolitics": "🌐 国际局势",
             "disaster": "🌍 突发事件",
+            "finance": "💹 财经 / 市场",
+            "science": "🧪 科学",
             "other": "📌 其他",
         },
         "empty_body": (
@@ -74,7 +78,7 @@ LABELS = {
 
 
 # Category buckets. Order matters: first match wins (disaster > geopolitics > tech).
-CATEGORY_ORDER = ["disaster", "geopolitics", "tech", "other"]
+CATEGORY_ORDER = ["disaster", "geopolitics", "finance", "science", "tech", "other"]
 
 _CATEGORY_KEYWORDS = {
     "disaster": [
@@ -107,13 +111,20 @@ _CATEGORY_KEYWORDS = {
 
 
 def _categorize(item: "ContentItem") -> str:
-    """Bucket an item into one of CATEGORY_ORDER using tags + title + source feed category."""
+    """Bucket an item into one of CATEGORY_ORDER.
+
+    Preference: AI-supplied `metadata['category']` > keyword heuristic.
+    """
+    meta = item.metadata or {}
+    ai_cat = meta.get("category")
+    if isinstance(ai_cat, str) and ai_cat.strip().lower() in CATEGORY_ORDER:
+        return ai_cat.strip().lower()
+
     haystack_parts: List[str] = []
     if item.ai_tags:
         haystack_parts.extend(item.ai_tags)
     if item.title:
         haystack_parts.append(item.title)
-    meta = item.metadata or {}
     for key in ("title_en", "title_zh", "feed_category", "category"):
         v = meta.get(key)
         if v:
