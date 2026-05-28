@@ -113,16 +113,17 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 0.6em;
 }
 
-/* --- Collapsible References --- */
+/* --- Collapsible References (used for sources block, not the main item card) --- */
 .main-content details {
-  border: 1px solid var(--hz-border);
+  border: none;
   border-radius: 4px;
-  margin: 0.8em 0;
+  margin: 0.6em 0;
+  background: transparent;
 }
 
 .main-content details summary {
   cursor: pointer;
-  padding: 0.4em 0.8em;
+  padding: 0.4em 0;
   font-weight: 600;
   color: var(--hz-text-muted);
 }
@@ -188,4 +189,124 @@ h1, h2, h3, h4, h5, h6 {
 
 .lang-section.hidden {
   display: none;
+}
+
+/* ===== Mobile: use full screen width ===== */
+@media (max-width: 768px) {
+  .page-header {
+    padding: 2rem 0.8rem !important;
+  }
+  .main-content {
+    max-width: 100% !important;
+    padding: 1rem 0.6rem !important;
+    font-size: 16px;
+  }
+  .site-footer {
+    padding: 1rem 0.6rem !important;
+  }
+}
+
+/* ===== Category Sections (warm pastel backgrounds, no hard border) ===== */
+.main-content section.cat {
+  border: none;
+  border-radius: 12px;
+  padding: 1em 1.1em 0.4em;
+  margin: 1.4em 0;
+}
+.main-content section.cat > h2 {
+  margin-top: 0.2em;
+  border-bottom: 1px dashed rgba(0,0,0,0.08);
+  padding-bottom: 0.3em;
+}
+.cat-tech        { background: #fff8e8; }   /* warm cream */
+.cat-geopolitics { background: #fff1e0; }   /* warm peach */
+.cat-disaster    { background: #ffe6dc; }   /* soft coral */
+.cat-other       { background: #fdf6ec; }   /* pale parchment */
+
+@media (prefers-color-scheme: dark) {
+  .cat-tech        { background: #2a2535; }
+  .cat-geopolitics { background: #2f2532; }
+  .cat-disaster    { background: #33252b; }
+  .cat-other       { background: #262131; }
+  .main-content section.cat > h2 { border-bottom-color: rgba(255,255,255,0.08); }
+}
+
+@media (max-width: 768px) {
+  .main-content section.cat {
+    border-radius: 0;
+    margin: 1em -0.6em;     /* bleed to screen edges */
+    padding: 0.8em 0.6em 0.2em;
+  }
+}
+
+/* ===== Collapsible item cards (borderless, soft) ===== */
+.main-content details.hz-item {
+  background: rgba(255,255,255,0.55);
+  border: none;
+  border-radius: 8px;
+  margin: 0.55em 0;
+  padding: 0;
+  box-shadow: none;
+  transition: background 0.15s ease;
+}
+.main-content details.hz-item[open] {
+  background: rgba(255,255,255,0.78);
+}
+.main-content details.hz-item > summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 0.6em 0.9em;
+  font-weight: 600;
+  font-size: 1.02em;
+  color: var(--hz-text);
+  display: flex;
+  align-items: center;
+  gap: 0.55em;
+  border-radius: 8px;
+}
+.main-content details.hz-item > summary::-webkit-details-marker { display: none; }
+.main-content details.hz-item > summary::before {
+  content: "▸";
+  display: inline-block;
+  color: var(--hz-accent);
+  transition: transform 0.15s ease;
+  font-size: 0.9em;
+}
+.main-content details.hz-item[open] > summary::before { transform: rotate(90deg); }
+.main-content details.hz-item > summary:hover { background: rgba(0,0,0,0.04); }
+
+.hz-item-title { flex: 1; line-height: 1.35; }
+.hz-item-score {
+  font-family: monospace;
+  font-size: 0.78em;
+  font-weight: 700;
+  padding: 0.1em 0.55em;
+  border-radius: 4px;
+  color: #fff;
+  background: var(--hz-accent);
+  white-space: nowrap;
+}
+.main-content details.hz-item[data-score="9"]  .hz-item-score,
+.main-content details.hz-item[data-score^="10"] .hz-item-score { background: #be185d; }
+.main-content details.hz-item[data-score="8"]  .hz-item-score,
+.main-content details.hz-item[data-score="7"]  .hz-item-score { background: #e0652e; }
+
+.main-content details.hz-item[open] > *:not(summary) {
+  padding-left: 0.95em;
+  padding-right: 0.95em;
+}
+.main-content details.hz-item[open] > *:last-child { padding-bottom: 0.8em; }
+
+@media (prefers-color-scheme: dark) {
+  .main-content details.hz-item          { background: rgba(255,255,255,0.04); }
+  .main-content details.hz-item[open]    { background: rgba(255,255,255,0.07); }
+  .main-content details.hz-item > summary:hover { background: rgba(255,255,255,0.06); }
+}
+
+@media (max-width: 768px) {
+  .main-content details.hz-item > summary { padding: 0.65em 0.7em; font-size: 1em; }
+  .main-content details.hz-item[open] > *:not(summary) {
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+  }
 }
