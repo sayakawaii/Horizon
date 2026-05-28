@@ -206,78 +206,62 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* ===== Category Sections (warm pastel backgrounds, no hard border) ===== */
+/* ===== Category Sections (single warm-white, distinguish by heading + spacing) ===== */
 .main-content section.cat {
   border: none;
-  border-radius: 12px;
-  padding: 1em 1.1em 0.4em;
-  margin: 1.4em 0;
+  background: var(--hz-bg);   /* same warm parchment as page; just adds vertical grouping */
+  padding: 0.4em 0 0.6em;
+  margin: 1.8em 0;
 }
 .main-content section.cat > h2 {
-  margin-top: 0.2em;
-  border-bottom: 1px dashed rgba(0,0,0,0.08);
-  padding-bottom: 0.3em;
+  margin: 0 0 0.6em;
+  padding: 0 0 0.3em;
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+  font-size: 1.25em;
+  color: var(--hz-text-muted);
+  font-weight: 700;
+  letter-spacing: 0.02em;
 }
-.cat-tech        { background: #fff8e8; }   /* warm cream */
-.cat-geopolitics { background: #fff1e0; }   /* warm peach */
-.cat-disaster    { background: #ffe6dc; }   /* soft coral */
-.cat-finance     { background: #fdf3e0; }   /* warm honey */
-.cat-science     { background: #fbeed4; }   /* pale amber */
-.cat-other       { background: #fdf6ec; }   /* pale parchment */
 
 @media (prefers-color-scheme: dark) {
-  .cat-tech        { background: #2a2535; }
-  .cat-geopolitics { background: #2f2532; }
-  .cat-disaster    { background: #33252b; }
-  .cat-finance     { background: #2e2630; }
-  .cat-science     { background: #2c2733; }
-  .cat-other       { background: #262131; }
   .main-content section.cat > h2 { border-bottom-color: rgba(255,255,255,0.08); }
 }
 
-@media (max-width: 768px) {
-  .main-content section.cat {
-    border-radius: 0;
-    margin: 1em -0.6em;     /* bleed to screen edges */
-    padding: 0.8em 0.6em 0.2em;
-  }
-}
-
-/* ===== Collapsible item cards (borderless, soft) ===== */
+/* ===== Collapsible item cards (soft warm tint, no border, no shadow) ===== */
 .main-content details.hz-item {
-  background: rgba(255,255,255,0.55);
+  background: #f6f2ea;        /* a hair warmer than page bg for subtle card feel */
   border: none;
-  border-radius: 8px;
-  margin: 0.55em 0;
+  border-radius: 6px;
+  margin: 0.5em 0;
   padding: 0;
   box-shadow: none;
   transition: background 0.15s ease;
 }
 .main-content details.hz-item[open] {
-  background: rgba(255,255,255,0.78);
+  background: #f1ece2;
 }
 .main-content details.hz-item > summary {
   cursor: pointer;
   list-style: none;
-  padding: 0.6em 0.9em;
+  padding: 0.65em 0.9em;
   font-weight: 600;
   font-size: 1.02em;
   color: var(--hz-text);
   display: flex;
   align-items: center;
   gap: 0.55em;
-  border-radius: 8px;
+  border-radius: 6px;
 }
 .main-content details.hz-item > summary::-webkit-details-marker { display: none; }
 .main-content details.hz-item > summary::before {
   content: "▸";
   display: inline-block;
-  color: var(--hz-accent);
+  color: var(--hz-text-muted);
   transition: transform 0.15s ease;
-  font-size: 0.9em;
+  font-size: 0.85em;
 }
 .main-content details.hz-item[open] > summary::before { transform: rotate(90deg); }
-.main-content details.hz-item > summary:hover { background: rgba(0,0,0,0.04); }
+.main-content details.hz-item > summary:hover { background: rgba(0,0,0,0.025); }
 
 .hz-item-title { flex: 1; line-height: 1.35; }
 .hz-item-score {
@@ -302,15 +286,27 @@ h1, h2, h3, h4, h5, h6 {
 .main-content details.hz-item[open] > *:last-child { padding-bottom: 0.8em; }
 
 @media (prefers-color-scheme: dark) {
-  .main-content details.hz-item          { background: rgba(255,255,255,0.04); }
-  .main-content details.hz-item[open]    { background: rgba(255,255,255,0.07); }
-  .main-content details.hz-item > summary:hover { background: rgba(255,255,255,0.06); }
+  .main-content details.hz-item          { background: rgba(255,255,255,0.035); }
+  .main-content details.hz-item[open]    { background: rgba(255,255,255,0.06); }
+  .main-content details.hz-item > summary:hover { background: rgba(255,255,255,0.05); }
 }
 
 @media (max-width: 768px) {
+  .main-content section.cat { margin: 1.2em 0; }
   .main-content details.hz-item > summary { padding: 0.65em 0.7em; font-size: 1em; }
   .main-content details.hz-item[open] > *:not(summary) {
     padding-left: 0.7em;
     padding-right: 0.7em;
   }
 }
+
+/* ===== Reading typography (body font + line-height + paragraph rhythm) ===== */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+    "Microsoft YaHei", "Noto Sans SC", Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.main-content { font-size: 16px; line-height: 1.7; }
+.main-content p { margin-bottom: 1.1em; }
+.main-content details.hz-item p { margin-bottom: 0.9em; }
