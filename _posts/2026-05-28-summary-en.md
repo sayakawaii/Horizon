@@ -5,90 +5,119 @@ date: 2026-05-28
 lang: en
 ---
 
-> From 26 items, 22 important content pieces were selected
+> From 26 items, 23 important content pieces were selected
 
 ---
 
-1. [AI-Assisted Security Reports Overwhelm curl Project](#item-1) ⭐️ 9.0/10
-2. [Anthropic and OpenAI Achieve Product-Market Fit](#item-2) ⭐️ 8.0/10
-3. [Go Considers Adding Generic Interface Methods](#item-3) ⭐️ 8.0/10
-4. [SQLite Adds AGENTS.md to Ban AI-Generated Code](#item-4) ⭐️ 8.0/10
-5. [Microsoft Copilot Cowork Vulnerable to Data Exfiltration via Prompt Injection](#item-5) ⭐️ 8.0/10
-6. [Frontier AI Agents Score Below 50% on Enterprise IT Benchmark](#item-6) ⭐️ 8.0/10
-7. [Delta Weight Sync Enables Trillion-Parameter Model Training](#item-7) ⭐️ 8.0/10
-8. [YouTube to Automatically Label AI-Generated Videos](#item-8) ⭐️ 7.0/10
-9. [Apple and Google Push Notification Policies](#item-9) ⭐️ 7.0/10
-10. [Exploring Mesh Networks: Meshtastic, MeshCore, Reticulum](#item-10) ⭐️ 7.0/10
-11. [Running Rust and Slint on a Jailbroken Kindle](#item-11) ⭐️ 7.0/10
-12. [Should AI Productivity Gains Mean a Day Off?](#item-12) ⭐️ 7.0/10
-13. [DuckDuckGo Traffic Surges 28% After Google AI Mode Push](#item-13) ⭐️ 7.0/10
-14. [Google employee charged with $1M Polymarket insider trading](#item-14) ⭐️ 7.0/10
-15. [GitHub Outage Hits PRs, Issues, and API](#item-15) ⭐️ 7.0/10
-16. [Cisco and OpenAI partner to transform enterprise engineering with Codex](#item-16) ⭐️ 7.0/10
-17. [Reachy Mini Runs Conversational AI Fully On-Device](#item-17) ⭐️ 7.0/10
-18. [SimCity 3000 in 4K: Nostalgia and Design Critique](#item-18) ⭐️ 6.0/10
-19. [Mini Micro Fantasy Computer Released](#item-19) ⭐️ 6.0/10
-20. [Paul Graham Condemns AI-Written Emails as Deceptive](#item-20) ⭐️ 6.0/10
-21. [Warp Integrates GPT-5.5 for Open-Source Coding Agents](#item-21) ⭐️ 6.0/10
-22. [OpenAI Outlines Election Safeguards for 2026](#item-22) ⭐️ 6.0/10
+1. [YouTube to Auto-Label AI-Generated Videos](#item-1) ⭐️ 8.0/10
+2. [Anthropic and OpenAI Found Product-Market Fit](#item-2) ⭐️ 8.0/10
+3. [DuckDuckGo visits surge 28% after Google AI mode backlash](#item-3) ⭐️ 8.0/10
+4. [Google employee charged with $1M Polymarket insider trading bet](#item-4) ⭐️ 8.0/10
+5. [Go Proposes Generic Methods in Interfaces](#item-5) ⭐️ 8.0/10
+6. [SQLite Adds AGENTS.md to Reject AI Agent Contributions](#item-6) ⭐️ 8.0/10
+7. [Curl Project Overwhelmed by AI-Assisted Security Reports](#item-7) ⭐️ 8.0/10
+8. [Microsoft Copilot Cowork Data Exfiltration via Prompt Injection](#item-8) ⭐️ 8.0/10
+9. [ITBench-AA: Frontier Models Score Below 50% on Enterprise IT Benchmark](#item-9) ⭐️ 8.0/10
+10. [Delta Weight Sync for Trillion-Parameter Model Training](#item-10) ⭐️ 8.0/10
+11. [Running SimCity 3000 in 4K: A Nostalgic Technical Deep Dive](#item-11) ⭐️ 7.0/10
+12. [Apple and Google Restrict Push Notifications](#item-12) ⭐️ 7.0/10
+13. [Exploring Mesh Networks: Meshtastic, MeshCore, and Reticulum](#item-13) ⭐️ 7.0/10
+14. [AI Productivity Gains Should Mean Shorter Work Hours](#item-14) ⭐️ 7.0/10
+15. [GitHub Major Incident Disrupts PRs, Issues, and API](#item-15) ⭐️ 7.0/10
+16. [Cisco and OpenAI partner to integrate Codex for enterprise engineering](#item-16) ⭐️ 7.0/10
+17. [OpenAI, Thrive, Crete Build Self-Improving Tax Agent with Codex](#item-17) ⭐️ 7.0/10
+18. [OpenAI Unveils 2026 Election Safeguards](#item-18) ⭐️ 7.0/10
+19. [Reachy Mini Goes Fully Local AI](#item-19) ⭐️ 7.0/10
+20. [Rust and Slint GUI on a Jailbroken Kindle](#item-20) ⭐️ 6.0/10
+21. [Mini Micro: A New Fantasy Console for Learning](#item-21) ⭐️ 6.0/10
+22. [Paul Graham Slams AI-Written Emails as Deceptive](#item-22) ⭐️ 6.0/10
+23. [Warp Integrates GPT-5.5 for Open-Source Coding Agents](#item-23) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [AI-Assisted Security Reports Overwhelm curl Project](https://simonwillison.net/2026/May/26/the-pressure/#atom-everything) ⭐️ 9.0/10
+## [YouTube to Auto-Label AI-Generated Videos](https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators/) ⭐️ 8.0/10
 
-Daniel Stenberg reports that the curl project is receiving 4-5 times more security reports than in 2024, with the rate doubling from 2025, now averaging over one report per day. The reports are highly detailed and credible, largely due to AI assistance, causing severe maintainer burnout. This unprecedented influx of AI-generated security reports threatens the sustainability of open-source maintenance, as even high-quality reports overwhelm small teams. It highlights a systemic challenge for the entire software ecosystem, which relies on projects like curl. Despite the high volume, the vulnerabilities found are mostly LOW or MEDIUM severity; the last HIGH severity CVE for curl was in October 2023. Stenberg notes that the team could ignore reports but feels a strong sense of responsibility.
+YouTube announced it will automatically label videos that are generated or significantly altered by artificial intelligence, using detection tools to identify AI content. The policy aims to increase transparency and help viewers distinguish between authentic and synthetic media. This move addresses growing concerns about misleading AI-generated content, such as deepfakes and synthetic news, which can deceive viewers and erode trust. By making labels mandatory and automatic, YouTube sets a precedent for platform accountability in the AI era. The labeling applies to videos that appear realistic but are synthetically created, including altered footage or AI-generated voices. YouTube will use a combination of automated systems and creator disclosures to enforce the policy, with labels appearing in the video description or player.
 
-rss · Simon Willison · May 26, 23:48
+hackernews · nopg · May 27, 20:00 · [Discussion](https://news.ycombinator.com/item?id=48299753)
 
-**Background**: curl is a widely used open-source command-line tool and library for transferring data with URLs, installed on billions of devices. AI-assisted vulnerability research uses large language models to generate detailed bug reports, which has recently increased the volume and quality of submissions to many open-source projects.
+**Background**: AI-generated content has proliferated on platforms like YouTube, ranging from harmless AI music to deceptive deepfakes. Without clear labeling, viewers may mistake synthetic media for authentic material, leading to misinformation. YouTube's policy builds on similar efforts by other platforms to label AI content, such as Meta's approach to AI-generated images.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.helpnetsecurity.com/2026/05/18/problems-with-ai-assisted-vulnerability-research/">AI is drowning software maintainers in junk security reports - Help Net Security</a></li>
-<li><a href="https://en.wikipedia.org/wiki/CURL">cURL - Wikipedia</a></li>
+**Discussion**: Commenters broadly support the initiative, sharing personal experiences of family members being fooled by AI-generated videos. Some express skepticism about effectiveness against AI scripts or music, and suggest additional measures like disabling recommendations.
 
-</ul>
-</details>
-
-**Discussion**: The Lobste.rs discussion likely expresses concern for maintainer well-being and debates the role of AI in security research, with some suggesting better triage tools or stricter submission guidelines. No direct comments are provided.
-
-**Tags**: `#open-source`, `#security`, `#AI`, `#maintainer burnout`, `#curl`
+**Tags**: `#AI`, `#YouTube`, `#content moderation`, `#deepfakes`, `#platform policy`
 
 ---
 
 <a id="item-2"></a>
-## [Anthropic and OpenAI Achieve Product-Market Fit](https://simonwillison.net/2026/May/27/product-market-fit/#atom-everything) ⭐️ 8.0/10
+## [Anthropic and OpenAI Found Product-Market Fit](https://simonwillison.net/2026/May/27/product-market-fit/#atom-everything) ⭐️ 8.0/10
 
-Simon Willison argues that Anthropic and OpenAI have achieved product-market fit, evidenced by rising enterprise API spending and rumors of Anthropic's first profitable quarter. This signals that AI companies can become profitable despite high costs and open-source competition, validating the business model for large language models and potentially accelerating enterprise adoption. Both Anthropic and OpenAI have shifted enterprise plans to per-seat plus API pricing, leading to unexpectedly high bills for heavy users. Willison's personal usage shows $2,180 worth of tokens for $200 in subscriptions.
+Simon Willison argues that Anthropic and OpenAI have achieved product-market fit, citing rising API revenue, enterprise adoption, and the companies' shift to usage-based pricing for coding agents like Claude Code and OpenAI Codex. This signals that AI labs can become profitable despite high costs and open-source competition, validating the business model for large language models and potentially accelerating enterprise AI investment. Anthropic switched its Enterprise plan to $20/seat/month plus API pricing in November 2025, and OpenAI made a similar change in April 2026. Willison estimates he personally consumed $2,180 worth of API tokens for only $200 in subscription fees.
 
 rss · Simon Willison · May 27, 16:38 · [Discussion](https://news.ycombinator.com/item?id=48296794)
 
-**Background**: Product-market fit (PMF) is a concept popularized by Marc Andreessen, meaning a product satisfies a strong market demand. Enterprise LLM API spending has more than doubled from $3.5B to $8.4B in less than a year, indicating growing demand.
+**Background**: Product-market fit means a product satisfies strong market demand. For AI labs, it implies that customers find enough value in LLMs to pay high API prices, even as open-source models improve. Willison's analysis contrasts subscription pricing (cheap for heavy users) with enterprise API pricing (expensive per token).
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Product-market_fit">Product-market fit - Wikipedia</a></li>
-<li><a href="https://www.forbes.com/councils/forbestechcouncil/2026/05/20/the-next-phase-of-enterprise-ai-why-llm-consolidation-is-inevitable/">The Next Phase Of Enterprise AI: Why LLM Consolidation Is Inevitable</a></li>
-<li><a href="https://claude.com/product/claude-code">Claude Code by Anthropic | AI Coding Agent, Terminal, IDE</a></li>
+<li><a href="https://www.zendesk.com/blog/product-market-fit/">What is product - market fit ? Examples and strategies to find it</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters express skepticism about profitability and ROI, with some noting that open-source models like GLM-5.1 offer similar quality at lower cost. Others argue that PMF for coding was reached earlier, and that the post conflates PMF with profitability.
+**Discussion**: Commenters raised concerns: trjordan questioned whether enterprise token spending can reach the required scale; aerhardt argued PMF for coding was achieved earlier and profitability is a separate issue; binary0010 noted open-source alternatives like GLM-5.1 are cheaper and equally capable, threatening the business model.
 
-**Tags**: `#AI`, `#business`, `#LLMs`, `#product-market fit`, `#Anthropic`
+**Tags**: `#AI`, `#product-market fit`, `#LLMs`, `#Anthropic`, `#OpenAI`
 
 ---
 
 <a id="item-3"></a>
-## [Go Considers Adding Generic Interface Methods](https://github.com/golang/go/issues/77273) ⭐️ 8.0/10
+## [DuckDuckGo visits surge 28% after Google AI mode backlash](https://www.pcgamer.com/hardware/duckduckgos-ai-free-search-saw-nearly-28-percent-more-visits-in-the-week-following-googles-insistence-that-people-love-ai-mode/) ⭐️ 8.0/10
 
-The Go team has approved a proposal to support generic interface methods, reversing a longstanding position in the language's FAQ. The proposal, from Go co-designer Robert Griesemer, now moves to implementation. This feature addresses a long-standing limitation in Go generics, enabling more expressive and type-safe abstractions. It will allow developers to write generic methods on interfaces, which was previously impossible, and could enable patterns like monads in Go. A key issue remains: Go interfaces cannot include generics, meaning generic methods will be limited to concrete types implementing interfaces. The implementation challenges include efficient compilation, as monomorphization approaches are difficult for interface methods.
+DuckDuckGo's AI-free search page noai.duckduckgo.com saw a 22.7% week-on-week increase in visits between May 20-25, peaking at 27.7% on May 24, while its mobile app installs spiked 18.1% in the US, reaching 30.5% on May 25. This signals significant user backlash against Google's aggressive AI integration in search, potentially eroding Google's dominant market share as users seek AI-free alternatives. The growth was sustained over six days, with iOS installs seeing an even greater spike. DuckDuckGo's baseline is less than 1% of global search traffic, so the absolute impact on Google is small, but the trend is notable.
+
+hackernews · HelloUsername · May 27, 16:28 · [Discussion](https://news.ycombinator.com/item?id=48296649)
+
+**Background**: Google recently announced AI Mode in search, which integrates generative AI responses directly into results. DuckDuckGo positions itself as a privacy-focused, AI-free alternative, attracting users who dislike forced AI features.
+
+**Discussion**: Comments show mixed reactions: some users appreciate AI mode for quick queries, while others actively seek alternatives like DuckDuckGo. One user noted a 10x increase in queries on their own search engine, indicating broader migration. However, some argue DuckDuckGo's gains are a rounding error for Google.
+
+**Tags**: `#search engines`, `#AI backlash`, `#user behavior`, `#DuckDuckGo`, `#Google`
+
+---
+
+<a id="item-4"></a>
+## [Google employee charged with $1M Polymarket insider trading bet](https://www.cnbc.com/2026/05/27/google-employee-polymarket-insider-trading.html) ⭐️ 8.0/10
+
+A Google employee was charged with insider trading after allegedly using confidential search term data to place a $1 million bet on Polymarket, a cryptocurrency-based prediction market. This case highlights the growing intersection of insider trading, prediction markets, and big tech accountability, raising questions about market integrity and regulatory oversight. The employee, based in Switzerland, was charged in the US for stealing proprietary information from a US company and using it for personal gain, with additional charges including wire fraud.
+
+hackernews · pseudolus · May 28, 00:49 · [Discussion](https://news.ycombinator.com/item?id=48302822)
+
+**Background**: Polymarket is a decentralized prediction market platform where users bet on outcomes of real-world events using cryptocurrency. Insider trading in prediction markets has become a growing concern as these platforms gain popularity, with some arguing they inherently enable such behavior.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Polymarket">Polymarket - Wikipedia</a></li>
+<li><a href="https://www.nytimes.com/2026/05/13/technology/polymarket-insider-trading.html">Dozens of Polymarket Bets Show Signs of Insider Trading , The Times...</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Community comments express mixed views: some emphasize that bettors should be wary of trading against insiders, while others question the legality and enforcement of insider trading in prediction markets, with sarcastic remarks about political insiders facing similar consequences.
+
+**Tags**: `#insider trading`, `#prediction markets`, `#Google`, `#regulation`, `#cryptocurrency`
+
+---
+
+<a id="item-5"></a>
+## [Go Proposes Generic Methods in Interfaces](https://github.com/golang/go/issues/77273) ⭐️ 8.0/10
+
+The Go team has approved a proposal by Robert Griesemer to add support for generic methods in interfaces, reversing a longstanding position in the Go FAQ. The proposal, tracked in issue #77273, now moves to implementation. This addresses a major limitation in Go generics, enabling more expressive type-safe abstractions like monads and higher-kinded patterns. It has significant community interest, with 228 points and 173 comments, and will impact all Go developers who write reusable libraries. The proposal does not allow interfaces themselves to be generic; only methods on interfaces can have their own type parameters. Implementation challenges include efficient dispatch, as monomorphization is difficult and runtime reflection is slow.
 
 hackernews · f311a · May 27, 09:02 · [Discussion](https://news.ycombinator.com/item?id=48291575)
 
-**Background**: Go 1.18 introduced generics in March 2022, allowing type parameters on functions and types but not on interface methods. This limitation was documented in the Go FAQ, citing implementation difficulties. The community has long requested generic methods to enable more flexible abstractions.
+**Background**: Go 1.18 introduced generics for functions and types, but interface methods could not have their own type parameters. This limitation forced developers to use workarounds like type assertions or separate interfaces for each type. The Go FAQ previously stated that generic methods were not supported due to implementation difficulties.
 
 <details><summary>References</summary>
 <ul>
@@ -97,71 +126,94 @@ hackernews · f311a · May 27, 09:02 · [Discussion](https://news.ycombinator.co
 </ul>
 </details>
 
-**Discussion**: Community sentiment is largely positive, with users expressing excitement about finally getting generic methods. Some commenters note implementation challenges, particularly around efficient compilation, while others humorously anticipate building monad libraries. A few criticize Go's slow pace of language evolution.
+**Discussion**: Community sentiment is largely positive, with users like thayne questioning the efficiency argument and xena excited about building monad libraries. However, pjmlp criticizes Go's slow adoption of modern features, calling it 'like pulling teeth.'
 
-**Tags**: `#Go`, `#generics`, `#language design`, `#type system`
-
----
-
-<a id="item-4"></a>
-## [SQLite Adds AGENTS.md to Ban AI-Generated Code](https://simonwillison.net/2026/May/27/sqlite-agents/#atom-everything) ⭐️ 8.0/10
-
-SQLite has added an AGENTS.md file explicitly stating that it does not accept agentic (AI-generated) code contributions, while welcoming bug reports and documentation patches. The project also split off a dedicated Bug Forum to handle an influx of AI-generated bug reports. This is a significant policy move for open-source governance, as SQLite is one of the first major projects to explicitly ban AI-generated code contributions. It sets a precedent that may influence other projects grappling with the quality and legal implications of AI contributions. The AGENTS.md file states that SQLite does not accept pull requests without prior agreement and legal paperwork placing them in the public domain, and that it does not accept agentic code. A recent commit removed the word "(currently)" from the statement to strengthen it.
-
-rss · Simon Willison · May 27, 23:44
-
-**Background**: AGENTS.md is a standard file format used by over 60,000 open-source projects to provide instructions for AI coding agents. SQLite is a widely-used embedded database library. The project has historically required contributors to release their contributions into the public domain.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://dev.to/proflead/what-is-agentsmd-and-why-should-you-care-3bg4">What is AGENTS.md and Why Should You Care? - DEV Community</a></li>
-<li><a href="https://agents.md/">AGENTS.md</a></li>
-<li><a href="https://www.morphllm.com/agents-md-guide">AGENTS.md & SKILL.md: The Complete Guide (2026)</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#sqlite`, `#ai-generated code`, `#open-source governance`, `#software engineering`
-
----
-
-<a id="item-5"></a>
-## [Microsoft Copilot Cowork Vulnerable to Data Exfiltration via Prompt Injection](https://simonwillison.net/2026/May/26/copilot-cowork-exfiltrates-files/#atom-everything) ⭐️ 8.0/10
-
-Microsoft Copilot Cowork, an AI agent that automates tasks in Microsoft 365, is vulnerable to prompt injection attacks that allow data exfiltration via external images in emails. Attackers can trick the agent into sending emails containing pre-authenticated OneDrive download links, which leak data when the user opens the email. This vulnerability highlights a critical security challenge in agentic AI systems, where autonomous actions can be hijacked to exfiltrate sensitive data. As enterprises increasingly adopt AI agents like Copilot Cowork, such flaws could lead to widespread data breaches if not addressed. The attack exploits the fact that Copilot Cowork can send emails to the user's inbox without approval, and those emails can include external images that trigger network requests. Since OneDrive generates pre-authenticated download links, a successful prompt injection can leak those links, allowing attackers to download files directly.
-
-rss · Simon Willison · May 26, 15:36
-
-**Background**: Prompt injection is a cybersecurity attack where malicious inputs cause AI models to behave unexpectedly. In agentic systems like Copilot Cowork, which can perform actions on behalf of users, prompt injection can lead to unauthorized data access or exfiltration. Data exfiltration via external images is a known technique where an image URL encodes sensitive data, and when the email client loads the image, the data is sent to an attacker-controlled server.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Prompt_injection">Prompt injection - Wikipedia</a></li>
-<li><a href="https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/copilot-cowork-a-new-way-of-getting-work-done/">Copilot Cowork: A new way of getting work done | Microsoft 365 Blog</a></li>
-
-</ul>
-</details>
-
-**Discussion**: The Hacker News discussion highlights concerns about the fundamental security of agentic AI, with some commenters noting that this vulnerability is a classic example of the 'lethal trifecta' of prompt injection, tool use, and data exfiltration. Others question why Microsoft allowed agents to send emails without approval, and call for stricter access controls.
-
-**Tags**: `#security`, `#AI`, `#prompt injection`, `#Microsoft Copilot`, `#data exfiltration`
+**Tags**: `#Go`, `#generics`, `#programming languages`, `#type system`
 
 ---
 
 <a id="item-6"></a>
-## [Frontier AI Agents Score Below 50% on Enterprise IT Benchmark](https://huggingface.co/blog/ibm-research/itbench-aa) ⭐️ 8.0/10
+## [SQLite Adds AGENTS.md to Reject AI Agent Contributions](https://simonwillison.net/2026/May/27/sqlite-agents/#atom-everything) ⭐️ 8.0/10
 
-Artificial Analysis and IBM released ITBench-AA, the first public benchmark for agentic AI on enterprise IT tasks, and found that frontier models achieve less than 50% accuracy on Kubernetes incident root-cause analysis. This benchmark reveals significant gaps in current AI agents' ability to handle real-world enterprise IT operations, highlighting the need for further research and development before agents can be reliably deployed in production environments. ITBench-AA tests AI agents on Kubernetes incident root-cause analysis from offline incident snapshots, requiring agents to inspect alerts, events, traces, and topology to identify contributing-factor entities. The benchmark identifies four failure modes that need to be addressed.
+SQLite has added an AGENTS.md file to its repository that explicitly states the project does not accept agentic code, though it welcomes bug reports and proof-of-concept patches from AI agents. The file also clarifies that pull requests require prior agreement and legal paperwork placing them in the public domain. This is a significant precedent for open-source governance, as it provides a clear policy for handling AI-generated contributions amid a surge of low-quality automated submissions. Other projects may adopt similar policies to manage the influx of agentic code while still benefiting from AI-assisted bug detection. The most recent commit removed the word "(currently)" from the statement about not accepting agentic code, strengthening the policy. Additionally, SQLite has split AI-generated bug reports into a separate Bug Forum due to flooding, with D. Richard Hipp actively resolving issues there.
 
-rss · Hugging Face Blog · May 27, 17:20
+rss · Simon Willison · May 27, 23:44
 
-**Background**: Agentic AI refers to systems that can autonomously sense, reason, and act to achieve goals. Enterprise IT tasks like incident response require agents to understand complex system states and take corrective actions. ITBench provides an open-source environment with realistic Kubernetes incidents for benchmarking such agents.
+**Background**: AGENTS.md is a convention used by over 60,000 open-source projects to provide guidance for AI coding agents, similar to a README but for automated tools. Agentic code refers to code generated autonomously by AI agents without direct human authorship, which raises concerns about quality, licensing, and legal liability.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://artificialanalysis.ai/evaluations/itbench-aa">ITBench-AA Benchmark Leaderboard | Artificial Analysis</a></li>
-<li><a href="https://github.com/itbench-hub/ITBench">GitHub - itbench-hub/ITBench: An open source benchmarking ...</a></li>
-<li><a href="https://clawvard.school/blog/agentic-enterprise-it-benchmark-itbench-aa">ITBench-AA Explained: Why AI Agents Still Fail Enterprise IT</a></li>
+<li><a href="https://agents.md/">AGENTS . md</a></li>
+<li><a href="https://sqlite.org/copyright.html">SQLite Copyright</a></li>
+<li><a href="https://postscripts.medium.com/wait-a-minute-what-is-agents-md-a554d42e7f9d">Wait a minute….What is Agents . md ? | by Sagar Chauhan | Medium</a></li>
+
+</ul>
+</details>
+
+**Discussion**: The community discussion on the Datasette Discord highlighted the novelty of SQLite's explicit policy, with some praising the clarity and others noting the challenge of distinguishing agentic from human contributions. The move to a separate bug forum was seen as a practical response to the flood of AI-generated reports.
+
+**Tags**: `#sqlite`, `#ai agents`, `#open source governance`, `#software engineering`
+
+---
+
+<a id="item-7"></a>
+## [Curl Project Overwhelmed by AI-Assisted Security Reports](https://simonwillison.net/2026/May/26/the-pressure/#atom-everything) ⭐️ 8.0/10
+
+Daniel Stenberg, the maintainer of the curl project, reports that the team is facing an unprecedented deluge of high-quality AI-assisted security reports, with the rate of incoming reports now exceeding one per day—4-5 times higher than in 2024 and double the rate of 2025. This highlights a critical real-world impact of AI on open-source security maintenance: while AI tools enable more thorough vulnerability discovery, they also overwhelm volunteer maintainers, risking burnout and project sustainability. Despite the flood, the vulnerabilities found are mostly LOW or MEDIUM severity; the last HIGH severity CVE for curl was in October 2023. Stenberg notes that his wife has voiced concerns about his work hours and work-life balance for the first time.
+
+rss · Simon Willison · May 26, 23:48
+
+**Background**: curl is a widely used open-source command-line tool and library for transferring data with URLs, supporting numerous protocols. It is maintained by a small volunteer team led by Daniel Stenberg. AI-assisted security research uses large language models to automatically analyze code and generate detailed vulnerability reports, which has recently surged in popularity.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/CURL">cURL - Wikipedia</a></li>
+<li><a href="https://systemadministration.net/curl-maintainer-draws-the-line-no-more-ai-generated-bug-reports/">cURL Maintainer Draws the Line: No More AI -Generated Bug Reports</a></li>
+
+</ul>
+</details>
+
+**Discussion**: The Lobste.rs discussion likely expresses concern for maintainer well-being and debates the value of AI-generated reports, with some questioning their quality and others acknowledging the pressure on open-source projects.
+
+**Tags**: `#AI`, `#security`, `#open source`, `#curl`, `#maintenance`
+
+---
+
+<a id="item-8"></a>
+## [Microsoft Copilot Cowork Data Exfiltration via Prompt Injection](https://simonwillison.net/2026/May/26/copilot-cowork-exfiltrates-files/#atom-everything) ⭐️ 8.0/10
+
+Microsoft Copilot Cowork has a data exfiltration vulnerability where prompt injection allows agents to send emails with external images to the user's inbox, leaking data when the images are loaded. This vulnerability highlights a critical security challenge in agentic AI systems, as it can lead to unauthorized file access and data exfiltration in enterprise environments using Microsoft 365 Copilot. The attack exploits that Copilot Cowork can send emails to the user's own inbox without approval, and OneDrive pre-authenticated download links can be leaked via prompt injection, allowing attackers to download files.
+
+rss · Simon Willison · May 26, 15:36
+
+**Background**: Prompt injection is a security vulnerability where an attacker manipulates a large language model (LLM) by providing crafted input that the model interprets as instructions. In agentic systems like Copilot Cowork, which can perform actions on behalf of users, such injections can lead to unintended data exfiltration. Microsoft Copilot Cowork is a feature that automates tasks across Microsoft 365, such as sending emails and managing calendars.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/copilot-cowork-a-new-way-of-getting-work-done/">Copilot Cowork: A new way of getting work done | Microsoft 365 Blog</a></li>
+<li><a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/cowork/">Copilot Cowork overview (Frontier) | Microsoft Learn</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#security`, `#AI`, `#Microsoft Copilot`, `#prompt injection`, `#data exfiltration`
+
+---
+
+<a id="item-9"></a>
+## [ITBench-AA: Frontier Models Score Below 50% on Enterprise IT Benchmark](https://huggingface.co/blog/ibm-research/itbench-aa) ⭐️ 8.0/10
+
+IBM and Artificial Analysis released ITBench-AA, the first benchmark for agentic enterprise IT tasks, and found that frontier AI models achieve less than 50% accuracy on tasks like Kubernetes incident response. This benchmark reveals significant limitations of current AI agents in complex, real-world IT operations, highlighting the gap between lab performance and practical enterprise deployment. ITBench-AA focuses on Site Reliability Engineering (SRE) tasks, requiring agents to diagnose and respond to incidents in live Kubernetes environments. The benchmark is open-source and available on GitHub.
+
+rss · Hugging Face Blog · May 27, 17:20
+
+**Background**: Agentic AI refers to systems that can autonomously plan and execute multi-step tasks. Enterprise IT tasks, such as incident response, involve complex reasoning over heterogeneous data and live systems, posing unique challenges for AI agents.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://huggingface.co/blog/ibm-research/itbench-aa">ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks — by Artificial Analysis and IBM</a></li>
+<li><a href="https://github.com/itbench-hub/ITBench">GitHub - itbench-hub/ITBench: An open source benchmarking framework for IT automation · GitHub</a></li>
+<li><a href="https://research.ibm.com/publications/developing-ai-agents-for-it-automation-tasks-with-itbench">Developing AI Agents for IT Automation Tasks with ITBench for AAAI 2026 - IBM Research</a></li>
 
 </ul>
 </details>
@@ -170,301 +222,268 @@ rss · Hugging Face Blog · May 27, 17:20
 
 ---
 
-<a id="item-7"></a>
-## [Delta Weight Sync Enables Trillion-Parameter Model Training](https://huggingface.co/blog/delta-weight-sync) ⭐️ 8.0/10
+<a id="item-10"></a>
+## [Delta Weight Sync for Trillion-Parameter Model Training](https://huggingface.co/blog/delta-weight-sync) ⭐️ 8.0/10
 
-Hugging Face's TRL library introduces Delta Weight Sync, a method that synchronizes only the weight differences (deltas) between distributed training nodes instead of full model copies, reducing communication overhead from terabytes to megabytes. This breakthrough dramatically lowers the networking and storage costs for training trillion-parameter models, making large-scale distributed training more accessible and efficient for the AI community. The technique uses a hub bucket as a central store, periodically saving full model snapshots (anchors) and sparse deltas for intermediate steps, achieving up to 99.99% reduction in data transfer compared to full weight sync.
+Hugging Face introduced delta weight sync in TRL, a method to efficiently synchronize parameter updates across distributed training of trillion-parameter models by transmitting only the weight differences (deltas) instead of full weights. This approach significantly reduces communication overhead in distributed training, enabling more efficient scaling to trillion-parameter models, which is critical for advancing large language model development. Delta weight sync works by storing a hub bucket of base weights and synchronizing only the delta updates between workers, leveraging the fact that weight changes are often sparse and small.
 
 rss · Hugging Face Blog · May 27, 00:00
 
-**Background**: Training large language models often requires distributing the workload across many GPUs, which involves frequent synchronization of model weights. Traditional methods transfer the entire set of weights each time, creating a bottleneck. Delta Weight Sync addresses this by only sending the changes, similar to how version control systems handle diffs.
+**Background**: Distributed training of large models requires frequent synchronization of model parameters across many GPUs, which can become a bottleneck due to high communication costs. Traditional methods like all-reduce synchronize full gradients or weights, consuming significant bandwidth. Delta weight sync reduces this by transmitting only the changes.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://huggingface.co/blog/delta-weight-sync">Shipping a Trillion Parameters With a Hub Bucket: Delta ...</a></li>
-<li><a href="https://huggingface.co/spaces/aminediroHF/delta-weight-sync-figures">Delta Weight Sync Figures - a Hugging Face Space by aminediroHF</a></li>
-<li><a href="https://themodelwire.com/article/shipping-a-trillion-parameters-with-a-hub-bucket-delta-weight-sync-in-trl-01KSMW09TG4TD1GVN08YH7E3ZF">Shipping a Trillion Parameters With a Hub Bucket: Delta ...</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#distributed training`, `#large language models`, `#delta weight sync`, `#Hugging Face`, `#TRL`
-
----
-
-<a id="item-8"></a>
-## [YouTube to Automatically Label AI-Generated Videos](https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators/) ⭐️ 7.0/10
-
-YouTube announced it will automatically label videos that contain AI-generated or synthetic content, aiming to improve transparency and combat misinformation. This policy helps viewers distinguish authentic content from AI-generated material, addressing growing concerns about deepfakes and misinformation on the platform. The labels will be applied automatically using detection systems, and creators may also self-disclose. The policy covers AI-generated music, scripts, and photorealistic videos.
-
-hackernews · nopg · May 27, 20:00 · [Discussion](https://news.ycombinator.com/item?id=48299753)
-
-**Background**: AI-generated content has become increasingly common on YouTube, including deepfake videos and AI music. Without clear labels, viewers may mistake synthetic content for real, leading to misinformation. YouTube's move follows similar efforts by other platforms to increase transparency.
-
-**Discussion**: Commenters generally support the labeling, noting that AI-generated music and scripts are prevalent and often undisclosed. Some express skepticism about effectiveness against AI scripts or TTS, while others share personal experiences of being misled by AI videos.
-
-**Tags**: `#AI`, `#YouTube`, `#content moderation`, `#misinformation`, `#transparency`
-
----
-
-<a id="item-9"></a>
-## [Apple and Google Push Notification Policies](https://www.jacquescorbytuech.com/writing/what-apple-and-google-are-doing-your-push-notifications) ⭐️ 7.0/10
-
-An article examines how Apple and Google are shaping push notification policies to reduce spam and improve user control, sparking debate on notification hygiene. This matters because push notifications are a key channel for user engagement, and platform-level changes can significantly impact how apps communicate with users, potentially reducing digital distraction and spam. The article highlights that Apple and Google are moving control from senders to receivers, treating user attention as a scarce resource to defend. It notes that cross-sell, upsell, and discovery notifications are increasingly restricted.
-
-hackernews · iamacyborg · May 27, 19:24 · [Discussion](https://news.ycombinator.com/item?id=48299220)
-
-**Background**: Push notifications are messages sent by apps to users' devices even when the app is not active. Over the past 15 years, they evolved from a simple tool to a major channel for user engagement, but also a source of spam and distraction. Apple and Google, as platform gatekeepers, set policies that dictate how notifications can be used.
-
-**Discussion**: Commenters largely support stricter notification controls, with many sharing personal strategies like using Do Not Disturb 24/7 or limiting notifications to essential apps. Some express confusion over Android's notification settings, while others argue that push should only be for transactional messages.
-
-**Tags**: `#push notifications`, `#mobile platforms`, `#user experience`, `#privacy`, `#spam control`
-
----
-
-<a id="item-10"></a>
-## [Exploring Mesh Networks: Meshtastic, MeshCore, Reticulum](https://www.jonaharagon.com/posts/im-getting-into-mesh-networks-meshtastic-meshcore-and-reticulum/) ⭐️ 7.0/10
-
-A personal blog post provides an overview and comparison of three mesh networking projects—Meshtastic, MeshCore, and Reticulum—for decentralized, off-grid communication, highlighting their features and limitations. This article is timely as interest in resilient, decentralized communication grows, especially for emergency scenarios and areas with limited internet access. The comparison helps newcomers choose the right project for their needs. The author notes that Meshtastic and MeshCore are LoRa-based, while Reticulum is a more general networking stack that can use various transports. The post glosses over some features of Meshtastic and MeshCore, considering Reticulum more serious for certain use cases.
-
-hackernews · Panda_ · May 27, 19:52 · [Discussion](https://news.ycombinator.com/item?id=48299638)
-
-**Background**: Mesh networks allow devices to communicate directly without centralized infrastructure, using protocols like LoRa for long-range, low-power links. Meshtastic and MeshCore are popular open-source projects that turn LoRa radios into mesh communicators, while Reticulum is a cryptographic networking stack designed for resilience and autonomy.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Meshtastic">Meshtastic - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Meshcore">MeshCore - Wikipedia</a></li>
-<li><a href="https://reticulum.network/">Reticulum Network</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Commenters share mixed views: some praise real-world deployments (e.g., solar nodes achieving 200-mile range), while others critique the article for missing key points, such as the tendency of meshes to rely on internet transports. There is also discussion about the appeal of a slow, text-only network to avoid spam and illegal content.
-
-**Tags**: `#mesh networking`, `#decentralized communication`, `#Meshtastic`, `#Reticulum`, `#emergency communication`
+**Tags**: `#distributed training`, `#large language models`, `#TRL`, `#Hugging Face`, `#model parallelism`
 
 ---
 
 <a id="item-11"></a>
-## [Running Rust and Slint on a Jailbroken Kindle](https://sverre.me/blog/rust-on-kindle/) ⭐️ 7.0/10
+## [Running SimCity 3000 in 4K: A Nostalgic Technical Deep Dive](https://www.thran.uk/writ/hdid/2025/12/simcity-3k-in-4k.html) ⭐️ 7.0/10
 
-A developer published a detailed guide on cross-compiling Rust and the Slint GUI framework to run on a jailbroken Kindle e-reader, demonstrating a functional e-ink UI. This opens up new possibilities for developing custom, modern applications on e-ink devices using Rust's safety and performance, potentially revitalizing old Kindles for niche use cases like home automation displays or specialized readers. The guide uses the `armv7-unknown-linux-musleabihf` target with `rust-lld` linker and `link-self-contained=yes` to avoid C dependencies, and the Slint backend is available on GitHub. Community comments note that pure Rust builds work but cannot use C libraries.
+An article explores the process of patching SimCity 3000 to run at 4K resolution, using a Python script to modify the game's executable. The author reflects on how the game's pixel art and design hold up at modern resolutions. This technical feat rekindles discussion about the loss of imagination in modern city builders, which prioritize photorealism over the abstract, player-driven storytelling that defined early SimCity games. It highlights a growing nostalgia for simpler, more creative game design. The patch uses a Python script (available on GitHub) to modify the game's executable for HD resolutions like 1920x1080 and 4K. However, the game's art was originally rendered from 3DS Max, not crafted pixel by pixel, as some commenters note.
 
-hackernews · homarp · May 27, 19:51 · [Discussion](https://news.ycombinator.com/item?id=48299623)
+hackernews · speckx · May 27, 17:36 · [Discussion](https://news.ycombinator.com/item?id=48297645)
 
-**Background**: Kindle jailbreaking allows running custom software on Amazon's e-readers, but development has traditionally been limited to C or scripting. Rust offers memory safety and modern tooling, while Slint is a declarative GUI toolkit that supports embedded devices. Cross-compilation for ARM Linux requires a suitable toolchain and target configuration.
+**Background**: SimCity 3000, released in 1999, is the third installment in the classic city-building simulation series. It features isometric pixel art and a beloved advisor system. The game's design philosophy emphasized player imagination, with abstract visuals leaving room for interpretation, a contrast to modern photorealistic city builders like Cities: Skylines.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://slint.dev/">Slint | Declarative GUI for Rust, C++, JavaScript & Python</a></li>
-<li><a href="https://github.com/slint-ui/slint">GitHub - slint-ui/slint: Slint is an open-source declarative GUI toolkit to build native user interfaces for Rust, C++, JavaScript, or Python apps. · GitHub</a></li>
-<li><a href="https://kindlemodding.org/jailbreaking/">KindleModding - Jailbreaking Your Kindle</a></li>
+<li><a href="https://github.com/tetration/Simcity3000-HD-patch">GitHub - tetration/ Simcity 3000 -HD-patch: Python 3 & 2.7 scripts that...</a></li>
+<li><a href="https://news.ycombinator.com/item?id=48297645">SimCity 3k in 4 k | Hacker News</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community was enthusiastic, with one developer sharing their own pure Rust approach for a Kindle library server using `armv7-unknown-linux-musleabihf` and `rust-lld`. Another mentioned cross-compiling Zig for Kindle, and several commenters expressed eagerness to try the project.
+**Discussion**: Commenters express deep nostalgia for SimCity 3000, praising its advisor system, music, and art style. Some criticize modern city builders for losing the 'apophenia' or food for imagination that early SimCity games provided. A technical correction notes that the game's art was rendered from 3DS Max, not hand-painted pixel by pixel.
 
-**Tags**: `#Rust`, `#Kindle`, `#cross-compilation`, `#embedded`, `#e-ink`
+**Tags**: `#retro gaming`, `#game design`, `#simcity`, `#technical deep-dive`, `#nostalgia`
 
 ---
 
 <a id="item-12"></a>
-## [Should AI Productivity Gains Mean a Day Off?](https://mlsu.io/posts/day-off/) ⭐️ 7.0/10
+## [Apple and Google Restrict Push Notifications](https://www.jacquescorbytuech.com/writing/what-apple-and-google-are-doing-your-push-notifications) ⭐️ 7.0/10
 
-A popular post on MLSU argues that AI-driven productivity gains should translate into reduced work hours for employees, not just increased profits for employers, sparking a debate on the four-day work week. This discussion challenges the assumption that productivity gains automatically benefit employers, and raises important questions about work norms and the distribution of AI's benefits in the software industry. The post received 872 points and 519 comments, indicating high engagement. Commenters compare the situation to historical productivity paradoxes, such as the Luddite movement and the introduction of computers in stock trading.
+Apple and Google are implementing stricter controls on push notifications to reduce spam and give users more control over which apps can interrupt them. This shift prioritizes user attention and privacy over app engagement, potentially reducing notification overload and improving the mobile experience for billions of users. The article analyzes how both platforms are redesigning notification systems to defend user attention, making it harder for apps to send promotional or non-essential alerts.
 
-hackernews · mlsu · May 28, 00:40 · [Discussion](https://news.ycombinator.com/item?id=48302745)
+hackernews · iamacyborg · May 27, 19:24 · [Discussion](https://news.ycombinator.com/item?id=48299220)
 
-**Background**: The five-day work week is largely a social norm in the US, not a legal requirement. Historically, technological advances like computers were promised to reduce work hours but instead led to the same or longer hours. The four-day work week is a prisoner's dilemma: if everyone adopts it, all benefit, but individual defection can lead to career advantages.
+**Background**: Push notifications are alerts sent by apps to users' devices even when the app is not open. Over time, many apps abused this channel for marketing, leading to user annoyance and calls for better controls.
 
-**Discussion**: Commenters express skepticism that productivity gains will benefit workers, citing historical examples like the Luddite movement and the computer revolution. Some frame the four-day work week as a prisoner's dilemma, where individual incentives prevent collective adoption. Others note that benefits of extra productivity tend to flow to shareholders, not workers.
+**Discussion**: Commenters largely agree that notifications should be reserved for important, transactional alerts. Many share personal strategies like using Do Not Disturb 24/7 or deleting apps that send spam notifications.
 
-**Tags**: `#AI`, `#productivity`, `#work culture`, `#four-day work week`, `#labor`
+**Tags**: `#push notifications`, `#privacy`, `#Apple`, `#Google`, `#user experience`
 
 ---
 
 <a id="item-13"></a>
-## [DuckDuckGo Traffic Surges 28% After Google AI Mode Push](https://www.pcgamer.com/hardware/duckduckgos-ai-free-search-saw-nearly-28-percent-more-visits-in-the-week-following-googles-insistence-that-people-love-ai-mode/) ⭐️ 7.0/10
+## [Exploring Mesh Networks: Meshtastic, MeshCore, and Reticulum](https://www.jonaharagon.com/posts/im-getting-into-mesh-networks-meshtastic-meshcore-and-reticulum/) ⭐️ 7.0/10
 
-DuckDuckGo's AI-free search page noai.duckduckgo.com saw a 28% increase in visits in late May 2025, following Google's insistence that users love its AI mode. DuckDuckGo mobile app installs also spiked up to 30.5% in the US. This signals growing user resistance to forced AI integration in search engines, potentially shifting market share toward privacy-focused alternatives. Even a small percentage change for DuckDuckGo represents a meaningful user migration trend. The traffic increase was sustained over six days, peaking at 27.7% on May 24 for web visits and 30.5% on May 25 for iOS app installs. DuckDuckGo's market share remains under 1%, while Google holds about 90%.
+The article provides a detailed comparison of three emerging mesh network projects—Meshtastic, MeshCore, and Reticulum—for decentralized, off-grid communication, highlighting their architectures, use cases, and limitations. As concerns about internet censorship and infrastructure resilience grow, these mesh networks offer a path toward truly decentralized communication that can operate without traditional internet connectivity, empowering communities and emergency responders. Reticulum is positioned as the most serious solution due to its cryptographic design and ability to operate over various transports, while Meshtastic and MeshCore are seen as more limited, often relying on LoRa radios with low bandwidth.
 
-hackernews · HelloUsername · May 27, 16:28 · [Discussion](https://news.ycombinator.com/item?id=48296649)
+hackernews · Panda_ · May 27, 19:52 · [Discussion](https://news.ycombinator.com/item?id=48299638)
 
-**Background**: DuckDuckGo is a privacy-focused search engine that does not track users or personalize results. Google recently expanded its AI Overviews and AI mode, which some users find intrusive or unhelpful. The noai.duckduckgo.com page offers a search experience without any AI features.
-
-**Discussion**: Commenters expressed mixed views: some praised DuckDuckGo's growth as a backlash against AI, while others noted the absolute numbers are small relative to Google's dominance. One user shared that friends who previously ignored tech are now seeking alternatives due to AI fatigue.
-
-**Tags**: `#search engines`, `#AI backlash`, `#privacy`, `#DuckDuckGo`, `#Google`
-
----
-
-<a id="item-14"></a>
-## [Google employee charged with $1M Polymarket insider trading](https://www.cnbc.com/2026/05/27/google-employee-polymarket-insider-trading.html) ⭐️ 7.0/10
-
-A Google employee was charged with insider trading on Polymarket after allegedly using stolen search term data to place bets worth $1 million on market outcomes. This case highlights the growing concern over insider trading in prediction markets and could spur regulatory action to ensure market integrity. The employee, based in Switzerland, was charged in the US for wire fraud and transactions involving US currency, despite Polymarket blocking US users.
-
-hackernews · pseudolus · May 28, 00:49 · [Discussion](https://news.ycombinator.com/item?id=48302822)
-
-**Background**: Polymarket is a cryptocurrency-based prediction market where users bet on future events. Insider trading in such markets is a growing concern, as participants may have access to non-public information that gives them an unfair advantage.
+**Background**: Mesh networks are decentralized communication systems where each node can relay data for others, forming a self-healing network without central infrastructure. Projects like Meshtastic use LoRa radios for long-range, low-bandwidth messaging, while Reticulum is a full networking stack that can run over LoRa, Wi-Fi, or even packet radio, emphasizing security and resilience.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Polymarket">Polymarket - Wikipedia</a></li>
-<li><a href="https://corpgov.law.harvard.edu/2026/03/25/from-iran-to-taylor-swift-informed-trading-in-prediction-markets/">From Iran to Taylor Swift: Informed Trading in Prediction Markets</a></li>
+<li><a href="https://grokipedia.com/page/reticulum-network">Reticulum (network)</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Comments expressed mixed views: some argued the employee should be punished for stealing information, while others warned that prediction markets are vulnerable to informed traders. A few sarcastically noted that only senators should be allowed such trades.
+**Discussion**: Commenters expressed mixed views: some praised the potential for off-grid communication, while others criticized the article for downplaying the limitations of Meshtastic and MeshCore, such as reliance on internet backhauls and low bandwidth. One user shared a successful deployment achieving 200 miles of range, and another highlighted the appeal of a slow, text-only network that avoids spam and illegal content.
 
-**Tags**: `#insider trading`, `#prediction markets`, `#regulation`, `#crypto`, `#ethics`
+**Tags**: `#mesh networks`, `#decentralized communication`, `#Meshtastic`, `#MeshCore`, `#Reticulum`
+
+---
+
+<a id="item-14"></a>
+## [AI Productivity Gains Should Mean Shorter Work Hours](https://mlsu.io/posts/day-off/) ⭐️ 7.0/10
+
+A blog post argues that the productivity gains from AI should translate into reduced work hours for employees, challenging the assumption that efficiency always benefits workers. This discussion highlights a critical paradox in the AI era: while AI boosts productivity, workers may not see personal benefits like shorter hours, potentially exacerbating inequality and work-life balance issues. The post is tagged with AI, productivity, work culture, four-day work week, and labor economics, and has garnered high engagement with 877 points and 522 comments.
+
+hackernews · mlsu · May 28, 00:40 · [Discussion](https://news.ycombinator.com/item?id=48302745)
+
+**Background**: Historically, productivity gains from technological advances have not always led to reduced work hours for workers. For example, the introduction of computers in the 1970s promised time savings, but many workers continued to work the same number of hours. The concept of a four-day work week is often discussed as a potential benefit of increased efficiency, but adoption is hindered by competitive pressures and workplace norms.
+
+**Discussion**: Commenters draw parallels to historical examples like the Luddite movement and the introduction of computers, noting that productivity gains often benefit shareholders rather than workers. One commenter describes the four-day work week as a prisoner's dilemma, where individual defection to longer hours undermines collective benefit.
+
+**Tags**: `#AI`, `#productivity`, `#work culture`, `#four-day work week`, `#labor economics`
 
 ---
 
 <a id="item-15"></a>
-## [GitHub Outage Hits PRs, Issues, and API](https://www.githubstatus.com/incidents/xy1tt3hs572m) ⭐️ 7.0/10
+## [GitHub Major Incident Disrupts PRs, Issues, and API](https://www.githubstatus.com/incidents/xy1tt3hs572m) ⭐️ 7.0/10
 
-GitHub experienced a significant incident on an unspecified date, affecting pull requests, issues, git operations, and API requests, as reported on their status page. This incident raises concerns about GitHub's reliability, especially given a recent string of outages, and could undermine developer trust in the platform for critical workflows. Community reports indicate that pull requests on both the web UI and API were not reflecting all commits or branch changes consistently, posing a risk of merging incomplete code.
+GitHub experienced a major incident on an unspecified date, impacting pull requests, issues, git operations, and API requests, with users reporting incomplete diffs and inconsistent branch changes. This incident highlights ongoing reliability issues at GitHub, a critical platform for software development, and raises security concerns because incomplete diffs could lead to merging code without full review. Users observed that pull requests on both the web UI and API were not reflecting all commits or branch changes consistently, making it easy to merge something without reviewing the full diff.
 
 hackernews · maxnoe · May 27, 12:15 · [Discussion](https://news.ycombinator.com/item?id=48293080)
 
-**Background**: GitHub is a widely used platform for version control and collaboration, hosting millions of repositories. Incidents affecting core features like pull requests can disrupt software development workflows globally.
+**Background**: GitHub is a widely used platform for version control and collaboration, hosting millions of repositories. Incidents affecting core features like pull requests and issues can disrupt development workflows globally. Recent months have seen multiple outages, eroding user trust.
 
-**Discussion**: The community expressed frustration over GitHub's recent reliability, with some noting that pull requests were not showing full diffs, increasing merge risks. One user humorously suggested reverting to a 2018 version and firing leadership.
+**Discussion**: Community comments express frustration over GitHub's declining reliability, with one user noting an 'impressively bad month' and another highlighting security risks from incomplete diffs. Some comments jokingly suggest drastic measures like reverting to 2018 infrastructure or firing executives.
 
-**Tags**: `#GitHub`, `#outage`, `#reliability`, `#software engineering`, `#incident`
+**Tags**: `#GitHub`, `#outage`, `#reliability`, `#DevOps`, `#incident`
 
 ---
 
 <a id="item-16"></a>
-## [Cisco and OpenAI partner to transform enterprise engineering with Codex](https://openai.com/index/cisco) ⭐️ 7.0/10
+## [Cisco and OpenAI partner to integrate Codex for enterprise engineering](https://openai.com/index/cisco) ⭐️ 7.0/10
 
-Cisco has partnered with OpenAI to leverage Codex for scaling AI-native development, accelerating AI Defense work, and automating defect remediation. This partnership signals a major shift in enterprise engineering, as a leading networking and security company adopts AI-native development practices, potentially setting a precedent for other large enterprises. Codex is powered by codex-1, a version of OpenAI o3 optimized for software engineering, and is being rolled out to ChatGPT Enterprise and Business users. Cisco will use Codex to enhance its AI Defense product, which provides AI security for production deployments.
+Cisco has partnered with OpenAI to integrate Codex, an AI coding assistant powered by the codex-1 model (a version of OpenAI o3), into its engineering workflows to scale AI-native development, accelerate AI Defense work, and automate defect remediation. This partnership marks a major enterprise adoption of AI-assisted software engineering, demonstrating how large organizations can leverage frontier coding models to improve productivity and security. It could set a precedent for other enterprises to integrate AI coding tools into critical workflows. Codex is built to handle end-to-end engineering tasks such as building features, complex refactors, and migrations, and is initially rolling out to ChatGPT Pro, Enterprise, and Business users, with Plus and Edu support coming later.
 
 rss · OpenAI Blog · May 27, 11:00
 
-**Background**: AI-native development refers to building applications where AI is central to the design and coding process, often using tools like Codex to generate code from natural language. Cisco AI Defense is a security platform that helps organizations discover and protect AI assets, enforce policies, and prevent data loss.
+**Background**: OpenAI Codex is an AI coding partner that uses advanced language models to assist with software development tasks. It is designed to automate routine work and help developers focus on more complex problems. Cisco, a global leader in networking and cybersecurity, is integrating Codex to enhance its engineering capabilities, particularly in AI Defense, which involves protecting AI systems from threats.
 
 <details><summary>References</summary>
 <ul>
 <li><a href="https://openai.com/codex/">Codex | AI Coding Partner from OpenAI | OpenAI</a></li>
 <li><a href="https://openai.com/index/introducing-codex/">Introducing Codex | OpenAI</a></li>
-<li><a href="https://www.cisco.com/site/us/en/products/security/ai-defense/index.html">Cisco AI Defense and Advanced Threat Prevention</a></li>
+<li><a href="https://www.linkedin.com/posts/adeilsonbrito_openai-wants-codex-to-run-your-dev-team-activity-7425924382050611200-6jbK">OpenAI 's GPT-5.3- Codex : Enterprise Engineering Reality... | LinkedIn</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#OpenAI`, `#Cisco`, `#Codex`, `#enterprise AI`, `#AI security`
+**Discussion**: The LinkedIn discussion highlights that while OpenAI aims for Codex to run entire dev teams, many teams are not yet prepared for such a shift, indicating a gap between ambition and readiness.
+
+**Tags**: `#AI`, `#enterprise`, `#OpenAI`, `#Cisco`, `#software engineering`
 
 ---
 
 <a id="item-17"></a>
-## [Reachy Mini Runs Conversational AI Fully On-Device](https://huggingface.co/blog/local-reachy-mini-conversation) ⭐️ 7.0/10
+## [OpenAI, Thrive, Crete Build Self-Improving Tax Agent with Codex](https://openai.com/index/building-self-improving-tax-agents-with-codex) ⭐️ 7.0/10
 
-Hugging Face published a blog post demonstrating that the Reachy Mini robot can run conversational AI entirely on-device, without any cloud dependency. This enables privacy-preserving and offline-capable human-robot interaction, making conversational AI more accessible for edge robotics applications. The setup uses local models (likely small language models) optimized for the robot's hardware, ensuring real-time response without internet connectivity.
+OpenAI, Thrive, and Crete have developed a self-improving tax agent using Codex that automates tax filings, improves accuracy, and accelerates workflows. This demonstrates a practical application of AI agents for complex, real-world tasks, potentially transforming tax preparation and compliance workflows for organizations. The agent uses Codex, an AI-driven coding agent from OpenAI, to iteratively improve its performance based on feedback and new data, enabling self-improvement without manual intervention.
 
-rss · Hugging Face Blog · May 27, 00:00
+rss · OpenAI Blog · May 27, 07:00
 
-**Background**: Reachy Mini is an open-source desktop humanoid robot priced from $299, programmable in Python. Edge AI deployment allows running AI models directly on devices, reducing latency and enhancing privacy.
+**Background**: Codex is a suite of AI-driven coding agents developed by OpenAI to automate software engineering tasks. Self-improving AI agents are an emerging area where agents can evolve their capabilities over time, often using techniques like reinforcement learning or collective intelligence.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://huggingface.co/blog/reachy-mini">Reachy Mini - The Open-Source Robot for Today's and Tomorrow ...</a></li>
-<li><a href="https://pypi.org/project/reachy-mini/">reachy-mini · PyPI</a></li>
-<li><a href="https://reachymini.net/">Reachy Mini - Open-Source Desktop Humanoid Robot</a></li>
+<li><a href="https://grokipedia.com/page/OpenAI_Codex">OpenAI Codex</a></li>
+<li><a href="https://grokipedia.com/page/Self-evolving_AI_agents">Self-evolving AI agents</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#robotics`, `#edge AI`, `#conversational AI`, `#Hugging Face`
+**Tags**: `#AI agents`, `#Codex`, `#automation`, `#tax`, `#workflow`
 
 ---
 
 <a id="item-18"></a>
-## [SimCity 3000 in 4K: Nostalgia and Design Critique](https://www.thran.uk/writ/hdid/2025/12/simcity-3k-in-4k.html) ⭐️ 6.0/10
+## [OpenAI Unveils 2026 Election Safeguards](https://openai.com/index/election-safeguards-2026) ⭐️ 7.0/10
 
-A personal blog post describes playing SimCity 3000 in 4K resolution, reflecting on its enduring appeal and contrasting it with modern city-building games. The post and its community discussion highlight a growing sentiment that modern city builders prioritize photorealism over imaginative gameplay, sparking debate on game design philosophy. The author notes that SimCity 3000's art was rendered from 3DS Max, not crafted pixel by pixel, and comments praise its advisor system, music, and art style.
+OpenAI announced a series of initiatives to protect election integrity in 2026, including providing accurate election information, supporting cybersecurity efforts, and increasing AI transparency. As AI-generated misinformation and deepfakes pose growing threats to democratic processes, OpenAI's proactive measures set a precedent for responsible AI deployment during elections. The initiatives include partnerships with news organizations like the Associated Press to provide vote count data, and tools to detect AI-generated content. OpenAI also emphasizes transparency in AI systems to build trust.
 
-hackernews · speckx · May 27, 17:36 · [Discussion](https://news.ycombinator.com/item?id=48297645)
+rss · OpenAI Blog · May 27, 00:00
 
-**Background**: SimCity 3000 is a classic city-building simulation game released in 1999 by Maxis. It is known for its isometric graphics, detailed simulation, and charming advisor characters. The game has a dedicated fan base that appreciates its balance of depth and accessibility.
-
-**Discussion**: Commenters express nostalgia and critique modern city builders for losing the 'apophenia' or imaginative spark that older games provided. Some note that SimCity 3000's art was rendered from 3DS Max, not pixel art, and praise its advisor system.
-
-**Tags**: `#gaming`, `#simcity`, `#retro`, `#game design`
-
----
-
-<a id="item-19"></a>
-## [Mini Micro Fantasy Computer Released](https://miniscript.org/MiniMicro/index.html#about) ⭐️ 6.0/10
-
-Mini Micro, a fantasy computer running the MiniScript language, has been released for retro-style programming and learning. It provides a self-contained environment with a built-in editor and graphics. This project offers a simplified, nostalgic platform for beginners to learn programming without the complexity of modern systems. It also contributes to the growing ecosystem of fantasy consoles like Pico-8, fostering creativity and education. Mini Micro is based on MiniScript, a clean, embeddable language, and runs on multiple platforms including Windows, macOS, and Linux. The community noted that the provided example code for finding the longest common prefix is buggy.
-
-hackernews · nicoloren · May 27, 09:56 · [Discussion](https://news.ycombinator.com/item?id=48291947)
-
-**Background**: A fantasy computer is a software emulator of a fictional retro machine, designed to recreate the feel of early computing without real hardware. MiniScript is a modern scripting language that is easy to learn and embed, making it suitable for educational tools.
+**Background**: Election integrity faces challenges from AI-generated disinformation, such as deepfake videos and misleading content. OpenAI's safeguards aim to mitigate these risks by ensuring AI tools are used responsibly and transparently.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Fantasy_video_game_console">Fantasy video game console - Wikipedia</a></li>
-<li><a href="https://miniscript.org/">MiniScript Home Page</a></li>
-<li><a href="https://paladin-t.github.io/fantasy/">FANTASY CONSOLES/COMPUTERS</a></li>
+<li><a href="https://openai.com/index/election-safeguards-2026/">Election information and safeguards in 2026 | OpenAI</a></li>
+<li><a href="https://xeber.world/en/article/openai-heralds-cybersecurity-election-interference-safeguard-plans-for-2026-midt-577839">OpenAI ’s 2026 Election Safeguards : AI Deepfake Detection...</a></li>
+<li><a href="https://electionlawblog.org/?p=156418">"AP adds OpenAI as elections customer" - Election Law Blog</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community comments compare Mini Micro to Pico-8 and Picotron, and some users desire hardware integration with ESP32 or Raspberry Pi. There is also criticism of buggy example code and confusion with Bitcoin's Miniscript.
+**Tags**: `#AI safety`, `#election integrity`, `#cybersecurity`, `#AI transparency`, `#OpenAI`
 
-**Tags**: `#fantasy computer`, `#MiniScript`, `#retro computing`, `#programming language`, `#educational tool`
+---
+
+<a id="item-19"></a>
+## [Reachy Mini Goes Fully Local AI](https://huggingface.co/blog/local-reachy-mini-conversation) ⭐️ 7.0/10
+
+Reachy Mini, a conversational robot, now runs all AI inference locally without any cloud dependency, as announced in a Hugging Face blog post. This demonstrates a practical application of edge AI for robotics, enhancing privacy and reliability by eliminating cloud latency and data transmission risks. The robot uses a local LLM and speech recognition model, all running on its onboard hardware, enabling real-time conversation without internet connectivity.
+
+rss · Hugging Face Blog · May 27, 00:00
+
+**Background**: Edge AI refers to running AI models directly on local devices rather than in the cloud, which is crucial for applications requiring low latency and data privacy. Reachy Mini is a humanoid robot platform designed for research and education, and this update makes it more autonomous.
+
+**Tags**: `#robotics`, `#edge AI`, `#local inference`, `#conversational AI`, `#Hugging Face`
 
 ---
 
 <a id="item-20"></a>
-## [Paul Graham Condemns AI-Written Emails as Deceptive](https://simonwillison.net/2026/May/26/paul-graham/#atom-everything) ⭐️ 6.0/10
+## [Rust and Slint GUI on a Jailbroken Kindle](https://sverre.me/blog/rust-on-kindle/) ⭐️ 6.0/10
 
-Paul Graham, a prominent startup investor and essayist, publicly criticized founders for using AI to write emails, stating that it feels like being lied to and diminishes the author's credibility. This commentary highlights growing ethical concerns around AI-generated content in professional communication, especially in high-stakes environments like startup fundraising where authenticity is valued. Graham noted that AI-written emails often adopt a 'hard-hitting journalistic style' that no founder used before, and he has never finished reading an email he knew was AI-written. He equates using AI to write to lying and says it makes him think less of the author.
+A developer published a guide on cross-compiling Rust and the Slint GUI framework for a jailbroken Kindle e-reader, demonstrating a working e-ink interface. This shows that modern Rust GUI frameworks like Slint can run on low-power e-ink devices, opening up possibilities for custom applications on older hardware. The cross-compilation targets the ARMv7 architecture using musl libc, and the Slint backend is adapted for e-ink displays with custom rendering.
+
+hackernews · homarp · May 27, 19:51 · [Discussion](https://news.ycombinator.com/item?id=48299623)
+
+**Background**: Jailbreaking a Kindle allows running custom software beyond Amazon's ecosystem. Slint is a declarative GUI toolkit for Rust and other languages, designed for embedded and desktop use. Cross-compiling Rust for ARM targets requires a compatible linker and libc.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://slint.dev/">Slint | Declarative GUI for Rust, C++, JavaScript & Python</a></li>
+<li><a href="https://kindlemodding.org/jailbreaking/">KindleModding - Jailbreaking Your Kindle</a></li>
+<li><a href="https://github.com/slint-ui/slint">GitHub - slint -ui/ slint : Slint is an open-source declarative GUI toolkit to...</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Commenters shared their own experiences with cross-compiling Rust for embedded devices, including a self-hosted library server for Kindle and a RISC-V audio player. One user noted the limitation of avoiding C dependencies when using pure Rust.
+
+**Tags**: `#Rust`, `#Kindle`, `#embedded`, `#cross-compilation`, `#e-ink`
+
+---
+
+<a id="item-21"></a>
+## [Mini Micro: A New Fantasy Console for Learning](https://miniscript.org/MiniMicro/index.html#about) ⭐️ 6.0/10
+
+Mini Micro is a fantasy computer that runs the MiniScript language, designed for simple, retro-style programming and learning. It provides an accessible platform for beginners to learn programming with a retro feel, similar to PICO-8 but with its own language and environment. Mini Micro is built on MiniScript, a simple scripting language, and is available as a free download from miniscript.org. It includes a built-in code editor, graphics, and sound capabilities.
+
+hackernews · nicoloren · May 27, 09:56 · [Discussion](https://news.ycombinator.com/item?id=48291947)
+
+**Background**: A fantasy console is a software emulator of a fictional retro game console, allowing developers to create games with constraints similar to old hardware. Popular examples include PICO-8 and TIC-80. MiniScript is a separate language from Bitcoin Miniscript, which is a scripting language for Bitcoin transactions.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Fantasy_console">Fantasy console</a></li>
+<li><a href="https://miniscript.org/files/MiniScript-Manual.pdf">MiniScript -Manual</a></li>
+<li><a href="https://tic80.com/">fantasy computer for making, playing and sharing tiny games</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Community comments express interest in running Mini Micro on low-cost hardware like ESP32 or Raspberry Pi, and compare it to PICO-8 and Picotron. Some users note that the example code in the documentation is buggy, and there is confusion with Bitcoin Miniscript.
+
+**Tags**: `#fantasy console`, `#retro computing`, `#programming language`, `#MiniScript`
+
+---
+
+<a id="item-22"></a>
+## [Paul Graham Slams AI-Written Emails as Deceptive](https://simonwillison.net/2026/May/26/paul-graham/#atom-everything) ⭐️ 6.0/10
+
+Paul Graham, a prominent venture capitalist and Y Combinator co-founder, stated that he ignores emails from startup founders that appear to be written by AI, equating such use to lying and diminishing the sender's credibility. This highlights growing concerns about AI-generated content in professional communication, especially in high-stakes contexts like startup fundraising, where authenticity and personal voice are valued. Graham noted that AI-written emails often adopt a 'hard-hitting journalistic style' that no founder used before, and he has never knowingly finished reading such an email. He added that using AI for writing makes him think less of the author.
 
 rss · Simon Willison · May 26, 15:02
 
-**Background**: Paul Graham is a well-known figure in the startup world, co-founder of Y Combinator, and his opinions carry weight among entrepreneurs. The use of large language models (LLMs) like GPT-4 for writing has become common, raising questions about authenticity and effort in communication.
+**Background**: Paul Graham is a well-known figure in the startup world, co-founding Y Combinator, a top startup accelerator. His opinions carry weight among entrepreneurs. The rise of generative AI tools like ChatGPT has made it easy to produce polished text, but critics argue it can undermine authenticity in personal communication.
 
 **Tags**: `#AI`, `#writing`, `#ethics`, `#startups`
 
 ---
 
-<a id="item-21"></a>
+<a id="item-23"></a>
 ## [Warp Integrates GPT-5.5 for Open-Source Coding Agents](https://openai.com/index/warp) ⭐️ 6.0/10
 
-Warp, an open-source terminal emulator, has integrated GPT-5.5 and other OpenAI models to coordinate coding agents across local, cloud, and open-source development workflows. This integration brings advanced AI capabilities directly into the development environment, potentially boosting developer productivity by automating complex coding tasks and enabling seamless collaboration across different platforms. GPT-5.5, released by OpenAI on April 23, 2026, achieved 82.7% on Terminal-Bench 2.0 and demonstrated strong cyber capabilities. Warp's open-source nature allows developers to customize and extend the AI agent coordination.
+Warp has announced the integration of OpenAI's GPT-5.5 model into its platform to coordinate coding agents across local, cloud, and open-source development workflows. This integration demonstrates a practical application of advanced AI models in developer tooling, potentially improving efficiency and reducing token usage for agentic coding tasks. In internal benchmarks, GPT-5.5 used 30% fewer tokens per agentic coding task compared to GPT-5.4, helping Warp scale long-running agent workflows more efficiently.
 
 rss · OpenAI Blog · May 27, 00:00
 
-**Background**: Warp is an open-source terminal emulator written in Rust, available on macOS, Windows, and Linux. It features Warp AI for command suggestions and code generation, and Warp Drive for sharing commands. GPT-5.5 is OpenAI's latest large language model, designed for complex tasks like coding and research.
+**Background**: Warp is an open agentic development environment that originated from the terminal, allowing developers to run coding agents locally and in the cloud across various models and tools. GPT-5.5 is OpenAI's latest model designed for agentic tasks, offering improved efficiency and performance.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Warp_(terminal)">Warp (terminal)</a></li>
-<li><a href="https://en.wikipedia.org/wiki/GPT-5.5">GPT-5.5</a></li>
-<li><a href="https://openai.com/index/introducing-gpt-5-5/">Introducing GPT‑5.5 - OpenAI</a></li>
+<li><a href="https://openai.com/index/warp/">Warp ’s big bet on building open source with GPT-5.5 | OpenAI</a></li>
+<li><a href="https://www.warp.dev/agents">Agents | Warp</a></li>
+<li><a href="https://www.warp.dev/">Warp — Ship faster with AI-powered terminal and coding agents .</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI`, `#coding agents`, `#open source`, `#development tools`
-
----
-
-<a id="item-22"></a>
-## [OpenAI Outlines Election Safeguards for 2026](https://openai.com/index/election-safeguards-2026) ⭐️ 6.0/10
-
-OpenAI announced a set of measures to provide election information, support cyber defenders, and increase AI transparency ahead of global elections in 2026. This initiative addresses growing concerns about AI misuse in elections, such as disinformation and cyberattacks, and sets a precedent for responsible AI deployment during democratic processes. The safeguards include providing accurate election information through AI tools, collaborating with cybersecurity organizations, and enhancing transparency around AI-generated content.
-
-rss · OpenAI Blog · May 27, 00:00
-
-**Background**: AI-generated content can be used to spread misinformation or impersonate candidates, threatening election integrity. OpenAI's measures aim to mitigate these risks by promoting information accuracy and security.
-
-**Tags**: `#AI safety`, `#election integrity`, `#cybersecurity`, `#transparency`
+**Tags**: `#AI`, `#coding agents`, `#open source`, `#GPT-5.5`, `#development tools`
 
 ---
