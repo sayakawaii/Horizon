@@ -29,6 +29,7 @@ LABELS = {
         "empty_analyzed": "Analyzed {total} items, but none met the importance threshold.",
         "categories": {
             "tech": "🔬 Tech & AI",
+            "papers": "📄 Papers",
             "geopolitics": "🌐 Geopolitics",
             "disaster": "🌍 Breaking & Disasters",
             "finance": "💹 Finance & Markets",
@@ -57,6 +58,7 @@ LABELS = {
         "empty_analyzed": "已分析 {total} 条内容，但没有达到重要性阈值的条目。",
         "categories": {
             "tech": "🔬 科技 / AI",
+            "papers": "📄 论文精选",
             "geopolitics": "🌐 国际局势",
             "disaster": "🌍 突发事件",
             "finance": "💹 财经 / 市场",
@@ -78,7 +80,9 @@ LABELS = {
 
 
 # Category buckets. Order matters: first match wins (disaster > geopolitics > tech).
-CATEGORY_ORDER = ["disaster", "geopolitics", "finance", "science", "tech", "other"]
+# "papers" is assigned explicitly by the papers scraper (via metadata["category"]),
+# never by keyword heuristics, so it has no keyword list below.
+CATEGORY_ORDER = ["disaster", "geopolitics", "finance", "science", "tech", "papers", "other"]
 
 _CATEGORY_KEYWORDS = {
     "disaster": [
@@ -136,14 +140,14 @@ def _categorize(item: "ContentItem") -> str:
     if src in {"github", "hackernews"}:
         # still let an explicit disaster/geopolitics keyword override
         for cat in ("disaster", "geopolitics"):
-            if any(kw in haystack for kw in _CATEGORY_KEYWORDS[cat]):
+            if any(kw in haystack for kw in _CATEGORY_KEYWORDS.get(cat, [])):
                 return cat
         return "tech"
 
     for cat in CATEGORY_ORDER:
         if cat == "other":
             continue
-        if any(kw in haystack for kw in _CATEGORY_KEYWORDS[cat]):
+        if any(kw in haystack for kw in _CATEGORY_KEYWORDS.get(cat, [])):
             return cat
     return "other"
 
@@ -312,6 +316,18 @@ class DailySummarizer:
             discussion_url = str(discussion_url)
             if discussion_url != url:
                 source_line += f' · [{labels["discussion"]}]({discussion_url})'
+
+        # Paper-specific extras: arXiv primary category, HF trending upvotes, PDF.
+        if meta.get("is_paper"):
+            extras = []
+            if meta.get("primary_category"):
+                extras.append(str(meta["primary_category"]))
+            if meta.get("hf_upvotes"):
+                extras.append(f'🔥 {meta["hf_upvotes"]}')
+            if meta.get("pdf_url"):
+                extras.append(f'[PDF]({meta["pdf_url"]})')
+            if extras:
+                source_line += " · " + " · ".join(extras)
 
         # Each item is a collapsible card. Use kramdown's markdown="1" so the
         # inner Markdown is still processed.

@@ -17,6 +17,7 @@ class SourceType(str, Enum):
     TWITTER = "twitter"
     OPENBB = "openbb"
     OSSINSIGHT = "ossinsight"
+    PAPERS = "papers"
 
 
 class ContentItem(BaseModel):
@@ -212,6 +213,43 @@ class OSSInsightConfig(BaseModel):
     max_items: int = 30
 
 
+class PapersConfig(BaseModel):
+    """Academic paper source configuration (arXiv + optional HF trending).
+
+    Fetches the latest AI-related papers from the arXiv API filtered by
+    category and time window, and optionally enriches them with Hugging
+    Face "Daily Papers" community trending signals (upvotes). Papers flow
+    through the standard scoring/enrichment pipeline and are rendered as a
+    dedicated "Papers" section in the daily briefing.
+
+    Optional `keywords` filter limits results to papers whose title or
+    abstract contains at least one of the listed substrings
+    (case-insensitive). Leave empty to ingest everything in the configured
+    categories.
+    """
+
+    enabled: bool = False
+    categories: List[str] = Field(
+        default_factory=lambda: [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL",
+            "cs.CV",
+            "stat.ML",
+            "cs.NE",
+        ]
+    )
+    keywords: List[str] = Field(default_factory=list)
+    max_results: int = 50
+    # Hugging Face "Daily Papers" trending signal (community upvotes).
+    huggingface_trending: bool = True
+    # Only annotate/add HF papers with at least this many upvotes.
+    hf_min_upvotes: int = 0
+    # Also ingest HF-trending papers that fall outside the arXiv category
+    # query (best-effort; skipped silently if HF is unreachable).
+    include_hf_only: bool = True
+
+
 class SourcesConfig(BaseModel):
     """All sources configuration."""
 
@@ -223,6 +261,7 @@ class SourcesConfig(BaseModel):
     twitter: Optional[TwitterConfig] = None
     openbb: Optional[OpenBBConfig] = None
     ossinsight: OSSInsightConfig = Field(default_factory=OSSInsightConfig)
+    papers: PapersConfig = Field(default_factory=PapersConfig)
 
 
 class WebhookConfig(BaseModel):

@@ -145,6 +145,70 @@ Guidelines:
 - For **sources**: pick 1-3 URLs from the Web Search Results that you actually relied on for the background fields. Only use URLs that appear verbatim in the search results above — do not invent or modify URLs.
 """
 
+PAPER_ENRICHMENT_SYSTEM = """You are a research scientist who explains academic papers clearly to a technical audience.
+
+Given a paper's title, abstract, and (optionally) web search results about it, produce a STRUCTURED summary of the paper.
+
+Provide EACH text field in BOTH English and Chinese, using this key naming convention:
+- title_en / title_zh
+- problem_en / problem_zh
+- method_en / method_zh
+- results_en / results_zh
+- significance_en / significance_zh
+
+Field definitions:
+0. **title** (one short phrase, ≤20 words): A clear, plain-language headline for the paper. May simplify the original academic title, but must stay faithful.
+
+1. **problem** (1-2 sentences): What problem or research question does the paper address? What gap or limitation motivates it?
+
+2. **method** (1-3 sentences): The core approach, model, or technique proposed. Be specific — name architectures, datasets, or key ideas when available.
+
+3. **results** (1-2 sentences): The main findings or empirical results. Include concrete numbers, benchmarks, or comparisons when the abstract provides them.
+
+4. **significance** (1-2 sentences): Why this matters — potential impact, novelty, or how it advances the field. Do NOT overstate; ground claims in the abstract.
+
+**CRITICAL — Language rules (MUST follow):**
+- All *_en fields MUST be written in English.
+- All *_zh fields MUST be written in Simplified Chinese (简体中文). 绝对不能用英文写 _zh 字段的内容。Only keep technical abbreviations, acronyms, and widely-used proper nouns (e.g. "Transformer", "LLM", "CUDA") in their original English form; everything else must be Chinese.
+
+Guidelines:
+- EVERY field must contain at least one complete sentence — no field may be empty or contain just a phrase.
+- Base your summary ONLY on the provided abstract and web search results — do NOT fabricate results or numbers that are not present.
+- For **sources**: pick 0-3 URLs from the Web Search Results that you actually relied on. Only use URLs that appear verbatim in the search results — do not invent or modify URLs.
+"""
+
+PAPER_ENRICHMENT_USER = """Provide a structured bilingual summary for the following academic paper.
+
+**Paper:**
+- Title: {title}
+- URL: {url}
+- Authors: {authors}
+- Categories: {categories}
+- One-line summary: {summary}
+- Score: {score}/10
+- Tags: {tags}
+
+**Abstract:**
+{content}
+
+**Web Search Results (for grounding, may be empty):**
+{web_context}
+
+Respond with valid JSON only. Each _en field must be in English; each _zh field MUST be in Simplified Chinese (中文). Every field MUST be at least one complete sentence:
+{{
+  "title_en": "<plain-language headline in English, ≤20 words>",
+  "title_zh": "<用中文写一个通俗的标题，不超过20个词>",
+  "problem_en": "<1-2 sentences in English>",
+  "problem_zh": "<用中文写1-2句话>",
+  "method_en": "<1-3 sentences in English>",
+  "method_zh": "<用中文写1-3句话>",
+  "results_en": "<1-2 sentences in English>",
+  "results_zh": "<用中文写1-2句话>",
+  "significance_en": "<1-2 sentences in English>",
+  "significance_zh": "<用中文写1-2句话>",
+  "sources": ["<url from search results>", "..."]
+}}"""
+
 CONTENT_ENRICHMENT_USER = """Provide a structured bilingual analysis for the following news item.
 
 **News Item:**

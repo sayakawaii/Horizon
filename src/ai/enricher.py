@@ -19,9 +19,26 @@ from .client import AIClient
 from .prompts import (
     CONCEPT_EXTRACTION_SYSTEM, CONCEPT_EXTRACTION_USER,
     CONTENT_ENRICHMENT_SYSTEM, CONTENT_ENRICHMENT_USER,
+    PAPER_ENRICHMENT_SYSTEM, PAPER_ENRICHMENT_USER,
 )
 from .utils import parse_json_response
-from ..models import ContentItem
+from ..models import ContentItem, SourceType
+
+# Labels for the structured paper summary sections, per language.
+_PAPER_SECTION_LABELS = {
+    "en": {
+        "problem": "Problem",
+        "method": "Method",
+        "results": "Results",
+        "significance": "Significance",
+    },
+    "zh": {
+        "problem": "问题",
+        "method": "方法",
+        "results": "结果",
+        "significance": "意义",
+    },
+}
 
 
 class ContentEnricher:
@@ -143,6 +160,12 @@ class ContentEnricher:
         Args:
             item: Content item to enrich (modified in-place via metadata)
         """
+        # Academic papers get a dedicated structured (problem/method/results/
+        # significance) bilingual summary instead of the news template.
+        if item.source_type == SourceType.PAPERS or item.metadata.get("is_paper"):
+            await self._enrich_paper(item)
+            return
+
         # Extract content text and comments separately
         content_text = ""
         comments_text = ""
@@ -239,3 +262,84 @@ class ContentEnricher:
         item.metadata["detailed_summary"] = item.metadata.get("detailed_summary_en", "")
         item.metadata["background"] = item.metadata.get("background_en", "")
         item.metadata["community_discussion"] = item.metadata.get("community_discussion_en", "")
+
+    @retry(
+        stop=stop_after_attempt(3),
+        wait=wait_exponential(min=2, max=10)
+    )
+    async def _enrich_paper(self, item: ContentItem) -> None:
+        """Enrich an academic paper with a structured bilingual summary.
+
+        Produces a problem/method/results/significance breakdown in both
+        English and Chinese, stored as ``detailed_summary_{lang}`` so the
+        summarizer renders it inside the paper's card.
+
+        Args:
+            item: Paper content item to enrich (modified in-place via metadata)
+        """
+        abstract = (item.content or "")[:4000]
+
+        # Ground the "significance" in web results when the concept is niche.
+        queries = await self._extract_concepts(item, abstract)
+        all_results = []
+        web_sections = []
+        for query in queries:
+            results = await self._web_search(query)
+            all_results.extend(results)
+            if results:
+                lines = [f"- [{r['title']}]({r['url']}): {r['body']}" for r in results]
+                web_sections.append(f"**{query}:**\n" + "\n".join(lines))
+        web_context = "\n\n".join(web_sections) if web_sections else ""
+        available_urls = {r["url"]: r["title"] for r in all_results if r.get("url")}
+
+        meta = item.metadata
+        user_prompt = PAPER_ENRICHMENT_USER.format(
+            title=item.title,
+            url=str(item.url),
+            authors=", ".join(meta.get("authors", []) or []) or (item.author or "Unknown"),
+            categories=", ".join(meta.get("arxiv_categories", []) or []) or "N/A",
+            summary=item.ai_summary or item.title,
+            score=item.ai_score or 0,
+            tags=", ".join(item.ai_tags) if item.ai_tags else "",
+            content=abstract,
+            web_context=web_context or "No web search results available.",
+        )
+
+        response = await self.client.complete(
+            system=PAPER_ENRICHMENT_SYSTEM,
+            user=user_prompt,
+        )
+
+        result = self._parse_json_response(response)
+        if result is None:
+            print(f"Warning: could not parse paper enrichment for {item.id}, skipping")
+            return
+
+        for lang in ("en", "zh"):
+            if result.get(f"title_{lang}"):
+                val = result[f"title_{lang}"]
+                item.metadata[f"title_{lang}"] = (
+                    val.get("text") or str(val) if isinstance(val, dict) else str(val)
+                )
+
+            labels = _PAPER_SECTION_LABELS[lang]
+            parts = []
+            for field in ("problem", "method", "results", "significance"):
+                text = str(result.get(f"{field}_{lang}", "") or "").strip()
+                if text:
+                    parts.append(f"**{labels[field]}:** {text}")
+            if parts:
+                item.metadata[f"detailed_summary_{lang}"] = "\n\n".join(parts)
+
+        # Store citation sources — only URLs that came from our search results.
+        if result.get("sources") and available_urls:
+            valid = [
+                {"url": u, "title": available_urls[u]}
+                for u in result["sources"]
+                if u in available_urls
+            ]
+            if valid:
+                item.metadata["sources"] = valid
+
+        # Backward-compatible fallback field (English as default).
+        item.metadata["detailed_summary"] = item.metadata.get("detailed_summary_en", "")

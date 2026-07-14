@@ -20,6 +20,7 @@ from .scrapers.telegram import TelegramScraper
 from .scrapers.twitter import TwitterScraper
 from .scrapers.openbb import OpenBBScraper
 from .scrapers.ossinsight import OSSInsightScraper
+from .scrapers.papers import PapersScraper
 from .ai.client import create_ai_client
 from .ai.analyzer import ContentAnalyzer
 from .ai.summarizer import DailySummarizer
@@ -279,6 +280,11 @@ class HorizonOrchestrator:
                 oss_scraper = OSSInsightScraper(self.config.sources.ossinsight, client)
                 tasks.append(self._fetch_with_progress("OSS Insight", oss_scraper, since))
 
+            # Academic papers (arXiv + optional Hugging Face trending)
+            if self.config.sources.papers and self.config.sources.papers.enabled:
+                papers_scraper = PapersScraper(self.config.sources.papers, client)
+                tasks.append(self._fetch_with_progress("Papers", papers_scraper, since))
+
             # Fetch all concurrently
             results = await asyncio.gather(*tasks, return_exceptions=True)
 
@@ -333,6 +339,8 @@ class HorizonOrchestrator:
             return meta["repo"]
         if meta.get("watchlist"):
             return meta["watchlist"]
+        if meta.get("is_paper"):
+            return f"arXiv:{meta.get('primary_category') or 'papers'}"
         return item.author or "unknown"
 
     def merge_cross_source_duplicates(self, items: List[ContentItem]) -> List[ContentItem]:

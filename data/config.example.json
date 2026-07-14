@@ -107,6 +107,15 @@
       "keywords": [],
       "min_stars": 10,
       "max_items": 30
+    },
+    "papers": {
+      "enabled": false,
+      "categories": ["cs.AI", "cs.LG", "cs.CL", "cs.CV", "stat.ML", "cs.NE"],
+      "keywords": [],
+      "max_results": 50,
+      "huggingface_trending": true,
+      "hf_min_upvotes": 0,
+      "include_hf_only": true
     }
   },
   "filtering": {
