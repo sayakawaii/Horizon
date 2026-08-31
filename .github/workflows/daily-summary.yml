@@ -2,7 +2,10 @@ name: Daily Horizon Summary
 
 on:
   schedule:
-    - cron: '0 22 * * *'  # 06:00 Asia/Shanghai (22:00 UTC previous day)
+    # DeepSeek API peak hours (2x price): 01:00-04:00 and 06:00-10:00 UTC (Mon-Fri).
+    # Run at 22:00 UTC (06:00 Asia/Shanghai): off-peak and finishes well before
+    # the 01:00 UTC peak window, while still delivering in the Beijing morning.
+    - cron: '0 22 * * *'
   workflow_dispatch:      # Allow manual trigger
 
 jobs:

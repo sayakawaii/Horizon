@@ -117,7 +117,7 @@
       "max_items": 30
     },
     "papers": {
-      "enabled": true,
+      "enabled": false,
       "categories": ["cs.AI", "cs.LG", "cs.CL", "cs.CV", "stat.ML", "cs.NE"],
       "keywords": [],
       "max_results": 50,
