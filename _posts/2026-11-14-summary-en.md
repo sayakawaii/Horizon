@@ -5,403 +5,282 @@ date: 2026-11-14
 lang: en
 ---
 
-> From 123 items, 14 important content pieces were selected
+> From 112 items, 10 important content pieces were selected
 
 ---
-
-<section class="cat cat-disaster" markdown="1">
-
-## 🌍 Breaking & Disasters (1)
-
-<a id="item-1"></a>
-<details class="hz-item" data-score="9.0" markdown="1">
-<summary><span class="hz-item-title">FAA issues nationwide ground stop after telecom outage hits ATC</span> <span class="hz-item-score">⭐️ 9.0/10</span></summary>
-
-The Federal Aviation Administration issued a nationwide ground stop on Friday, November 13, 2026, halting all departing flights across the United States "due to extraordinary circumstances and for reasons of safety." Early reports indicate the outage affected a telecommunications network managed by L3Harris Technologies that carries radio frequencies used by air-traffic controllers to communicate with pilots. Nationwide ground stops are extremely rare—the only prior instances were after the September 11, 2001 attacks and a January 2023 pilot-notification system failure—so this event highlights serious vulnerabilities in the aging U.S. air-traffic-control infrastructure and will disrupt travel for millions of passengers. The outage appears to affect crucial radio frequencies used for controller-pilot communications, and it is not yet clear whether radar feeds were also impacted; DHS Secretary Mullin confirmed the disruption will likely be an extended outage rather than resolved within the hour.
-
-🔗 [Source](https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247)
-
-hackernews · zulln · Nov 13, 21:05 · [Discussion](https://news.ycombinator.com/item?id=50489641)
-
-**Background**: The FAA's air-traffic-control system relies on a private telecommunications network to relay radio communications and radar data between controllers and aircraft. A ground stop is a rare emergency order that halts departures nationwide, and the last such order before 2023 was issued after the 9/11 attacks. The FAA has also recently begun expanding its AI-powered SMART system, which provides congestion advice to controllers but is not intended to replace them.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247">FAA orders nationwide ground stop for all departing flights for...</a></li>
-<li><a href="https://www.cnbc.com/2026/11/13/faa-ground-stop.html">FAA issues nationwide ground stop citing ATC communication issues</a></li>
-<li><a href="https://nypost.com/2026/11/13/us-news/planes-halted-across-us-as-faa-issues-nationwide-ground-stop-over-extraordinary-circumstances/">Planes halted across US as FAA issues nationwide ground stop over...</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Commenters pointed to a WSJ report that the outage affected an L3Harris-run network handling radio frequencies for controllers, while others noted the sparse official information and speculated about a possible botched rollout of the FAA's AI-for-ATC system announced just days earlier. Some also cited reports that an update to the private communications network caused a system reboot and crash.
-
-**Tags**: `#aviation`, `#FAA`, `#infrastructure-outage`, `#air-traffic-control`, `#AI-deployment`
-
-</details>
-
-
-</section>
-
-<section class="cat cat-science" markdown="1">
-
-## 🧪 Science (3)
-
-<a id="item-2"></a>
-<details class="hz-item" data-score="8.0" markdown="1">
-<summary><span class="hz-item-title">AI Deciphers Gödel's Shorthand Notebooks, Revealing Hundreds of Theorems</span> <span class="hz-item-score">⭐️ 8.0/10</span></summary>
-
-Researchers have used AI to decode Kurt Gödel's notebooks written in Gabelsberger shorthand, reportedly uncovering hundreds of proved theorems and hidden mathematical insights. The notebooks, long inaccessible to scholars, contain Gödel's private working notes and philosophical reflections. This breakthrough could shed new light on Gödel's thought process and reveal previously unknown mathematical results, potentially impacting logic, set theory, and philosophy of mathematics. It also demonstrates the growing power of AI in deciphering historical manuscripts and unlocking inaccessible knowledge. The notebooks are written in Gabelsberger shorthand, a system rarely used today and difficult to read even for experts. The AI's success in decoding them suggests that similar approaches could be applied to other historical manuscripts in obscure shorthand or scripts.
-
-🔗 [Source](https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths)
-
-hackernews · bookofjoe · Nov 13, 17:30 · [Discussion](https://news.ycombinator.com/item?id=50486748)
-
-**Background**: Kurt Gödel was a renowned logician known for his incompleteness theorems, which revolutionized mathematics. He kept extensive notebooks in Gabelsberger shorthand, a German stenography system from the 19th century, which have been largely undeciphered until now. AI techniques for historical manuscript decipherment involve machine learning models trained on script patterns to automate transcription.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Gabelsberger_shorthand">Gabelsberger shorthand</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Kurt_Gödel">Kurt Gödel - Wikipedia</a></li>
-<li><a href="https://www.degruyterbrill.com/serial/goedel-b/html">Philosophische Notizbücher / Philosophical Notebooks</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Commenters expressed skepticism about the claim that Gabelsberger shorthand is nearly unreadable, with one sharing a personal anecdote about their father using it. Others noted Gödel's perfectionism, suggesting he would not have left conclusive theorems unpolished, and highlighted his fear of being forgotten. Some also expressed interest in the specific '14 themes of logic' mentioned.
-
-**Tags**: `#Gödel`, `#AI`, `#mathematics`, `#history of science`, `#shorthand decipherment`
-
-</details>
-
-
-<a id="item-3"></a>
-<details class="hz-item" data-score="7.0" markdown="1">
-<summary><span class="hz-item-title">Granzyme K drives tissue aging without systemic inflammation</span> <span class="hz-item-score">⭐️ 7.0/10</span></summary>
-
-A new study published in Immunity identifies the serine protease Granzyme K (GzmK) as a tissue-specific driver of organismal aging in mice, showing that GzmK deficiency markedly attenuates organ aging even while immune aging phenotypes persist. This effectively uncouples tissue aging from immune aging and systemic inflammaging. This finding challenges the prevailing view that chronic low-grade inflammation (inflammaging) is the central driver of aging, suggesting that tissue aging can be targeted independently of systemic immune activation. It opens a potential therapeutic avenue for age-related organ decline by inhibiting GzmK without broadly suppressing inflammation. The study used GzmK-deficient mice and found that despite persistent immune aging phenotypes, organ aging was markedly attenuated, indicating that GzmK drives tissue aging through non-immune pathways. The research was conducted at Monash University and published in the journal Immunity.
-
-🔗 [Source](https://www.nature.com/articles/d41586-026-03638-3)
-
-hackernews · gumby · Nov 13, 19:25 · [Discussion](https://news.ycombinator.com/item?id=50488470)
-
-**Background**: Aging is characterized by progressive tissue and organ decline, and chronic low-grade inflammation, known as inflammaging, has been considered a central driver. Granzyme K is a serine protease markedly upregulated in aged memory CD8+ T cells and has been proposed as a mediator of both immune and organismal aging. Previous work showed that GzmK-expressing CD8+ T cells expand with age and that GzmK can activate the complement cascade, linking it to destructive inflammation.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://pubmed.ncbi.nlm.nih.gov/43020081/">Granzyme K is a driver of age-related tissue remodeling and ...</a></li>
-<li><a href="https://www.nature.com/articles/s41586-025-08713-9">Granzyme K activates the entire complement cascade - Nature</a></li>
-<li><a href="https://www.cell.com/immunity/fulltext/S1074-7613(20)30492-1">Comprehensive Profiling of an Aging Immune System Reveals ...</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Commenters highlighted the paper's abstract, emphasizing the nuance that GzmK deficiency uncouples immune and tissue aging, and noted the paywall. Some made lighthearted remarks about mice not aging, while others stressed that the findings are in mice.
-
-**Tags**: `#biology`, `#aging`, `#research`, `#immunology`, `#science`
-
-</details>
-
-
-<a id="item-4"></a>
-<details class="hz-item" data-score="7.0" markdown="1">
-<summary><span class="hz-item-title">1960 Science Paper's Doomsday Prediction for 2026 Fails, Sparking Debate</span> <span class="hz-item-score">⭐️ 7.0/10</span></summary>
-
-A 1960 Science paper by Heinz von Foerster, Patricia M. Mora, and Lawrence W. Amiot predicted that human population would approach infinity on Friday, 13 November 2026, based on a hyperbolic extrapolation of historical growth. As the date approaches, the paper has resurfaced on Hacker News, prompting discussion about the failure of naive extrapolation and parallels to modern AI predictions. The paper serves as a cautionary tale about the dangers of extrapolating simple mathematical trends from limited data, a lesson that applies to contemporary forecasts such as those about artificial intelligence and climate change. It also highlights how demographic concerns have shifted from overpopulation to population decline in many industrialized nations. The authors used a hyperbolic growth model that fit population data from the last two millennia, but such models ignore feedback mechanisms and resource constraints. The prediction was off by a wide margin; global population is now around 8 billion and growth has slowed significantly.
-
-🔗 [Source](https://www.science.org/doi/10.1126/science.132.3436.1291)
-
-hackernews · voxleone · Nov 13, 12:10 · [Discussion](https://news.ycombinator.com/item?id=50482379)
-
-**Background**: Heinz von Foerster was an Austrian-American scientist known for his work in cybernetics and was the originator of second-order cybernetics. The paper, titled 'Doomsday: Friday, 13 November, A.D. 2026,' argued that population growth had been faster than exponential, leading to a singularity. This idea influenced later debates on population and was popularized in works like 'The Population Bomb.'
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Heinz_von_Foerster">Heinz von Foerster - Wikipedia</a></li>
-<li><a href="https://ee.stanford.edu/~acfs/vonFoersterArticle.pdf">Doomsday: Friday, 13 November, A.D. 2026</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Commenters largely agree that the prediction illustrates the pitfalls of naive extrapolation, with some noting that overpopulation concerns have reversed in many countries. Others draw parallels to modern AI hype, arguing that similar simplistic forecasts about superintelligence are overblown. A few also point out that mathematical models approaching infinity are not meaningful for real-world predictions.
-
-**Tags**: `#population-growth`, `#prediction`, `#extrapolation`, `#history-of-science`, `#ai-hype`
-
-</details>
-
-
-</section>
 
 <section class="cat cat-tech" markdown="1">
 
 ## 🔬 Tech & AI (10)
 
-<a id="item-5"></a>
+<a id="item-1"></a>
 <details class="hz-item" data-score="9.0" markdown="1">
-<summary><span class="hz-item-title">llama.cpp reaches v1.0.0, a milestone for local AI inference</span> <span class="hz-item-score">⭐️ 9.0/10</span></summary>
+<summary><span class="hz-item-title">SpaceX catches Starship booster with chopstick arms on Flight 15</span> <span class="hz-item-score">⭐️ 9.0/10</span></summary>
 
-llama.cpp, the open-source C/C++ library for running large language models locally, has released version 1.0.0, marking its first major stable release since development began in March 2023. The announcement was published on Hugging Face's blog by the ggml-org team, signaling a stronger and more stable foundation for the local AI ecosystem. llama.cpp is widely regarded as the de facto standard core of almost all local inference tools, including Ollama and LM Studio, so a stable 1.0.0 release provides a reliable foundation for countless downstream projects and applications. This milestone likely includes API stability commitments that will reduce breakage for developers and encourage broader adoption of local AI. The release is built on the GGML tensor library and supports the GGUF file format, which has become the standard for distributing quantized models and is natively supported by tools like llama.cpp, Ollama, LM Studio, GPT4All, Jan, and koboldcpp. llama.cpp also offers CPU+GPU hybrid inference to partially accelerate models larger than available VRAM.
+SpaceX successfully caught the Super Heavy booster of its Starship rocket using the launch tower's mechanical 'chopstick' arms at the end of Flight 15, marking the first time the booster was recovered intact on land. This milestone demonstrates full reusability of the Super Heavy booster, a key step toward dramatically lowering the cost of access to space and enabling frequent, rapid re-flights. The catch occurred after the booster separated from the Starship upper stage and performed a controlled descent back to the launch site; the ship itself continued to orbit and deployed 26 Starlink satellites before returning.
+
+🔗 [Source](https://x.com/i/broadcasts/2brajgZlOKRMka)
+
+hackernews · ls612 · Nov 14, 21:22 · [Discussion](https://news.ycombinator.com/item?id=50500963)
+
+**Background**: Starship is SpaceX's next-generation fully reusable launch system, consisting of the Super Heavy booster and the Starship spacecraft. The 'chopstick' arms on the launch tower are designed to catch the booster mid-air, eliminating the need for landing legs and enabling faster reuse. Previous test flights have progressively pushed the envelope, from initial hops to orbital attempts and now booster recovery.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://apnews.com/article/spacex-elon-musk-starship-rocket-df394c1b5a0f85e11194f9ff7db9ee6b">SpaceX’s Starship returns from orbit and is captured by ...</a></li>
+<li><a href="https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-15-chopsticks-double-catch-super-heavy-ship">SpaceX launches Starship on ambitious 22-hour Flight 15 test... | Space</a></li>
+<li><a href="https://thespaceroad.com/articles/how-does-starship-catch-work/">How does the Starship catch work? | The Space Road</a></li>
+
+</ul>
+</details>
+
+**Discussion**: The Hacker News community reacted with overwhelming enthusiasm, calling it a historic achievement that could usher in a new era of cheap spaceflight. Commenters highlighted the potential for double catches and re-flights, while some noted the engineering challenges and the long road to full reusability.
+
+**Tags**: `#spacex`, `#starship`, `#reusable-rockets`, `#aerospace`, `#engineering`
+
+</details>
+
+
+<a id="item-2"></a>
+<details class="hz-item" data-score="9.0" markdown="1">
+<summary><span class="hz-item-title">llama.cpp Reaches v1.0.0, Strengthening Local AI Inference</span> <span class="hz-item-score">⭐️ 9.0/10</span></summary>
+
+The llama.cpp project, a widely used open-source library for running large language models locally, has released version 1.0.0, marking its first major stable milestone since its creation in March 2023. Reaching v1.0.0 signals maturity and stability for a project that has become the de facto standard underlying many local AI tools, including Ollama and LM Studio, and could encourage broader adoption in production and enterprise environments. llama.cpp is co-developed with the GGML tensor library and uses the GGUF file format, which stores tensors and metadata in a single file for fast loading and backward compatibility across model architectures.
 
 🔗 [Source](https://huggingface.co/blog/ggml-org/llama-cpp-v1)
 
 rss · Hugging Face Blog · Nov 13, 14:05
 
-**Background**: llama.cpp is an open-source software library that performs inference on various large language models such as Meta's Llama, and it is co-developed alongside the GGML project, a general-purpose tensor library. GGML quantizes model weights to 4-bit or 8-bit integers to dramatically reduce memory usage and uses optimized matrix multiplication routines for CPU architectures. The GGUF format, introduced in August 2023, stores both tensors and metadata in a single file and has become the standard for distributing quantized LLMs for local inference. As of 2026, tens of thousands of GGUF checkpoints are hosted on Hugging Face, which provides first-class integration including a metadata viewer and inference endpoint service.
+**Background**: llama.cpp is an open-source C/C++ library that performs inference on large language models such as Meta's Llama entirely on-device, without relying on cloud services. It was started by Georgi Gerganov in March 2023 and is co-developed alongside the GGML project, a general-purpose tensor library. The library includes command-line tools and a server with a simple web interface, and it has become the core of almost all local inference tools. The GGUF format, introduced in August 2023, superseded earlier formats to better maintain compatibility as support for new model architectures was added.
 
 <details><summary>References</summary>
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/Llama.cpp">Llama.cpp</a></li>
-<li><a href="https://en.wikipedia.org/wiki/GGML">GGML</a></li>
-<li><a href="https://github.com/ggml-org/llama.cpp">GitHub - ggml -org/llama.cpp: LLM inference in C/C++ · GitHub</a></li>
+<li><a href="https://en.wikipedia.org/wiki/GGUF">GGUF - Wikipedia</a></li>
+<li><a href="https://grokipedia.com/page/llamacpp">llama.cpp</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#llama.cpp`, `#local AI`, `#inference`, `#open source`, `#GGML`
+**Tags**: `#llama.cpp`, `#local AI`, `#inference`, `#open source`, `#AI/ML`
 
 </details>
 
 
-<a id="item-6"></a>
+<a id="item-3"></a>
 <details class="hz-item" data-score="8.0" markdown="1">
-<summary><span class="hz-item-title">Reverse engineering Coway air purifier to ditch the cloud</span> <span class="hz-item-score">⭐️ 8.0/10</span></summary>
+<summary><span class="hz-item-title">Lovable apps leak passports and 200K messages via weak RLS</span> <span class="hz-item-score">⭐️ 8.0/10</span></summary>
 
-A developer published a detailed write-up on reverse engineering a Coway air purifier's device-to-cloud protocol to enable local control without the vendor's cloud servers. The project analyzes the purifier's communication and builds a local alternative, allowing the device to keep working even if the cloud is unavailable. This work highlights the growing movement of IoT device liberation, where users reclaim control over their smart home devices to improve privacy, reliability, and longevity. It also demonstrates how LLM-assisted reverse engineering is lowering the barrier for such projects, potentially affecting how manufacturers design and secure their products. The author found that the purifier downloads its root CA certificate over plain HTTP, making it always vulnerable to man-in-the-middle attacks. The write-up details the protocol analysis and the steps to implement local control, though specific technical limitations are not mentioned in the summary.
+A security researcher at Crissy Field published findings that apps built with the AI app builder Lovable exposed sensitive data, including passport details and more than 200,000 private messages, because the underlying Supabase database tables lacked sufficient Row-Level Security (RLS) policies. The post gained major traction on Hacker News, drawing a public response from Lovable's Head of Security. This incident shows how insecure defaults in AI-generated apps can cause real data breaches at scale, putting pressure on both AI app builders like Lovable and database platforms like Supabase to ship secure-by-default configurations. It also highlights that non-expert users of no-code AI tools may unknowingly deploy publicly readable databases. The root cause was insufficient RLS on Supabase tables, which by default are readable and writable by any role with a grant unless RLS is explicitly enabled. Lovable says it automatically scans every app before publishing and offers a free deeper SAST scan, with options to fix findings or enable auto-fix, while commenters note Supabase's historical permissive defaults may still affect existing projects.
 
-🔗 [Source](https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/)
+🔗 [Source](https://www.crissyfield.de/research/lovable-en/)
 
-hackernews · scottjg · Nov 12, 22:03 · [Discussion](https://news.ycombinator.com/item?id=50474959)
+hackernews · armcat · Nov 14, 17:43 · [Discussion](https://news.ycombinator.com/item?id=50499017)
 
-**Background**: Many smart home devices rely on cloud servers for remote control and automation, which can introduce privacy risks, latency, and dependency on the manufacturer's continued support. Reverse engineering involves analyzing a device's firmware and network traffic to understand its operation, often to create custom firmware or local integrations. LLMs are increasingly used to automate tedious parts of this process, such as decompilation and protocol analysis.
+**Background**: Lovable is an AI app builder that generates full applications, including database backends, from natural-language prompts, and it commonly uses Supabase, a Postgres-based backend-as-a-service, for data storage. Row-Level Security is a PostgreSQL feature that restricts which rows a user can access based on policies; without it, an exposed table can be read or written by anyone with API access. Because AI-generated apps often skip or misconfigure these policies, security researchers have warned that such apps are frequently insecure by default.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://news.ycombinator.com/item?id=50474959">Reverse Engineering My Coway Air Purifier to Ditch the Cloud</a></li>
-<li><a href="https://agihunt.info/en/p/1a1d552decedd673e1f4dbc6dc2">Reverse Engineering My Coway Air Purifier … · AGI Hunt</a></li>
-<li><a href="https://github.com/ram-elgov/awesome-llm-reverse-engineering">Awesome‑LLM‑Reverse‑Engineering - GitHub</a></li>
+<li><a href="https://supabase.com/docs/guides/database/postgres/row-level-security">Row Level Security - Supabase Docs</a></li>
+<li><a href="https://lovable.dev/">App & Website Builder | Build Software in Minutes | Lovable</a></li>
+<li><a href="https://bubble.io/blog/ai-generated-code-security/">AI-Generated Code Security: Risks and How to Fix Them - Bubble</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters shared similar projects, such as liberating Haier AC units with ESP32 modules and ESPHome, and building DIY air purifiers like the Corsi-Rosenthal Box. Some noted that LLMs enable faster discovery of poor security practices, while others warned that manufacturers may soon use LLMs to lock down devices more effectively.
+**Discussion**: Commenters debated shared responsibility: some argued Supabase deserves blame for historically permissive defaults that may still apply to existing projects, while others said platforms need deny-by-default databases, least-privilege APIs, and automated auth tests to make insecure AI-generated deployments difficult. Lovable's Head of Security participated, explaining that insufficient RLS was the root cause and describing the company's scanning and auto-fix features, and the blog author also joined the thread.
 
-**Tags**: `#reverse-engineering`, `#IoT`, `#privacy`, `#embedded-systems`, `#LLM-assisted-development`
+**Tags**: `#security`, `#supabase`, `#row-level-security`, `#ai-generated-apps`, `#data-breach`
 
 </details>
 
 
-<a id="item-7"></a>
+<a id="item-4"></a>
 <details class="hz-item" data-score="8.0" markdown="1">
-<summary><span class="hz-item-title">OpenAI launches ChatGPT Wallet for agentic purchases</span> <span class="hz-item-score">⭐️ 8.0/10</span></summary>
+<summary><span class="hz-item-title">Project Zero to cut vulnerability disclosure deadline from 90 to 30 days by 2028</span> <span class="hz-item-score">⭐️ 8.0/10</span></summary>
 
-OpenAI announced ChatGPT Wallet, a secure payment method that lets AI agents in ChatGPT Work, Codex, and dots complete purchases with user approval while retaining existing card protections. This extends ChatGPT from a conversational assistant into agentic commerce, enabling AI agents to transact on users' behalf and potentially reshaping how online purchases are made across OpenAI's product ecosystem. Purchases require explicit user approval and rely on existing card protections, but the announcement provides few technical specifics on authentication, spending limits, or dispute handling.
+Google Project Zero announced a phased reduction of its vulnerability disclosure deadline: starting today it adopts a "Full 90" policy, moving to "Full 60" on February 2, 2027, and "Full 30" on January 3, 2028, meaning vulnerabilities will be publicly disclosed 30 days after being reported to vendors. This is a significant policy shift that pressures vendors to patch faster and could reshape industry norms around coordinated vulnerability disclosure, affecting how software companies and open-source projects prioritize security fixes. The current policy is a 90+30 model giving vendors 90 days plus a 30-day grace period; the new timeline removes that buffer and compresses the window to 30 days by 2028, though Project Zero's FAQ notes some issues (e.g., hardware vulnerabilities) may be treated differently.
+
+🔗 [Source](https://projectzero.google/2026/11/disclosure-policy.html)
+
+hackernews · hacb · Nov 14, 11:13 · [Discussion](https://news.ycombinator.com/item?id=50496051)
+
+**Background**: Project Zero is Google's security research team that finds zero-day vulnerabilities and reports them to vendors. Coordinated vulnerability disclosure gives vendors time to patch before details go public, balancing user protection with transparency. The 90-day deadline has been an industry benchmark, but critics argue it can be too short for complex fixes or too long for urgent threats.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://projectzero.google/vulnerability-disclosure-faq.html">Vulnerability Disclosure FAQ - Project Zero</a></li>
+<li><a href="https://googleprojectzero.blogspot.com/p/vulnerability-disclosure-policy.html">Project Zero : Vulnerability Disclosure Policy</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Coordinated_vulnerability_disclosure">Coordinated vulnerability disclosure - Wikipedia</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Commenters debated the policy's implications, with one raising concerns that vendors might leverage faster disclosure to push adoption of their own LLM-based security tools, and another noting the novelty of the .google TLD.
+
+**Tags**: `#vulnerability-disclosure`, `#security`, `#project-zero`, `#policy`, `#software-engineering`
+
+</details>
+
+
+<a id="item-5"></a>
+<details class="hz-item" data-score="8.0" markdown="1">
+<summary><span class="hz-item-title">OpenAI launches ChatGPT Wallet for agent purchases</span> <span class="hz-item-score">⭐️ 8.0/10</span></summary>
+
+OpenAI introduced ChatGPT Wallet, a secure payment mechanism that allows agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections. This marks a significant step toward agentic commerce, where AI agents can autonomously handle financial transactions on behalf of users, potentially transforming how people shop and manage payments online. The wallet requires explicit user approval for each purchase and leverages existing card protections, ensuring security and user control; it is integrated across ChatGPT Work, Codex, and dots, though specific technical details and availability are not yet disclosed.
 
 🔗 [Source](https://openai.com/index/introducing-chatgpt-wallet)
 
 rss · OpenAI Blog · Nov 13, 15:00
 
-**Background**: Agentic commerce refers to AI agents that autonomously search for products, compare options, and complete payments on behalf of users. ChatGPT Work is OpenAI's team-oriented productivity offering, Codex is its coding agent, and dots is a product for always-on background agents. ChatGPT Wallet sits at the intersection of these products and payment infrastructure, a space where standards like Coinbase and Cloudflare's x402 are also emerging.
+**Background**: ChatGPT Work is OpenAI's collaborative AI workspace for teams, Codex is an AI coding agent that runs locally or in the cloud, and dots are always-on personal agents introduced in September 2026. Agentic commerce refers to AI agents that can autonomously perform shopping and payment tasks, a growing trend among major tech companies.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Agentic_commerce">Agentic commerce</a></li>
 <li><a href="https://openai.com/chatgpt-work/">ChatGPT Work for every team | OpenAI</a></li>
-<li><a href="https://openai.com/index/introducing-dots/">Introducing dots | OpenAI</a></li>
+<li><a href="https://en.wikipedia.org/wiki/OpenAI_Codex">OpenAI Codex - Wikipedia</a></li>
+<li><a href="https://openai.com/index/introducing-dots/">Introducing dots - OpenAI</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#OpenAI`, `#AI agents`, `#payments`, `#agentic commerce`, `#security`
+**Tags**: `#OpenAI`, `#AI agents`, `#payments`, `#agentic commerce`, `#product announcement`
+
+</details>
+
+
+<a id="item-6"></a>
+<details class="hz-item" data-score="7.0" markdown="1">
+<summary><span class="hz-item-title">PyPI launches redesigned project pages with clearer security signals</span> <span class="hz-item-score">⭐️ 7.0/10</span></summary>
+
+PyPI has completed a redesign of its project pages, now live, that surfaces clearer security and provenance signals for each package release. The update highlights attestations and other trust indicators directly on the files section of project pages. Because PyPI is the default package registry for the Python ecosystem, making provenance and security signals more visible could encourage maintainers to adopt trusted publishing and sigstore-based signing, improving supply-chain security for millions of downstream users. It also shifts more responsibility onto package consumers to interpret these signals correctly. Provenance on PyPI is shared via attestations that record build and publishing details, and the new UI makes it easy to compare packages with and without them—for example, dlt currently shows no provenance while datasette does. However, provenance only verifies where a release came from; it does not detect malicious projects that were never benign.
+
+🔗 [Source](https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/)
+
+hackernews · rbanffy · Nov 14, 15:40 · [Discussion](https://news.ycombinator.com/item?id=50497892)
+
+**Background**: Provenance describes where a release file came from, typically via attestations that provide a verifiable record of the build or publishing process. Sigstore is an open-source project that enables keyless signing using short-lived certificates tied to OIDC identities, making it easier for CI/CD pipelines to sign artifacts without managing long-lived private keys. Trusted publishing lets maintainers publish packages directly from CI providers like GitHub Actions without storing API tokens.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://docs.pypi.org/using-pypi/package-security/provenance/">Checking Provenance (package origin) - PyPI Docs</a></li>
+<li><a href="https://www.sigstore.dev/">Home · Sigstore</a></li>
+<li><a href="https://docs.pypi.org/using-pypi/pypi-basics/">PyPI Basics - PyPI User Documentation</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Commenters welcomed the visibility of provenance but raised concerns that the trust model centralizes on big cloud CI providers and promotes lock-in, which some see as anti-Pythonic. Others highlighted gaps such as trusted publishing not yet supporting reusable workflows, and one commenter stressed that provenance detects compromised entries rather than malicious projects.
+
+**Tags**: `#pypi`, `#supply-chain-security`, `#sigstore`, `#provenance`, `#package-management`
+
+</details>
+
+
+<a id="item-7"></a>
+<details class="hz-item" data-score="7.0" markdown="1">
+<summary><span class="hz-item-title">Minimal DeepSeek V3 inference in ~200 lines of pure JAX</span> <span class="hz-item-score">⭐️ 7.0/10</span></summary>
+
+A developer released a ~190-line pure JAX implementation of DeepSeek V3 inference on GitHub, reimplementing its three key ideas: Multi-head Latent Attention, mixture-of-experts with bias-based load balancing, and multi-token prediction. The model is a 36.2M-parameter version trained on a MacBook Air M5 using jax-metal on 207 detective novels, taking about 2.6 hours for 12,000 steps. This project offers an educational, from-scratch implementation that helps developers understand modern LLM inference without the complexity of full-scale frameworks. A community member confirmed it ran end-to-end on an AMD RX 7600 XT 16GB GPU using ROCm, demonstrating practical value for consumer AMD hardware users. The implementation is about 190 lines and focuses on inference, not full-scale training; the trained model is a small 36.2M-parameter version, not the full 671B-parameter DeepSeek V3. For AMD RX 7600 XT, users need to set environment variables like HSA_OVERRIDE_GFX_VERSION=11.0.0 to work around JAX plugin issues.
+
+🔗 [Source](https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax)
+
+hackernews · VaibhaavTiwari · Nov 14, 15:04 · [Discussion](https://news.ycombinator.com/item?id=50497589)
+
+**Background**: DeepSeek V3 is a large language model known for its efficient architecture, including Multi-head Latent Attention (MLA) and a mixture-of-experts (MoE) design with auxiliary-loss-free load balancing. JAX is a Python library for high-performance numerical computing and automatic differentiation, often used for machine learning research. ROCm is AMD's open-source software stack for GPU programming, serving as an alternative to NVIDIA's CUDA.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://github.com/deepseek-ai/DeepSeek-V3">GitHub - deepseek -ai/ DeepSeek - V 3 · GitHub</a></li>
+<li><a href="https://docs.jax.dev/en/latest/automatic-differentiation.html">Automatic differentiation — JAX documentation</a></li>
+<li><a href="https://en.wikipedia.org/wiki/ROCm">ROCm - Wikipedia</a></li>
+
+</ul>
+</details>
+
+**Discussion**: The discussion is positive and enthusiastic, with users praising the educational value of rebuilding a model from first principles. One user reported successfully running the project end-to-end on an AMD RX 7600 XT 16GB with ROCm, sharing gotchas about environment variables, while others asked for roadmaps to build intuition about inference.
+
+**Tags**: `#jax`, `#deepseek`, `#llm-inference`, `#show-hn`, `#rocm`
 
 </details>
 
 
 <a id="item-8"></a>
 <details class="hz-item" data-score="7.0" markdown="1">
-<summary><span class="hz-item-title">Live airband monitoring with SDR and GPUs during ground stop</span> <span class="hz-item-score">⭐️ 7.0/10</span></summary>
+<summary><span class="hz-item-title">LinkedIn and Monster Remove Over 1,000 Fake Job Postings After CBC Investigation</span> <span class="hz-item-score">⭐️ 7.0/10</span></summary>
 
-A live airband monitoring system using an Ettus B210 SDR and dual Nvidia 4090 GPUs was demonstrated, channelizing and demodulating all airband frequencies in real-time. It proved unexpectedly useful during a ground stop at KORS (Orcas Island) and Victoria, CA, capturing pilot and controller communications. This project showcases the power of GPU-accelerated signal processing for real-time monitoring of wideband radio spectrum, which can provide situational awareness during aviation incidents. It also highlights the growing accessibility of SDR and GPU technology for hobbyists and researchers to build sophisticated radio monitoring systems. The system uses a polyphase channelizer implemented in CUDA to split the entire airband into channels, then demodulates and detects transmissions, discarding data to save bandwidth. The Ettus B210 covers 70 MHz to 6 GHz with up to 56 MHz bandwidth, and the dual RTX 4090 GPUs handle the heavy parallel processing.
+Following a CBC investigation, LinkedIn and Monster have taken down more than 1,000 fake job postings that were part of recruitment scams targeting job seekers. This highlights the growing problem of online job scams and raises questions about platform accountability for fraudulent listings, affecting millions of job seekers who rely on these platforms. The investigation likely uncovered a network of fake postings designed to collect personal information or money from applicants; platforms removed the listings but the scale suggests systemic issues in moderation.
 
-🔗 [Source](https://orcasairband.com/)
+🔗 [Source](https://www.cbc.ca/news/canada/linkedin-monster-take-down-over-1-000-fake-job-postings-after-cbc-investigation-9.7415379)
 
-hackernews · mmaunder · Nov 13, 22:04 · [Discussion](https://news.ycombinator.com/item?id=50490593)
+hackernews · gnabgib · Nov 14, 18:56 · [Discussion](https://news.ycombinator.com/item?id=50499723)
 
-**Background**: The VHF airband (108-137 MHz) is used for aviation communications, with AM modulation for voice. Software-defined radio (SDR) allows flexible processing of radio signals in software, and GPUs can accelerate the computationally intensive tasks of channelization and demodulation. The Ettus B210 is a popular SDR platform for such advanced projects.
+**Background**: Fake job postings are a common form of online fraud where scammers impersonate employers to steal personal data or money from job seekers. Platforms like LinkedIn and Monster have struggled to police such listings, which can be generated at scale using AI and other automated tools.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.ettus.com/all-products/ub210-kit/">USRP B 210 USB Software Defined Radio ( SDR ) - Ettus Research</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Airband">Airband - Wikipedia</a></li>
-<li><a href="https://deepwave.ai/news/multi-channel-fm-demodulation-with-an-embedded-gpu-9255b542d329/">Multi-Channel FM Demodulation with an Embedded GPU</a></li>
+<li><a href="https://www.gem.com/blog/recruitment-fraud">Recruitment fraud: What you need to know - Gem</a></li>
+<li><a href="https://www.bbb.org/scams/employment">Employment scams - Better Business Bureau</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The discussion included the author explaining the system and sharing raw transcripts from the ground stop, while another user mentioned a similar project decoding ship DSC signals with KiwiSDR receivers and triangulating positions. Some users debated the existence of the ground stop, with one citing a live interaction and another claiming no ground stops at YYJ, showing engagement and technical depth.
+**Discussion**: Commenters shared personal experiences with job scams, expressed frustration with platforms like LinkedIn, and debated the broader prevalence of scams in the online economy, with some noting that even legitimate industries can feel scam-like.
 
-**Tags**: `#software-defined-radio`, `#GPU-accelerated-signal-processing`, `#aviation-communications`, `#signal-demodulation`, `#real-time-monitoring`
+**Tags**: `#job-scams`, `#platform-accountability`, `#online-fraud`, `#linkedin`, `#security`
 
 </details>
 
 
 <a id="item-9"></a>
 <details class="hz-item" data-score="7.0" markdown="1">
-<summary><span class="hz-item-title">Community Releases Technical Vision for Haskell Ecosystem</span> <span class="hz-item-score">⭐️ 7.0/10</span></summary>
+<summary><span class="hz-item-title">EFF Warns Tech Companies Are Redefining Privacy Again</span> <span class="hz-item-score">⭐️ 7.0/10</span></summary>
 
-A community-authored technical vision document for the Haskell ecosystem has been published on the Haskell Discourse forum, outlining goals and priorities for the language's future development. The post has sparked extensive discussion with 79 comments and 173 points, covering topics such as language popularity, tooling, debugging, and cross-platform applicability. This vision document could shape the direction of Haskell's development, influencing tooling, library support, and adoption across industries. It reflects the community's effort to address long-standing challenges and make Haskell more competitive with languages like Rust and those on the JVM. The discussion highlights desires for improved debugging experiences, long-term API stability, and cross-platform capabilities, with comparisons to the JVM ecosystem and Rust. Community members also shared practical experiences, such as bringing live runtime debugging to a Haskell VR compositor and building high-performance CAD file readers.
+The Electronic Frontier Foundation (EFF) published an analysis arguing that tech companies are once again attempting to shift the entire concept of privacy, likely to normalize extensive data collection and AI-driven surveillance. The piece sparked a substantive Hacker News discussion (423 points, 162 comments) focused on workplace AI surveillance and individual countermeasures. This matters because the framing of privacy shapes laws, product designs, and social norms; if companies succeed in redefining privacy as mere consent to data collection, workers and consumers may lose meaningful control over their personal information. The strong community response highlights growing unease with AI meeting recorders and always-on monitoring in professional settings. The EFF analysis does not propose a specific technical fix but critiques the rhetorical shift; commenters note that AI notetakers now record even 1:1 manager meetings, making opt-out practically impossible without risking employment. Legal frameworks like the UN Declaration of Human Rights Article 12 are cited by community members as a counterweight to corporate data practices.
 
-🔗 [Source](https://discourse.haskell.org/t/a-technical-vision-for-the-haskell-ecosystem/15078)
+🔗 [Source](https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again)
 
-hackernews · cosmic_quanta · Nov 13, 14:43 · [Discussion](https://news.ycombinator.com/item?id=50484235)
+hackernews · gslin · Nov 14, 12:45 · [Discussion](https://news.ycombinator.com/item?id=50496602)
 
-**Background**: Haskell is a statically typed, purely functional programming language with a long history dating back to the late 1980s. Its ecosystem includes a compiler (GHC), build tools like Cabal and Stack, and a language server for IDE support. Despite its expressive type system and safety features, Haskell has struggled with adoption compared to mainstream languages, partly due to tooling and debugging challenges.
+**Background**: The EFF is a nonprofit digital rights group that has long advocated for privacy and free expression online. In recent years, AI-powered meeting transcription and workplace monitoring tools have become widespread, raising concerns about consent and data retention. The Hacker News discussion reflects a broader debate over how much surveillance employees should tolerate as a condition of modern employment.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Haskell">Haskell - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/List_of_Haskell_software_and_tools">List of Haskell software and tools - Wikipedia</a></li>
-<li><a href="https://docs.haskellstack.org/en/v2.15.3/debugging/">Debugging - The Haskell Tool Stack</a></li>
+<li><a href="https://thenarrativepost.com/ai-surveillance-2026-workplace-privacy-crisis/">AI Workplace Surveillance: 2026 Privacy Crisis?</a></li>
+<li><a href="https://www.apa.org/monitor/2026/11-12/hidden-costs-workplace-surveillance">The hidden costs of workplace surveillance</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters expressed diverse views: some questioned why Haskell isn't more popular for AI given its terseness and safety, others wished for universal applicability like JavaScript or Rust. The JVM was cited as an exemplar for achieving long-term stability and innovation, while others shared positive experiences with Haskell's debugging and performance in specialized domains.
+**Discussion**: Commenters expressed frustration that AI recording in meetings is becoming unavoidable, with one asking how to minimize exposure and whether it is acceptable to request that AI notetakers be turned off. Others cited the UN Universal Declaration of Human Rights and criticized tech companies for ignoring user consent, while some suggested practical steps like using throwaway identities and supporting advocacy organizations such as EFF.
 
-**Tags**: `#haskell`, `#programming-languages`, `#ecosystem`, `#developer-tooling`, `#community-discussion`
+**Tags**: `#privacy`, `#surveillance`, `#AI`, `#EFF`, `#policy`
 
 </details>
 
 
 <a id="item-10"></a>
 <details class="hz-item" data-score="7.0" markdown="1">
-<summary><span class="hz-item-title">$11.4M in Nvidia hardware vanishes during California-to-Texas shipment</span> <span class="hz-item-score">⭐️ 7.0/10</span></summary>
+<summary><span class="hz-item-title">XYBench Tests Whether LLMs Can Infer the Real Problem Behind a Question</span> <span class="hz-item-score">⭐️ 7.0/10</span></summary>
 
-A shipment of Nvidia hardware valued at $11.4 million disappeared while in transit from Oakland, California, to Texas over the summer, and more than two months later police have announced no arrests or recovery of the cargo. This incident highlights growing supply chain security risks for high-value AI hardware, as thefts of AI equipment have surged past $150 million in 2026, threatening data center buildouts and raising insurance and logistics costs across the tech industry. The shipment consisted of six pallets of Nvidia GPUs that were stolen in California in August 2026, and the stolen GPUs likely have known serial numbers that could be traced when drivers check for updates, potentially revealing where the hardware ends up.
-
-🔗 [Source](https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas)
-
-hackernews · crescit_eundo · Nov 13, 18:40 · [Discussion](https://news.ycombinator.com/item?id=50487864)
-
-**Background**: Nvidia GPUs have become highly valuable due to demand for gaming and AI accelerators, making shipments attractive targets for theft. Supply chain security involves protecting cargo during transport, and large-scale GPU thefts have become increasingly sophisticated, with stolen gear often ending up in China.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://arstechnica.com/gadgets/2026/11/nvidia-hardware-worth-11-4m-vanished-between-oakland-and-texas/">Nvidia hardware worth $11.4M vanished between... - Ars Technica</a></li>
-<li><a href="https://lowendbox.com/blog/large-scale-thefts-of-ai-gpus-are-surging-and-the-crimes-are-increasingly-sophisticated/">Large-Scale Thefts of AI GPUs are Surging and the... - LowEndBox</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Supply_chain_security">Supply chain security - Wikipedia</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Commenters questioned whether $11.4 million is a lot in the context of regular cargo losses, criticized Nvidia for using regular couriers instead of secure logistics, and suggested that GPU serial numbers could be used to trace stolen hardware.
-
-**Tags**: `#supply-chain`, `#nvidia`, `#hardware-theft`, `#logistics`, `#security`
-
-</details>
-
-
-<a id="item-11"></a>
-<details class="hz-item" data-score="7.0" markdown="1">
-<summary><span class="hz-item-title">Paper on 'Weight Space Misfolding' Sparks Debate Over Virus Framing</span> <span class="hz-item-score">⭐️ 7.0/10</span></summary>
-
-A paper posted on alphaXiv introduces the concept of 'weight space misfolding,' referring to targeted edits made directly to a model's weights, and argues that such edits could spread in a virus-like manner. The work sparked a lively Hacker News discussion (128 points, 45 comments) that questioned the paper's terminology and its claims relative to the actual findings. The discussion highlights growing concerns about the security and integrity of open-weight models, since targeted weight edits could potentially alter model behavior without retraining. It also underscores the need for better terminology and verification mechanisms, such as model hashing, to detect and track such modifications. Commenters noted that the paper only demonstrates weight space editing and does not actually prove the existence of a virus-like phenomenon; the authors themselves state they do not claim to have created or demonstrated a virus that primarily operates in weight space. The 'misfolding' analogy was criticized as misleading because protein misfolding is accidental, whereas weight editing is intentional.
-
-🔗 [Source](https://www.alphaxiv.org/abs/2611.weight-space-misfolding)
-
-hackernews · mkglees · Nov 13, 18:33 · [Discussion](https://news.ycombinator.com/item?id=50487762)
-
-**Background**: Weight space editing refers to techniques that directly modify the parameters of a trained neural network to change its behavior, as opposed to retraining or fine-tuning. Open-weight models are those whose trained parameters are publicly released, allowing anyone to download and modify them. Model hashing involves computing a cryptographic hash of a model's weights to verify its integrity and detect tampering.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://apxml.com/courses/llm-alignment-safety/chapter-6-interpretability-monitoring-safety/model-editing-safety-corrections">Model Editing for LLM Safety - apxml.com</a></li>
-<li><a href="https://www.analyticsvidhya.com/blog/2025/04/open-weight-models/">What are Open Source and Open Weight Models ? | Analytics Vidhya</a></li>
-<li><a href="https://help.openai.com/en/articles/11870455-openai-open-weight-models-gpt-oss">OpenAI open - weight models (gpt-oss) | OpenAI Help Center</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Commenters largely criticized the 'misfolding' and 'virus' framing as misleading and overclaiming, with one noting that the paper only observed weight space editing and did not prove a virus. Others raised broader points about open weights and model hashing as safeguards, and one commenter drew an analogy to memes spreading through LLM-generated training data.
-
-**Tags**: `#machine-learning`, `#model-weights`, `#AI-safety`, `#research`, `#open-weights`
-
-</details>
-
-
-<a id="item-12"></a>
-<details class="hz-item" data-score="7.0" markdown="1">
-<summary><span class="hz-item-title">XYBench tests if AI assistants solve the real problem behind a question</span> <span class="hz-item-score">⭐️ 7.0/10</span></summary>
-
-Ai2 released XYBench, a benchmark of over 8,000 questions that test whether AI assistants can identify and address the underlying problem behind a user's request, rather than just answering the literal query. The benchmark won the Best Resource Paper Award at EMNLP 2026. This benchmark addresses a critical gap in LLM evaluation by focusing on intent understanding and misconception detection, which could lead to more helpful and proactive AI assistants. It provides a standardized way to measure a capability that is essential for real-world deployment but often overlooked in favor of raw accuracy on explicit tasks. XYBench consists of 8,115 questions where users ask for help with a mistaken approach, such as how to thicken frosting that keeps sliding off cupcakes when the real issue is that the cupcakes are too warm. Initial results show that five frontier models often answered the stated request and kept their focus on the mistaken approach, while human reference answers performed better.
+AI2 and Hugging Face have released XYBench, an 8,115-question benchmark that evaluates whether large language models can identify misconceptions in user requests and redirect users toward their underlying goal rather than answering the literal question. The benchmark draws from real Stack Overflow and Stack Exchange conversations, synthetically constructed WikiHow scenarios, and a manually curated set of everyday-domain queries. Most LLM benchmarks reward answering the stated question, so they miss a common real-world failure mode where a user asks for the wrong thing and a helpful assistant should push back. XYBench adds a pragmatic-helpfulness dimension to model evaluation, which matters for developers building assistants that need to correct users rather than simply comply. The benchmark is built around the 'XY problem,' where a user asks how to do X but actually needs to solve Y; models must detect the misconception and redirect toward a pragmatic solution. It combines real forum data, synthetic WikiHow-derived queries, and a manually curated everyday subset, and is documented in arXiv paper 2609.06842.
 
 🔗 [Source](https://huggingface.co/blog/allenai/xybench)
 
 rss · Hugging Face Blog · Nov 13, 17:02
 
-**Background**: Large language model benchmarks like GLUE have traditionally measured performance on explicit tasks such as sentence understanding or question answering. However, real-world user queries often contain misconceptions or unstated goals, requiring assistants to infer the underlying problem. XYBench builds on this by evaluating whether models can detect and correct such misconceptions, a capability known as intent understanding.
+**Background**: The XY problem is a well-known pattern in technical support: a user asks about their attempted solution (X) instead of their actual goal (Y), leading helpers down the wrong path. LLM benchmarks have traditionally measured accuracy on well-posed questions, so they do not capture whether a model can recognize that a question itself is misguided. XYBench is designed to fill that gap by scoring models on pragmatic redirection rather than literal answer quality.
 
 <details><summary>References</summary>
 <ul>
 <li><a href="https://allenai.org/blog/xybench">XYBench: Helping with the problem behind the question | Ai2</a></li>
-<li><a href="https://www.explainx.ai/blog/ai2-xybench-xy-problem-benchmark-8115-questions-models-miss-real-goal-2026">XYBench: 8,115 Questions Show LLMs Miss the Real Goal ...</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Language_model_benchmark">Language model benchmark - Wikipedia</a></li>
+<li><a href="https://arxiv.org/abs/2609.06842">[2609.06842] XYBench: Can LLMs Respond Pragmatically to ...</a></li>
+<li><a href="https://arxiv.org/pdf/2609.06842">XYBench: Can LLMs Respond Pragmatically to Queries with ...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#benchmark`, `#LLM evaluation`, `#AI assistants`, `#intent understanding`, `#Hugging Face`
-
-</details>
-
-
-<a id="item-13"></a>
-<details class="hz-item" data-score="7.0" markdown="1">
-<summary><span class="hz-item-title">IBM Introduces LLMON, an LLM-Native Markup Language, in Granite 4.1 Models</span> <span class="hz-item-score">⭐️ 7.0/10</span></summary>
-
-IBM has introduced LLMON (LLM Object Notation, pronounced "Lemon"), a markup language designed natively for large language models, and released it integrated into the Granite 4.1 3B and 8B models. LLMON enables the structure and semantic metadata of text to be communicated to LLMs in both inputs (training and prompts) and outputs (responses). This represents a novel approach to structured output generation and prompt injection defense, with Granite 4.1 models avoiding 47% more prompt injection attacks relative to the best alternatives. It could influence how LLMs handle structured data and how developers design model interfaces. LLMON is available as a Python package (llmon-core) and is supported in Mellea, which automatically LLMONizes its LLM calls. The Granite 4.1 family includes dense models in 3B, 8B, and 30B sizes, with the 8B model matching the performance of its 32B MoE predecessor.
-
-🔗 [Source](https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite)
-
-rss · Hugging Face Blog · Nov 12, 19:07
-
-**Background**: Text-based LLMs exchange inputs and outputs as strings, which makes it difficult to convey structure and semantics. Markup languages like XML and JSON are commonly used for structured data, but they are not designed for LLMs. LLMON addresses this by providing a markup language that is natural for LLMs to understand and generate.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite">LLMON: An LLM - Native Markup Language , now in Granite...</a></li>
-<li><a href="https://arxiv.org/abs/2603.22519">LLMON: An LLM-native Markup Language to Leverage Structure ... LLMON: An LLM-native Markup Language to Leverage Structure ... LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B ... llmon-core · PyPI LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B ... IBM Granite 4.1 Launches with LLMON Markup Language LLMON puts markup closer to the model - Ken Ashe</a></li>
-<li><a href="https://www.ibm.com/granite/docs/models/granite4-1">Granite 4.1 | IBM Granite</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#LLM`, `#markup language`, `#Granite`, `#structured output`, `#model release`
-
-</details>
-
-
-<a id="item-14"></a>
-<details class="hz-item" data-score="7.0" markdown="1">
-<summary><span class="hz-item-title">Microsoft apologizes for nearly 24-hour global cloud outage</span> <span class="hz-item-score">⭐️ 7.0/10</span></summary>
-
-Microsoft issued an apology after a global outage disrupted its cloud services, including Outlook and Teams, for almost 24 hours. The company said the incident was not caused by a cyberattack or AI agents, but by settings applied to servers after an update that overwhelmed a process establishing secure connections. The outage highlights the world's heavy dependence on a small number of big tech providers, affecting governments, businesses, and individuals globally. It underscores the systemic risk of concentration in cloud infrastructure and the need for greater resilience and redundancy. Microsoft said the outage was caused by a configuration change after an update that overwhelmed a process for secure connections, leading servers to stop handling requests. The disruption stretched into a second day, with services gradually being restored.
-
-🔗 [Source](https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss)
-
-rss · BBC World · Nov 13, 21:14
-
-**Background**: Cloud services like Microsoft Azure, Outlook, and Teams rely on vast data centers and complex software. A single point of failure (SPOF) is a component whose failure can bring down an entire system, and cloud concentration risk occurs when many organizations depend on the same provider, so a localized fault can cause widespread outages.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/2026_Microsoft_outage">2026 Microsoft outage - Wikipedia</a></li>
-<li><a href="https://techcrunch.com/2026/11/13/microsoft-latest-email-outage-turned-into-a-full-blown-global-cloud-crisis/">Microsoft’s latest email outage turned into a full-blown ...</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Single_point_of_failure">Single point of failure - Wikipedia</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#cloud-outage`, `#microsoft`, `#reliability`, `#infrastructure`, `#tech-dependence`
+**Tags**: `#benchmark`, `#LLM evaluation`, `#AI/ML`, `#question answering`, `#Hugging Face`
 
 </details>
 
